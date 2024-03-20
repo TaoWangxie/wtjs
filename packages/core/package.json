@@ -2,7 +2,7 @@
   "name": "@wtjs/core",
   "version": "2.0.0",
   "description": "@wtjs/core",
-  "author": "cjinhuo",
+  "author": "wangt",
   "license": "MIT",
   "main": "dist/core.js",
   "module": "dist/core.esm.js",

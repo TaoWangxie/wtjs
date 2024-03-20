@@ -2,7 +2,7 @@
   "name": "@wtjs/vue",
   "version": "1.0.1",
   "description": "A SDK for monitoring Vue errors",
-  "author": "cjinhuo",
+  "author": "wangt",
   "license": "MIT",
   "main": "dist/vue.js",
   "module": "dist/vue.esm.js",

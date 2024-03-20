@@ -2,7 +2,7 @@
   "name": "@wtjs/react",
   "version": "1.0.1",
   "description": "A SDK For Report React ErrorBoundary",
-  "author": "cjinhuo",
+  "author": "wangt",
   "license": "MIT",
   "main": "dist/react.js",
   "module": "dist/react.esm.js",

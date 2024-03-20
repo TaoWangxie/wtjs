@@ -2,7 +2,7 @@
   "name": "@wtjs/utils",
   "version": "1.0.1",
   "description": "@wtjs/utils",
-  "author": "cjinhuo",
+  "author": "wangt",
   "license": "MIT",
   "main": "dist/utils.js",
   "module": "dist/utils.esm.js",

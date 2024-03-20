@@ -1,2 +1,0 @@
-"use strict";exports.ERROR_TYPE_RE=/^(?:[Uu]ncaught (?:exception: )?)?(?:((?:Eval|Internal|Range|Reference|Syntax|Type|URI|)Error): )?(.*)$/,exports.MitoLog="Mito.log",exports.MitoLogEmptyMsg="empty.msg",exports.MitoLogEmptyTag="empty.tag",exports.SDK_NAME="mitojs",exports.SDK_VERSION="1.0.0",exports.Silent="silent",exports.globalVar={isLogAddBreadcrumb:!0,crossOriginThreshold:1e3};
-//# sourceMappingURL=shared.cjs.js.map

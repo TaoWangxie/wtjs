@@ -2,7 +2,7 @@
   "name": "@wtjs/types",
   "version": "1.0.1",
   "description": "@wtjs/types",
-  "author": "cjinhuo",
+  "author": "wangt",
   "license": "MIT",
   "main": "dist/types.js",
   "module": "dist/types.esm.js",

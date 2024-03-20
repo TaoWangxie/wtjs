@@ -2,7 +2,7 @@
   "name": "@wtjs/browser",
   "version": "1.0.1",
   "description": "A SDK For Monitoring Browser Errors",
-  "author": "cjinhuo",
+  "author": "wangt",
   "license": "MIT",
   "main": "dist/browser.js",
   "module": "dist/browser.esm.js",
