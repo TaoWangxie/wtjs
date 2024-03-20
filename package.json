@@ -1,8 +1,8 @@
 {
-  "name": "wtjs",
+  "name": "wtjs-monitor",
   "version": "1.0.0",
   "description": "埋点监控sdk",
-  "author": "wangt",
+  "author": "taowangxie",
   "license": "ISC",
   "scripts": {
     "build": "node script/build.js",
