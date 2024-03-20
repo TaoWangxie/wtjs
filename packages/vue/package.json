@@ -1,0 +1,39 @@
+{
+  "name": "@wtjs/vue",
+  "version": "1.0.0",
+  "description": "A SDK for monitoring Vue errors",
+  "author": "cjinhuo",
+  "license": "MIT",
+  "main": "dist/vue.js",
+  "module": "dist/vue.esm.js",
+  "types": "dist/vue.d.ts",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/mitojs/mitojs/blob/master/packages/vue/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitojs/mitojs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mitojs/mitojs/issues"
+  },
+  "buildOptions": {
+    "formats": [
+      "esm",
+      "cjs",
+      "umd"
+    ]
+  },
+  "keywords": [
+    "mitojs",
+    "sdk",
+    "vue",
+    "monitor"
+  ],
+  "dependencies": {
+    "@wtjs/utils": "1.0.0",
+    "@wtjs/shared": "1.0.0",
+    "@wtjs/types": "1.0.0"
+  }
+}

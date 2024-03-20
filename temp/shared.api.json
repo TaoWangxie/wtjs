@@ -1,0 +1,3189 @@
+{
+  "metadata": {
+    "toolPackage": "@microsoft/api-extractor",
+    "toolVersion": "7.18.11",
+    "schemaVersion": 1004,
+    "oldestForwardsCompatibleVersion": 1001,
+    "tsdocConfig": {
+      "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
+      "noStandardTags": true,
+      "tagDefinitions": [
+        {
+          "tagName": "@alpha",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@beta",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@defaultValue",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@decorator",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@deprecated",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@eventProperty",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@example",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@experimental",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@inheritDoc",
+          "syntaxKind": "inline"
+        },
+        {
+          "tagName": "@internal",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@label",
+          "syntaxKind": "inline"
+        },
+        {
+          "tagName": "@link",
+          "syntaxKind": "inline",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@override",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@packageDocumentation",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@param",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@privateRemarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@public",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@readonly",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@remarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@returns",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@sealed",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@see",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@throws",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@typeParam",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@virtual",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@betaDocumentation",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@internalRemarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@preapproved",
+          "syntaxKind": "modifier"
+        }
+      ],
+      "supportForTags": {
+        "@alpha": true,
+        "@beta": true,
+        "@defaultValue": true,
+        "@decorator": true,
+        "@deprecated": true,
+        "@eventProperty": true,
+        "@example": true,
+        "@experimental": true,
+        "@inheritDoc": true,
+        "@internal": true,
+        "@label": true,
+        "@link": true,
+        "@override": true,
+        "@packageDocumentation": true,
+        "@param": true,
+        "@privateRemarks": true,
+        "@public": true,
+        "@readonly": true,
+        "@remarks": true,
+        "@returns": true,
+        "@sealed": true,
+        "@see": true,
+        "@throws": true,
+        "@typeParam": true,
+        "@virtual": true,
+        "@betaDocumentation": true,
+        "@internalRemarks": true,
+        "@preapproved": true
+      }
+    }
+  },
+  "kind": "Package",
+  "canonicalReference": "@wtjs/shared!",
+  "docComment": "",
+  "name": "@wtjs/shared",
+  "members": [
+    {
+      "kind": "EntryPoint",
+      "canonicalReference": "@wtjs/shared!",
+      "name": "",
+      "members": [
+        {
+          "kind": "Enum",
+          "canonicalReference": "@wtjs/shared!BaseBreadcrumbTypes:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare const enum BaseBreadcrumbTypes "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "BaseBreadcrumbTypes",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BaseBreadcrumbTypes.REACT:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "REACT = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"React\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "REACT",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BaseBreadcrumbTypes.VUE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "VUE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Vue\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "VUE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@wtjs/shared!BaseEventTypes:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare const enum BaseEventTypes "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "BaseEventTypes",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BaseEventTypes.VUE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "VUE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"vue\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "VUE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@wtjs/shared!BREADCRUMBCATEGORYS:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare const enum BREADCRUMBCATEGORYS "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "BREADCRUMBCATEGORYS",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BREADCRUMBCATEGORYS.DEBUG:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "DEBUG = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"debug\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "DEBUG",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BREADCRUMBCATEGORYS.EXCEPTION:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "EXCEPTION = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"exception\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "EXCEPTION",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BREADCRUMBCATEGORYS.HTTP:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "HTTP = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"http\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "HTTP",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BREADCRUMBCATEGORYS.LIFECYCLE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "LIFECYCLE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"lifecycle\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "LIFECYCLE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BREADCRUMBCATEGORYS.USER:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "USER = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"user\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "USER",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "TypeAlias",
+          "canonicalReference": "@wtjs/shared!BreadcrumbTypes:type",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare type BreadcrumbTypes = "
+            },
+            {
+              "kind": "Reference",
+              "text": "BrowserBreadcrumbTypes",
+              "canonicalReference": "@wtjs/shared!BrowserBreadcrumbTypes:enum"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "WxBreadcrumbTypes",
+              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes:enum"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "BaseBreadcrumbTypes",
+              "canonicalReference": "@wtjs/shared!BaseBreadcrumbTypes:enum"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "BreadcrumbTypes",
+          "typeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 6
+          }
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@wtjs/shared!BrowserBreadcrumbTypes:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare const enum BrowserBreadcrumbTypes "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "BrowserBreadcrumbTypes",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BrowserBreadcrumbTypes.CLICK:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "CLICK = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"UI.Click\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "CLICK",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BrowserBreadcrumbTypes.CODE_ERROR:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "CODE_ERROR = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Code Error\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "CODE_ERROR",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BrowserBreadcrumbTypes.CONSOLE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "CONSOLE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Console\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "CONSOLE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BrowserBreadcrumbTypes.CUSTOMER:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "CUSTOMER = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Customer\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "CUSTOMER",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BrowserBreadcrumbTypes.FETCH:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "FETCH = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Fetch\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "FETCH",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BrowserBreadcrumbTypes.RESOURCE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "RESOURCE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Resource\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "RESOURCE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BrowserBreadcrumbTypes.ROUTE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "ROUTE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Route\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "ROUTE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BrowserBreadcrumbTypes.UNHANDLEDREJECTION:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "UNHANDLEDREJECTION = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Unhandledrejection\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "UNHANDLEDREJECTION",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BrowserBreadcrumbTypes.XHR:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "XHR = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Xhr\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "XHR",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@wtjs/shared!BrowserEventTypes:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare const enum BrowserEventTypes "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "BrowserEventTypes",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BrowserEventTypes.CONSOLE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "CONSOLE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"console\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "CONSOLE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BrowserEventTypes.CUSTOMER:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "CUSTOMER = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Customer\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "CUSTOMER",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BrowserEventTypes.DOM:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "DOM = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"dom\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "DOM",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BrowserEventTypes.ERROR:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "ERROR = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"error\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "ERROR",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BrowserEventTypes.FETCH:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "FETCH = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"fetch\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "FETCH",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BrowserEventTypes.HASHCHANGE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "HASHCHANGE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"hashchange\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "HASHCHANGE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BrowserEventTypes.HISTORY:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "HISTORY = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"history\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "HISTORY",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BrowserEventTypes.UNHANDLEDREJECTION:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "UNHANDLEDREJECTION = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"unhandledrejection\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "UNHANDLEDREJECTION",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!BrowserEventTypes.XHR:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "XHR = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"xhr\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "XHR",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@wtjs/shared!ERROR_TYPE_RE:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "ERROR_TYPE_RE: "
+            },
+            {
+              "kind": "Reference",
+              "text": "RegExp",
+              "canonicalReference": "!RegExp:interface"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "ERROR_TYPE_RE",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@wtjs/shared!ErrorTypes:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare const enum ErrorTypes "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "ErrorTypes",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!ErrorTypes.HTTP:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "HTTP = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"HTTP\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "HTTP",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!ErrorTypes.JAVASCRIPT:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "JAVASCRIPT = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"JAVASCRIPT\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "JAVASCRIPT",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!ErrorTypes.LOG:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "LOG = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"LOG\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "LOG",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!ErrorTypes.PROMISE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "PROMISE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"PROMISE\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "PROMISE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!ErrorTypes.REACT:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "REACT = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"REACT\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "REACT",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!ErrorTypes.RESOURCE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "RESOURCE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"RESOURCE\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "RESOURCE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!ErrorTypes.ROUTE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "ROUTE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"ROUTE\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "ROUTE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!ErrorTypes.UNKNOWN:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "UNKNOWN = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"UNKNOWN\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "UNKNOWN",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!ErrorTypes.UNKNOWN_FUNCTION:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "UNKNOWN_FUNCTION = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"UNKNOWN_FUNCTION\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "UNKNOWN_FUNCTION",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!ErrorTypes.VUE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "VUE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"VUE\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "VUE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "TypeAlias",
+          "canonicalReference": "@wtjs/shared!EventTypes:type",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare type EventTypes = "
+            },
+            {
+              "kind": "Reference",
+              "text": "BrowserEventTypes",
+              "canonicalReference": "@wtjs/shared!BrowserEventTypes:enum"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "WxEventTypes",
+              "canonicalReference": "@wtjs/shared!WxEventTypes:type"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "BaseEventTypes",
+              "canonicalReference": "@wtjs/shared!BaseEventTypes:enum"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "EventTypes",
+          "typeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 6
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@wtjs/shared!globalVar:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "globalVar: "
+            },
+            {
+              "kind": "Content",
+              "text": "{\n    isLogAddBreadcrumb: boolean;\n    crossOriginThreshold: number;\n}"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "globalVar",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@wtjs/shared!HTTP_CODE:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare const enum HTTP_CODE "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "HTTP_CODE",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!HTTP_CODE.BAD_REQUEST:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "BAD_REQUEST = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "400"
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "BAD_REQUEST",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!HTTP_CODE.INTERNAL_EXCEPTION:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "INTERNAL_EXCEPTION = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "500"
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "INTERNAL_EXCEPTION",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!HTTP_CODE.UNAUTHORIZED:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "UNAUTHORIZED = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "401"
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "UNAUTHORIZED",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@wtjs/shared!HttpTypes:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare const enum HttpTypes "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "HttpTypes",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!HttpTypes.FETCH:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "FETCH = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"fetch\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "FETCH",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!HttpTypes.XHR:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "XHR = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"xhr\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "XHR",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@wtjs/shared!LinstenerTypes:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare const enum LinstenerTypes "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "LinstenerTypes",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!LinstenerTypes.Longpress:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Longpress = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"longpress\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "Longpress",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!LinstenerTypes.Longtap:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Longtap = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"longtap\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "Longtap",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!LinstenerTypes.Tap:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Tap = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"tap\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "Tap",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!LinstenerTypes.Touchmove:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Touchmove = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"touchmove\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "Touchmove",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@wtjs/shared!MethodTypes:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare const enum MethodTypes "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "MethodTypes",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!MethodTypes.Delete:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Delete = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"DELETE\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "Delete",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!MethodTypes.Get:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Get = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"GET\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "Get",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!MethodTypes.Post:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Post = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"POST\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "Post",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!MethodTypes.Put:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Put = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"PUT\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "Put",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@wtjs/shared!MitoLog:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "MitoLog = \"Mito.log\""
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "MitoLog",
+          "variableTypeTokenRange": {
+            "startIndex": 0,
+            "endIndex": 0
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@wtjs/shared!MitoLogEmptyMsg:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "MitoLogEmptyMsg = \"empty.msg\""
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "MitoLogEmptyMsg",
+          "variableTypeTokenRange": {
+            "startIndex": 0,
+            "endIndex": 0
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@wtjs/shared!MitoLogEmptyTag:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "MitoLogEmptyTag = \"empty.tag\""
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "MitoLogEmptyTag",
+          "variableTypeTokenRange": {
+            "startIndex": 0,
+            "endIndex": 0
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@wtjs/shared!SDK_NAME:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "SDK_NAME = \"mitojs\""
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "SDK_NAME",
+          "variableTypeTokenRange": {
+            "startIndex": 0,
+            "endIndex": 0
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@wtjs/shared!SDK_VERSION:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "SDK_VERSION: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "SDK_VERSION",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@wtjs/shared!Silent:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "Silent = \"silent\""
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "Silent",
+          "variableTypeTokenRange": {
+            "startIndex": 0,
+            "endIndex": 0
+          }
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@wtjs/shared!ToStringTypes:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare const enum ToStringTypes "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "ToStringTypes",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!ToStringTypes.Array:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Array = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Array\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "Array",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!ToStringTypes.Boolean:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Boolean = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Boolean\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "Boolean",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!ToStringTypes.Function:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Function = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Function\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "Function",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!ToStringTypes.Null:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Null = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Null\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "Null",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!ToStringTypes.Number:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Number = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Number\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "Number",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!ToStringTypes.Object:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Object = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Object\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "Object",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!ToStringTypes.process:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "process = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"process\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "process",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!ToStringTypes.RegExp:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "RegExp = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"RegExp\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "RegExp",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!ToStringTypes.String:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "String = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"String\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "String",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!ToStringTypes.Symbol:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Symbol = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Symbol\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "Symbol",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!ToStringTypes.Undefined:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Undefined = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Undefined\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "Undefined",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!ToStringTypes.Window:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "Window = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Window\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "Window",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@wtjs/shared!TrackActionType:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare const enum TrackActionType "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "TrackActionType",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!TrackActionType.DURATION:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "DURATION = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"DURATION\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "DURATION",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!TrackActionType.DURATION_VIEW:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "DURATION_VIEW = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"DURATION_VIEW\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "DURATION_VIEW",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!TrackActionType.EVENT:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "EVENT = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"EVENT\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "EVENT",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!TrackActionType.OTHER:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "OTHER = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"OTHER\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "OTHER",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!TrackActionType.PAGE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "PAGE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"PAGE\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "PAGE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!TrackActionType.VIEW:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "VIEW = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"VIEW\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "VIEW",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@wtjs/shared!WxAppEvents:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare const enum WxAppEvents "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "WxAppEvents",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxAppEvents.AppOnError:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "AppOnError = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"AppOnError\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "AppOnError",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxAppEvents.AppOnHide:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "AppOnHide = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"AppOnHide\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "AppOnHide",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxAppEvents.AppOnLaunch:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "AppOnLaunch = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"AppOnLaunch\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "AppOnLaunch",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxAppEvents.AppOnPageNotFound:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "AppOnPageNotFound = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"AppOnPageNotFound\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "AppOnPageNotFound",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxAppEvents.AppOnShow:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "AppOnShow = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"AppOnShow\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "AppOnShow",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxAppEvents.AppOnUnhandledRejection:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "AppOnUnhandledRejection = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"AppOnUnhandledRejection\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "AppOnUnhandledRejection",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@wtjs/shared!WxBaseEventTypes:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare const enum WxBaseEventTypes "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "WxBaseEventTypes",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBaseEventTypes.CONSOLE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "CONSOLE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"console\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "CONSOLE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBaseEventTypes.DOM:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "DOM = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"dom\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "DOM",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBaseEventTypes.MINI_BATTERY_INFO:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "MINI_BATTERY_INFO = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"miniBatteryInfo\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "MINI_BATTERY_INFO",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBaseEventTypes.MINI_MEMORY_WARNING:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "MINI_MEMORY_WARNING = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"miniMemoryWarning\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "MINI_MEMORY_WARNING",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBaseEventTypes.MINI_NETWORK_STATUS_CHANGE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "MINI_NETWORK_STATUS_CHANGE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"miniNetworkStatusChange\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "MINI_NETWORK_STATUS_CHANGE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBaseEventTypes.MINI_PERFORMANCE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "MINI_PERFORMANCE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"miniPerformance\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "MINI_PERFORMANCE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBaseEventTypes.REQUEST:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "REQUEST = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"request\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "REQUEST",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBaseEventTypes.ROUTE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "ROUTE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"route\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "ROUTE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare const enum WxBreadcrumbTypes "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "WxBreadcrumbTypes",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.APP_ON_HIDE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "APP_ON_HIDE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"App On Hide\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "APP_ON_HIDE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.APP_ON_LAUNCH:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "APP_ON_LAUNCH = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"App On Launch\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "APP_ON_LAUNCH",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.APP_ON_SHOW:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "APP_ON_SHOW = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"App On Show\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "APP_ON_SHOW",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.CODE_ERROR:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "CODE_ERROR = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Code Error\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "CODE_ERROR",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.CONSOLE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "CONSOLE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Console\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "CONSOLE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.CUSTOMER:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "CUSTOMER = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Customer\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "CUSTOMER",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.PAGE_ON_HIDE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "PAGE_ON_HIDE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Page On Hide\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "PAGE_ON_HIDE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.PAGE_ON_LOAD:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "PAGE_ON_LOAD = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Page On Load\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "PAGE_ON_LOAD",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.PAGE_ON_READY:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "PAGE_ON_READY = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Page On Ready\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "PAGE_ON_READY",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.PAGE_ON_SHARE_APP_MESSAGE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "PAGE_ON_SHARE_APP_MESSAGE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Page On Share App Message\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "PAGE_ON_SHARE_APP_MESSAGE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.PAGE_ON_SHARE_TIMELINE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "PAGE_ON_SHARE_TIMELINE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Page On Share Timeline\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "PAGE_ON_SHARE_TIMELINE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.PAGE_ON_SHOW:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "PAGE_ON_SHOW = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Page On Show\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "PAGE_ON_SHOW",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.PAGE_ON_TAB_ITEM_TAP:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "PAGE_ON_TAB_ITEM_TAP = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Page On Tab Item Tap\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "PAGE_ON_TAB_ITEM_TAP",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.PAGE_ON_UNLOAD:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "PAGE_ON_UNLOAD = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Page On Unload\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "PAGE_ON_UNLOAD",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.REACT:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "REACT = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"React\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "REACT",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.RESOURCE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "RESOURCE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Resource\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "RESOURCE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.ROUTE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "ROUTE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Route\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "ROUTE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.TAP:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "TAP = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"UI.Tap\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "TAP",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.TOUCHMOVE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "TOUCHMOVE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"UI.Touchmove\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "TOUCHMOVE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.UNHANDLEDREJECTION:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "UNHANDLEDREJECTION = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Unhandledrejection\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "UNHANDLEDREJECTION",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.VUE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "VUE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Vue\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "VUE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.XHR:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "XHR = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Xhr\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "XHR",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "TypeAlias",
+          "canonicalReference": "@wtjs/shared!WxEventTypes:type",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare type WxEventTypes = "
+            },
+            {
+              "kind": "Reference",
+              "text": "WxAppEvents",
+              "canonicalReference": "@wtjs/shared!WxAppEvents:enum"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "WxPageEvents",
+              "canonicalReference": "@wtjs/shared!WxPageEvents:enum"
+            },
+            {
+              "kind": "Content",
+              "text": " | "
+            },
+            {
+              "kind": "Reference",
+              "text": "WxBaseEventTypes",
+              "canonicalReference": "@wtjs/shared!WxBaseEventTypes:enum"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "WxEventTypes",
+          "typeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 6
+          }
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@wtjs/shared!WxPageEvents:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare const enum WxPageEvents "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "WxPageEvents",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxPageEvents.PageOnHide:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "PageOnHide = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"PageOnHide\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "PageOnHide",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxPageEvents.PageOnLoad:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "PageOnLoad = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"PageOnLoad\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "PageOnLoad",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxPageEvents.PageOnReady:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "PageOnReady = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"PageOnReady\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "PageOnReady",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxPageEvents.PageOnShareAppMessage:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "PageOnShareAppMessage = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"PageOnShareAppMessage\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "PageOnShareAppMessage",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxPageEvents.PageOnShareTimeline:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "PageOnShareTimeline = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"PageOnShareTimeline\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "PageOnShareTimeline",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxPageEvents.PageOnShow:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "PageOnShow = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"PageOnShow\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "PageOnShow",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxPageEvents.PageOnTabItemTap:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "PageOnTabItemTap = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"PageOnTabItemTap\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "PageOnTabItemTap",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxPageEvents.PageOnUnload:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "PageOnUnload = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"PageOnUnload\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "PageOnUnload",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@wtjs/shared!WxRouteEvents:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare const enum WxRouteEvents "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "WxRouteEvents",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxRouteEvents.NavigateBack:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "NavigateBack = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"navigateBack\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "NavigateBack",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxRouteEvents.NavigateTo:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "NavigateTo = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"navigateTo\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "NavigateTo",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxRouteEvents.NavigateToMiniProgram:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "NavigateToMiniProgram = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"navigateToMiniProgram\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "NavigateToMiniProgram",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxRouteEvents.RedirectTo:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "RedirectTo = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"redirectTo\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "RedirectTo",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxRouteEvents.ReLaunch:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "ReLaunch = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"reLaunch\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "ReLaunch",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxRouteEvents.RouteFail:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "RouteFail = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"routeFail\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "RouteFail",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@wtjs/shared!WxRouteEvents.SwitchTab:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "SwitchTab = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"switchTab\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "SwitchTab",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

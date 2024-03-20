@@ -1,0 +1,40 @@
+{
+  "name": "@wtjs/browser",
+  "version": "1.0.0",
+  "description": "A SDK For Monitoring Browser Errors",
+  "author": "cjinhuo",
+  "license": "MIT",
+  "main": "dist/browser.js",
+  "module": "dist/browser.esm.js",
+  "types": "dist/browser.d.ts",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/mitojs/mitojs/blob/master/packages/browser/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitojs/mitojs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mitojs/mitojs/issues"
+  },
+  "keywords": [
+    "mitojs",
+    "sdk",
+    "browser",
+    "monitor"
+  ],
+  "dependencies": {
+    "@wtjs/utils": "1.0.0",
+    "@wtjs/core": "1.0.0",
+    "@wtjs/shared": "1.0.0",
+    "@wtjs/types": "1.0.0"
+  },
+  "buildOptions": {
+    "formats": [
+      "esm",
+      "cjs",
+      "umd"
+    ]
+  }
+}
