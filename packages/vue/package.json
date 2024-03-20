@@ -1,6 +1,6 @@
 {
   "name": "@wtjs/vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A SDK for monitoring Vue errors",
   "author": "cjinhuo",
   "license": "MIT",
@@ -32,8 +32,8 @@
     "monitor"
   ],
   "dependencies": {
-    "@wtjs/utils": "1.0.0",
+    "@wtjs/utils": "1.0.1",
     "@wtjs/shared": "1.0.0",
-    "@wtjs/types": "1.0.0"
+    "@wtjs/types": "1.0.1"
   }
 }

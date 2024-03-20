@@ -1,6 +1,6 @@
 {
   "name": "@wtjs/react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A SDK For Report React ErrorBoundary",
   "author": "cjinhuo",
   "license": "MIT",
@@ -35,8 +35,8 @@
     "react": ">=16.8.0"
   },
   "dependencies": {
-    "@wtjs/core": "1.0.0",
-    "@wtjs/utils": "1.0.0",
+    "@wtjs/core": "2.0.0",
+    "@wtjs/utils": "1.0.1",
     "@wtjs/shared": "1.0.0"
   }
 }

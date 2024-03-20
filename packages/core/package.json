@@ -1,6 +1,6 @@
 {
   "name": "@wtjs/core",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "@wtjs/core",
   "author": "cjinhuo",
   "license": "MIT",
@@ -31,8 +31,8 @@
     ]
   },
   "dependencies": {
-    "@wtjs/types": "1.0.0",
-    "@wtjs/utils": "1.0.0",
+    "@wtjs/types": "1.0.1",
+    "@wtjs/utils": "1.0.1",
     "@wtjs/shared": "1.0.0"
   }
 }
