@@ -1,6 +1,6 @@
 {
   "name": "@wtjs/web",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A SDK For Monitoring Web(React、Vue) Errors",
   "author": "wangt(https://github.com/wangt)",
   "license": "MIT",
@@ -32,8 +32,8 @@
     "monitor"
   ],
   "dependencies": {
-    "@wtjs/browser": "1.0.1",
-    "@wtjs/react": "1.0.1",
-    "@wtjs/vue": "1.0.1"
+    "@wtjs/browser": "2.0.0",
+    "@wtjs/react": "2.0.0",
+    "@wtjs/vue": "2.0.0"
   }
 }
