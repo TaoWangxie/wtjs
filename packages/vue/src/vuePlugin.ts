@@ -1,8 +1,8 @@
-import { silentConsoleScope, Severity, getTimestamp, variableTypeDetection, getBigVersion, getUrlWithEnv } from '@wtjs/utils'
+import { silentConsoleScope, Severity, getTimestamp, variableTypeDetection, getBigVersion, getUrlWithEnv } from '@js-wtao/utils'
 import { vue2VmHandler, vue3VmHandler } from './helper'
-import { BaseBreadcrumbTypes, BaseEventTypes, BREADCRUMBCATEGORYS, ErrorTypes } from '@wtjs/shared'
-import { BasePluginType, ReportDataType, ViewModel } from '@wtjs/types'
-import { BaseClient } from '@wtjs/core'
+import { BaseBreadcrumbTypes, BaseEventTypes, BREADCRUMBCATEGORYS, ErrorTypes } from '@js-wtao/shared'
+import { BasePluginType, ReportDataType, ViewModel } from '@js-wtao/types'
+import { BaseClient } from '@js-wtao/core'
 
 const vuePlugin: BasePluginType<BaseEventTypes, BaseClient> = {
   name: BaseEventTypes.VUE,

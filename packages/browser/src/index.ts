@@ -9,7 +9,7 @@ import hashRoutePlugin from './plugins/hashRoute'
 import historyRoutePlugin from './plugins/historyRoute'
 import consolePlugin from './plugins/console'
 import unhandlerejectionPlugin from './plugins/unhandlerejecttion'
-import { BasePluginType } from '@wtjs/types'
+import { BasePluginType } from '@js-wtao/types'
 function createBrowserInstance(options: BrowserOptionsFieldsTypes = {}, plugins: BasePluginType[] = []) {
   const browserClient:any = new BrowserClient(options)
   const browserPlugins = [

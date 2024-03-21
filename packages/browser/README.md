@@ -1,20 +1,20 @@
-# @wtjs/browser
+# @js-wtao/browser
 
 
 ## Install
 
 ```bash
 # using npm
-npm i @wtjs/browser
+npm i @js-wtao/browser
 # using yarn
-yarn add @wtjs/browser
+yarn add @js-wtao/browser
 ```
 
 ### usage
 
 ```typescript
 // some.js
-import { init } from '@wtjs/browser'
+import { init } from '@js-wtao/browser'
 
 // multiple instances
 const MitoInstance = init({
@@ -25,5 +25,5 @@ const MitoInstance = init({
 })
 ```
 
-more info of [@wtjs/browser](https://mitojs.github.io/mito-doc/#/sdk/guide/browser)
+more info of [@js-wtao/browser](https://mitojs.github.io/mito-doc/#/sdk/guide/browser)
 

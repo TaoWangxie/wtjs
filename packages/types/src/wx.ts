@@ -1,4 +1,4 @@
-import { TrackActionType } from '@wtjs/shared'
+import { TrackActionType } from '@js-wtao/shared'
 
 export interface DeviceInfo {
   //网络类型: 4g,3g,5g,wifi

@@ -1,5 +1,5 @@
-import { BrowserBreadcrumbTypes } from '@wtjs/shared'
-import { getBreadcrumbCategoryInBrowser, Severity } from '@wtjs/utils'
+import { BrowserBreadcrumbTypes } from '@js-wtao/shared'
+import { getBreadcrumbCategoryInBrowser, Severity } from '@js-wtao/utils'
 import { BrowserClient } from './browserClient'
 
 export function addBreadcrumbInBrowser(

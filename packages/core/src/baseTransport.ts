@@ -1,6 +1,6 @@
-import { logger, Queue, isInclude, createErrorId, isEmpty, validateOptionsAndSet } from '@wtjs/utils'
-import { SDK_NAME, SDK_VERSION, ToStringTypes } from '@wtjs/shared'
-import { AuthInfo, BaseOptionsFieldsIntegrationType, BreadcrumbPushData, ReportDataType, TransportDataType } from '@wtjs/types'
+import { logger, Queue, isInclude, createErrorId, isEmpty, validateOptionsAndSet } from '@js-wtao/utils'
+import { SDK_NAME, SDK_VERSION, ToStringTypes } from '@js-wtao/shared'
+import { AuthInfo, BaseOptionsFieldsIntegrationType, BreadcrumbPushData, ReportDataType, TransportDataType } from '@js-wtao/types'
 
 /**
  * 传输数据抽象类

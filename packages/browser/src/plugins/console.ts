@@ -1,6 +1,6 @@
-import { BrowserBreadcrumbTypes, BrowserEventTypes, globalVar } from '@wtjs/shared'
-import { replaceOld, Severity, _global } from '@wtjs/utils'
-import { BasePluginType, ConsoleCollectType } from '@wtjs/types'
+import { BrowserBreadcrumbTypes, BrowserEventTypes, globalVar } from '@js-wtao/shared'
+import { replaceOld, Severity, _global } from '@js-wtao/utils'
+import { BasePluginType, ConsoleCollectType } from '@js-wtao/types'
 import { BrowserClient } from '../browserClient'
 import { addBreadcrumbInBrowser } from '../utils'
 const consolePlugin: BasePluginType<BrowserEventTypes, BrowserClient> = {

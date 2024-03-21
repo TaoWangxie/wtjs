@@ -89,40 +89,40 @@ importers:
 
   packages/browser:
     dependencies:
-      '@wtjs/core':
+      '@js-wtao/core':
         specifier: 1.0.0
         version: link:../core
-      '@wtjs/shared':
+      '@js-wtao/shared':
         specifier: 1.0.0
         version: link:../shared
-      '@wtjs/types':
+      '@js-wtao/types':
         specifier: 1.0.0
         version: link:../types
-      '@wtjs/utils':
+      '@js-wtao/utils':
         specifier: 1.0.0
         version: link:../utils
 
   packages/core:
     dependencies:
-      '@wtjs/shared':
+      '@js-wtao/shared':
         specifier: 1.0.0
         version: link:../shared
-      '@wtjs/types':
+      '@js-wtao/types':
         specifier: 1.0.0
         version: link:../types
-      '@wtjs/utils':
+      '@js-wtao/utils':
         specifier: 1.0.0
         version: link:../utils
 
   packages/react:
     dependencies:
-      '@wtjs/core':
+      '@js-wtao/core':
         specifier: 1.0.0
         version: link:../core
-      '@wtjs/shared':
+      '@js-wtao/shared':
         specifier: 1.0.0
         version: link:../shared
-      '@wtjs/utils':
+      '@js-wtao/utils':
         specifier: 1.0.0
         version: link:../utils
       react:
@@ -136,46 +136,46 @@ importers:
       '@types/wechat-miniprogram':
         specifier: ^3.1.0
         version: 3.4.7
-      '@wtjs/core':
+      '@js-wtao/core':
         specifier: 1.0.0
         version: link:../core
-      '@wtjs/shared':
+      '@js-wtao/shared':
         specifier: 1.0.0
         version: link:../shared
-      '@wtjs/utils':
+      '@js-wtao/utils':
         specifier: 1.0.0
         version: link:../utils
 
   packages/utils:
     dependencies:
-      '@wtjs/shared':
+      '@js-wtao/shared':
         specifier: 1.0.0
         version: link:../shared
-      '@wtjs/types':
+      '@js-wtao/types':
         specifier: 1.0.0
         version: link:../types
 
   packages/vue:
     dependencies:
-      '@wtjs/shared':
+      '@js-wtao/shared':
         specifier: 1.0.0
         version: link:../shared
-      '@wtjs/types':
+      '@js-wtao/types':
         specifier: 1.0.0
         version: link:../types
-      '@wtjs/utils':
+      '@js-wtao/utils':
         specifier: 1.0.0
         version: link:../utils
 
   packages/web:
     dependencies:
-      '@wtjs/browser':
+      '@js-wtao/browser':
         specifier: 1.0.0
         version: link:../browser
-      '@wtjs/react':
+      '@js-wtao/react':
         specifier: 1.0.0
         version: link:../react
-      '@wtjs/vue':
+      '@js-wtao/vue':
         specifier: 1.0.0
         version: link:../vue
 

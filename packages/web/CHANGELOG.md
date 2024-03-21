@@ -1,4 +1,4 @@
-# @wtjs/web
+# @js-wtao/web
 
 ## 2.0.0
 
@@ -9,14 +9,14 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @wtjs/browser@2.0.0
-  - @wtjs/react@2.0.0
-  - @wtjs/vue@2.0.0
+  - @js-wtao/browser@2.0.0
+  - @js-wtao/react@2.0.0
+  - @js-wtao/vue@2.0.0
 
 ## 1.0.1
 
 ### Patch Changes
 
-- @wtjs/browser@1.0.1
-- @wtjs/react@1.0.1
-- @wtjs/vue@1.0.1
+- @js-wtao/browser@1.0.1
+- @js-wtao/react@1.0.1
+- @js-wtao/vue@1.0.1

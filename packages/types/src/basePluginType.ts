@@ -1,4 +1,4 @@
-import { EventTypes } from '@wtjs/shared'
+import { EventTypes } from '@js-wtao/shared'
 import { BaseClientType } from './baseClientType'
 
 export interface BasePluginType<T extends EventTypes = EventTypes, C extends BaseClientType = BaseClientType> {

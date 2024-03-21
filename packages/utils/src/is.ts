@@ -1,4 +1,4 @@
-import { ToStringTypes } from '@wtjs/shared'
+import { ToStringTypes } from '@js-wtao/shared'
 
 export const nativeToString = Object.prototype.toString
 export function isType(type: string) {

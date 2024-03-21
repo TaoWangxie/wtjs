@@ -1,4 +1,4 @@
-import { IAnyObject } from '@wtjs/types'
+import { IAnyObject } from '@js-wtao/types'
 
 export interface VueInstance {
   // fix in Vue3 typescript's declaration file error

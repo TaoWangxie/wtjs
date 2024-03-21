@@ -1,4 +1,4 @@
-const instance = WTJS.init({
+const instance = js-wtao.init({
   debug: true,
   apikey: 'sdasda',
   silentConsole: true,
@@ -11,4 +11,4 @@ const instance = WTJS.init({
     xhr.setRequestHeader('mito-header', 'test123')
   }
 })
-window._WTJS_ = instance
+window._js-wtao_ = instance

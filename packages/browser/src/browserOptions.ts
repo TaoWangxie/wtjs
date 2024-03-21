@@ -1,6 +1,6 @@
-import { BaseOptions } from '@wtjs/core'
-import { ToStringTypes } from '@wtjs/shared'
-import { validateOptionsAndSet } from '@wtjs/utils'
+import { BaseOptions } from '@js-wtao/core'
+import { ToStringTypes } from '@js-wtao/shared'
+import { validateOptionsAndSet } from '@js-wtao/utils'
 import { BrowserOptionsFieldsTypes } from './types'
 
 export class BrowserOptions extends BaseOptions<BrowserOptionsFieldsTypes> {

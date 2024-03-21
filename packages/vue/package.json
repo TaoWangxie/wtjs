@@ -1,5 +1,5 @@
 {
-  "name": "@wtjs/vue",
+  "name": "@js-wtao/vue",
   "version": "2.0.0",
   "description": "A SDK for monitoring Vue errors",
   "author": "wangt",
@@ -32,8 +32,8 @@
     "monitor"
   ],
   "dependencies": {
-    "@wtjs/utils": "2.0.0",
-    "@wtjs/shared": "2.0.0",
-    "@wtjs/types": "2.0.0"
+    "@js-wtao/utils": "2.0.0",
+    "@js-wtao/shared": "2.0.0",
+    "@js-wtao/types": "2.0.0"
   }
 }

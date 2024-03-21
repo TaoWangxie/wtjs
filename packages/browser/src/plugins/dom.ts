@@ -1,6 +1,6 @@
-import { BrowserBreadcrumbTypes, BrowserEventTypes } from '@wtjs/shared'
-import { htmlElementAsString, on, throttle, _global } from '@wtjs/utils'
-import { BasePluginType } from '@wtjs/types'
+import { BrowserBreadcrumbTypes, BrowserEventTypes } from '@js-wtao/shared'
+import { htmlElementAsString, on, throttle, _global } from '@js-wtao/utils'
+import { BasePluginType } from '@js-wtao/types'
 import { BrowserClient } from '../browserClient'
 import { addBreadcrumbInBrowser } from '../utils'
 

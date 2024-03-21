@@ -1,4 +1,4 @@
-import { BaseClient } from '@wtjs/core'
+import { BaseClient } from '@js-wtao/core'
 import { FC, createContext } from 'react'
 import { MitoContextValueType } from '../types'
 

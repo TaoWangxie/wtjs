@@ -1,5 +1,5 @@
 {
-  "name": "@wtjs/browser",
+  "name": "@js-wtao/browser",
   "version": "2.0.0",
   "description": "A SDK For Monitoring Browser Errors",
   "author": "wangt",
@@ -25,10 +25,10 @@
     "monitor"
   ],
   "dependencies": {
-    "@wtjs/utils": "2.0.0",
-    "@wtjs/core": "3.0.0",
-    "@wtjs/shared": "2.0.0",
-    "@wtjs/types": "2.0.0"
+    "@js-wtao/utils": "2.0.0",
+    "@js-wtao/core": "3.0.0",
+    "@js-wtao/shared": "2.0.0",
+    "@js-wtao/types": "2.0.0"
   },
   "buildOptions": {
     "formats": [

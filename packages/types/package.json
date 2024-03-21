@@ -1,7 +1,7 @@
 {
-  "name": "@wtjs/types",
+  "name": "@js-wtao/types",
   "version": "2.0.0",
-  "description": "@wtjs/types",
+  "description": "@js-wtao/types",
   "author": "wangt",
   "license": "MIT",
   "main": "dist/types.js",
@@ -31,9 +31,9 @@
     ]
   },
   "dependencies": {
-    "@wtjs/core": "3.0.0",
-    "@wtjs/utils": "2.0.0",
-    "@wtjs/shared": "2.0.0",
+    "@js-wtao/core": "3.0.0",
+    "@js-wtao/utils": "2.0.0",
+    "@js-wtao/shared": "2.0.0",
     "@types/wechat-miniprogram": "^3.1.0"
   }
 }

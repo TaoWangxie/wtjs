@@ -1,4 +1,4 @@
-import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes, BrowserEventTypes, ErrorTypes, globalVar, HttpTypes, HTTP_CODE } from '@wtjs/shared'
+import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes, BrowserEventTypes, ErrorTypes, globalVar, HttpTypes, HTTP_CODE } from '@js-wtao/shared'
 import {
   getTimestamp,
   replaceOld,
@@ -10,8 +10,8 @@ import {
   SpanStatus,
   getLocationHref,
   getRealPath
-} from '@wtjs/utils'
-import { BasePluginType, HttpCollectedType, HttpTransformedType, MITOXMLHttpRequest, voidFun } from '@wtjs/types'
+} from '@js-wtao/utils'
+import { BasePluginType, HttpCollectedType, HttpTransformedType, MITOXMLHttpRequest, voidFun } from '@js-wtao/types'
 import { BrowserClient } from '../browserClient'
 import { addBreadcrumbInBrowser } from '../utils'
 

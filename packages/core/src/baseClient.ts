@@ -1,6 +1,6 @@
-import { EventTypes, SDK_VERSION } from '@wtjs/shared'
-import { BaseClientType, BaseOptionsFieldsIntegrationType, BasePluginType, LogTypes } from '@wtjs/types'
-import { logger } from '@wtjs/utils'
+import { EventTypes, SDK_VERSION } from '@js-wtao/shared'
+import { BaseClientType, BaseOptionsFieldsIntegrationType, BasePluginType, LogTypes } from '@js-wtao/types'
+import { logger } from '@js-wtao/utils'
 import { BaseTransport, Breadcrumb } from '.'
 import { Subscribe } from './subscribe'
 

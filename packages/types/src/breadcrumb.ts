@@ -1,7 +1,7 @@
-import { Severity } from '@wtjs/utils'
+import { Severity } from '@js-wtao/utils'
 import { ReportDataType } from './transport'
 import { TNumStrObj } from './common'
-import { BREADCRUMBCATEGORYS, BreadcrumbTypes } from '@wtjs/shared'
+import { BREADCRUMBCATEGORYS, BreadcrumbTypes } from '@js-wtao/shared'
 import { ConsoleCollectType, RouteChangeCollectType } from './basePluginType'
 
 export interface BreadcrumbPushData {

@@ -1,6 +1,6 @@
-import { ToStringTypes } from '@wtjs/shared'
-import { logger, getTimestamp, silentConsoleScope, toStringValidateOption } from '@wtjs/utils'
-import { BaseOptionsFieldsIntegrationType, BreadcrumbPushData } from '@wtjs/types'
+import { ToStringTypes } from '@js-wtao/shared'
+import { logger, getTimestamp, silentConsoleScope, toStringValidateOption } from '@js-wtao/utils'
+import { BaseOptionsFieldsIntegrationType, BreadcrumbPushData } from '@js-wtao/types'
 
 /**
  * 用户行为栈存储，实体类

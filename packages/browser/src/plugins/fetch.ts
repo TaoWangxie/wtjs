@@ -1,6 +1,6 @@
-import { BrowserEventTypes, HttpTypes } from '@wtjs/shared'
-import { getTimestamp, replaceOld, _global } from '@wtjs/utils'
-import { BasePluginType, HttpCollectedType, HttpTransformedType, voidFun } from '@wtjs/types'
+import { BrowserEventTypes, HttpTypes } from '@js-wtao/shared'
+import { getTimestamp, replaceOld, _global } from '@js-wtao/utils'
+import { BasePluginType, HttpCollectedType, HttpTransformedType, voidFun } from '@js-wtao/types'
 import { BrowserClient } from '../browserClient'
 import { httpTransform, httpTransformedDataConsumer } from './xhr'
 

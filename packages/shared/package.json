@@ -1,7 +1,7 @@
 {
-  "name": "@wtjs/shared",
+  "name": "@js-wtao/shared",
   "version": "2.0.0",
-  "description": "@wtjs/shared",
+  "description": "@js-wtao/shared",
   "author": "wangt",
   "license": "MIT",
   "main": "dist/shared.js",

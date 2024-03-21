@@ -1,4 +1,4 @@
-import { HttpTypes } from '@wtjs/shared'
+import { HttpTypes } from '@js-wtao/shared'
 import { BaseTransformType } from './transport'
 
 export interface HttpCollectedType {

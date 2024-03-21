@@ -1,4 +1,4 @@
-import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes, ErrorTypes } from '@wtjs/shared'
+import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes, ErrorTypes } from '@js-wtao/shared'
 import { getTimestamp, getUrlWithEnv } from './helpers'
 import { Severity } from './Severity'
 

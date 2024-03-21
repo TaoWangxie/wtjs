@@ -1,4 +1,4 @@
-# @wtjs/utils
+# @js-wtao/utils
 
 ## 2.0.0
 
@@ -9,11 +9,11 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @wtjs/shared@2.0.0
-  - @wtjs/types@2.0.0
+  - @js-wtao/shared@2.0.0
+  - @js-wtao/types@2.0.0
 
 ## 1.0.1
 
 ### Patch Changes
 
-- @wtjs/types@1.0.1
+- @js-wtao/types@1.0.1

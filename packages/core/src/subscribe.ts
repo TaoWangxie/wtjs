@@ -1,4 +1,4 @@
-import { getFunctionName, logger, nativeTryCatch } from '@wtjs/utils'
+import { getFunctionName, logger, nativeTryCatch } from '@js-wtao/utils'
 
 type MonitorCallback = (data: any) => void
 /**

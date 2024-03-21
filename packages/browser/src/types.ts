@@ -1,4 +1,4 @@
-import { BaseOptionsFieldsIntegrationType } from '@wtjs/types'
+import { BaseOptionsFieldsIntegrationType } from '@js-wtao/types'
 
 export interface BrowserOptionsFieldsTypes extends BrowsersilentOptionsType, BaseOptionsFieldsIntegrationType, BrowserOptionsHooksType {
   /**

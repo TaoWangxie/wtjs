@@ -1,5 +1,5 @@
-import { ReportDataType } from '@wtjs/types'
-import { BrowserEventTypes, ErrorTypes } from '@wtjs/shared'
+import { ReportDataType } from '@js-wtao/types'
+import { BrowserEventTypes, ErrorTypes } from '@js-wtao/shared'
 import { variableTypeDetection } from './is'
 const allErrorNumber: unknown = {}
 /**

@@ -1,4 +1,4 @@
-# @wtjs/shared
+# @js-wtao/shared
 
 ## 2.0.0
 

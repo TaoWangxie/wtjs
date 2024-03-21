@@ -1,6 +1,6 @@
-import { EventTypes } from '@wtjs/shared'
+import { EventTypes } from '@js-wtao/shared'
 import { Logger } from './logger'
-import { DeviceInfo } from '@wtjs/types'
+import { DeviceInfo } from '@js-wtao/types'
 import { variableTypeDetection } from './is'
 
 /**

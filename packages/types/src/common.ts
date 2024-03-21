@@ -1,4 +1,4 @@
-import { Severity } from '@wtjs/utils'
+import { Severity } from '@js-wtao/utils'
 import { HttpCollectedType } from './http'
 
 export type voidFun = () => void

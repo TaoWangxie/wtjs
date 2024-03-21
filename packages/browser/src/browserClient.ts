@@ -1,4 +1,4 @@
-import { Breadcrumb, BaseClient } from '@wtjs/core'
+import { Breadcrumb, BaseClient } from '@js-wtao/core'
 import {
   BrowserBreadcrumbTypes,
   BrowserEventTypes,
@@ -8,7 +8,7 @@ import {
   MitoLogEmptyMsg,
   MitoLogEmptyTag,
   Silent
-} from '@wtjs/shared'
+} from '@js-wtao/shared'
 import {
   extractErrorStack,
   firstStrtoUppercase,
@@ -18,8 +18,8 @@ import {
   isError,
   Severity,
   unknownToString
-} from '@wtjs/utils'
-import { LogTypes } from '@wtjs/types'
+} from '@js-wtao/utils'
+import { LogTypes } from '@js-wtao/types'
 import { BrowserOptions } from './browserOptions'
 import { BrowserTransport } from './browserTransport'
 import { BrowserOptionsFieldsTypes } from './types'

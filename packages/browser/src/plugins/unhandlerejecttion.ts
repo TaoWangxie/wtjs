@@ -1,6 +1,6 @@
-import { BrowserBreadcrumbTypes, BrowserEventTypes, ErrorTypes } from '@wtjs/shared'
-import { extractErrorStack, getLocationHref, getTimestamp, isError, on, Severity, unknownToString, _global } from '@wtjs/utils'
-import { BasePluginType, HttpTransformedType, ReportDataType } from '@wtjs/types'
+import { BrowserBreadcrumbTypes, BrowserEventTypes, ErrorTypes } from '@js-wtao/shared'
+import { extractErrorStack, getLocationHref, getTimestamp, isError, on, Severity, unknownToString, _global } from '@js-wtao/utils'
+import { BasePluginType, HttpTransformedType, ReportDataType } from '@js-wtao/types'
 import { BrowserClient } from '../browserClient'
 import { addBreadcrumbInBrowser } from '../utils'
 

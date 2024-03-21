@@ -1,6 +1,6 @@
-import { ToStringTypes } from '@wtjs/shared'
-import { BaseOptionsFieldsIntegrationType, BaseOptionsType, VueInstance } from '@wtjs/types'
-import { generateUUID, validateOptionsAndSet } from '@wtjs/utils'
+import { ToStringTypes } from '@js-wtao/shared'
+import { BaseOptionsFieldsIntegrationType, BaseOptionsType, VueInstance } from '@js-wtao/types'
+import { generateUUID, validateOptionsAndSet } from '@js-wtao/utils'
 
 /**
  * 公用的基础配置项绑定

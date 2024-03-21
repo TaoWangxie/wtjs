@@ -1,5 +1,5 @@
 {
-  "name": "wtjs-monitor",
+  "name": "js-wtao",
   "version": "1.0.0",
   "description": "埋点监控sdk",
   "author": "taowangxie",
@@ -12,7 +12,7 @@
     "release:only": "changeset publish"
   },
   "keywords": [
-    "wtjs"
+    "js-wtao"
   ],
   "devDependencies": {
     "@babel/core": "^7.24.0",

@@ -1,4 +1,4 @@
-# @wtjs/react
+# @js-wtao/react
 
 ## 2.0.0
 
@@ -9,14 +9,14 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @wtjs/shared@2.0.0
-  - @wtjs/utils@2.0.0
-  - @wtjs/core@3.0.0
+  - @js-wtao/shared@2.0.0
+  - @js-wtao/utils@2.0.0
+  - @js-wtao/core@3.0.0
 
 ## 1.0.1
 
 ### Patch Changes
 
 - Updated dependencies [74a4f51]
-  - @wtjs/core@2.0.0
-  - @wtjs/utils@1.0.1
+  - @js-wtao/core@2.0.0
+  - @js-wtao/utils@1.0.1

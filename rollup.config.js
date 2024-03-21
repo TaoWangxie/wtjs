@@ -18,7 +18,7 @@ const pkg = process.env.TARGET
 const resolve = (p) => {
   return path.resolve(`${__dirname}/packages/${pkg}`, p)
 }
-const M = '@wtjs'
+const M = '@js-wtao'
 const packageDirs = fs.readdirSync(packagesDir)
 const paths = {}
 packageDirs.forEach((dir) => {
@@ -61,7 +61,7 @@ const formatMap = {
     ...outputcommon
   },
   umd: {
-    name: 'WTJS',
+    name: 'js-wtao',
     file: resolve(`dist/${pkg}.umd.js`),
     format: 'umd',
     ...outputcommon
@@ -69,7 +69,7 @@ const formatMap = {
 }
 const createConfig = (output) => {
     // output.name = buildOptions.name
-    output.name = 'WTJS'
+    output.name = 'js-wtao'
     return {
       input: resolve('src/index.ts'),
       output,

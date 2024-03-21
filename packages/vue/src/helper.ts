@@ -1,5 +1,5 @@
-import { ViewModel } from '@wtjs/types'
-import { getObjectWithForIn } from '@wtjs/utils'
+import { ViewModel } from '@js-wtao/types'
+import { getObjectWithForIn } from '@js-wtao/utils'
 
 export function vue2VmHandler(vm: ViewModel) {
   let componentName = ''

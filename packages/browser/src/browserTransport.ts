@@ -1,8 +1,8 @@
-import { MethodTypes, ToStringTypes } from '@wtjs/shared'
+import { MethodTypes, ToStringTypes } from '@js-wtao/shared'
 import { BrowserOptionsFieldsTypes } from './types'
-import { safeStringify, toStringValidateOption } from '@wtjs/utils'
-import { ReportDataType } from '@wtjs/types'
-import { BaseTransport } from '@wtjs/core'
+import { safeStringify, toStringValidateOption } from '@js-wtao/utils'
+import { ReportDataType } from '@js-wtao/types'
+import { BaseTransport } from '@js-wtao/core'
 
 export class BrowserTransport extends BaseTransport<BrowserOptionsFieldsTypes> {
   configReportXhr: unknown

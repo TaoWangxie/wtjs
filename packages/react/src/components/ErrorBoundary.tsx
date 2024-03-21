@@ -1,7 +1,7 @@
-import { BaseClient } from '@wtjs/core'
-import { BaseBreadcrumbTypes, BREADCRUMBCATEGORYS, ErrorTypes } from '@wtjs/shared'
-import { ReportDataType } from '@wtjs/types'
-import { extractErrorStack, Severity } from '@wtjs/utils'
+import { BaseClient } from '@js-wtao/core'
+import { BaseBreadcrumbTypes, BREADCRUMBCATEGORYS, ErrorTypes } from '@js-wtao/shared'
+import { ReportDataType } from '@js-wtao/types'
+import { extractErrorStack, Severity } from '@js-wtao/utils'
 import { PureComponent, ReactNode, ErrorInfo, ComponentType, FC } from 'react'
 import { MitoContext } from './provider'
 

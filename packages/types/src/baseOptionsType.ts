@@ -1,5 +1,5 @@
-import { BreadcrumbPushData, TransportDataType, VueInstance } from '@wtjs/types'
-import { Breadcrumb } from '@wtjs/core'
+import { BreadcrumbPushData, TransportDataType, VueInstance } from '@js-wtao/types'
+import { Breadcrumb } from '@js-wtao/core'
 type CANCEL = null | undefined | boolean
 
 type TSetRequestHeader = (key: string, value: string) => {}

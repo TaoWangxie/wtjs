@@ -1,4 +1,4 @@
-import { ErrorTypes } from '@wtjs/shared'
+import { ErrorTypes } from '@js-wtao/shared'
 import { BreadcrumbPushData } from './breadcrumb'
 import { HttpTransformedType } from './http'
 import { DeviceInfo } from './wx'

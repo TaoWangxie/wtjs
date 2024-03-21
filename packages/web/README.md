@@ -1,4 +1,4 @@
-# @wtjs/web
+# @js-wtao/web
 The following three packages are integrated
 * [@mito/browser](https://github.com/mitojs/mitojs/tree/master/packages/browser)
 * [@mito/react](https://github.com/mitojs/mitojs/tree/master/packages/react)
@@ -8,9 +8,9 @@ The following three packages are integrated
 ## Install
 ```bash
 # using npm
-npm i @wtjs/web
+npm i @js-wtao/web
 # using yarn
-yarn add @wtjs/web
+yarn add @js-wtao/web
 ```
 
 read the [mito-doc](https://mitojs.github.io/mito-doc/#/sdk/guide/introduction) to konw more info
@@ -19,7 +19,7 @@ read the [mito-doc](https://mitojs.github.io/mito-doc/#/sdk/guide/introduction) 
 
 ## Usage
 ```js
-import { init,MitoProvider,ErrorBoundary,vuePlugin } from '@wtjs/web'
+import { init,MitoProvider,ErrorBoundary,vuePlugin } from '@js-wtao/web'
 ```
 **go to **
 

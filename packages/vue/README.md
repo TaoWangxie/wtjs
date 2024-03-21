@@ -1,8 +1,8 @@
-# @wtjs/vue
+# @js-wtao/vue
 
 # ⚠️ attention
 
-**If you want to import in weixin miniprograme,please replace `@wtjs/browser` to `@miotjs/wx-mini`**
+**If you want to import in weixin miniprograme,please replace `@js-wtao/browser` to `@miotjs/wx-mini`**
 
 
 
@@ -10,9 +10,9 @@
 
 ```bash
 # using npm
-npm i @wtjs/vue @wtjs/browser
+npm i @js-wtao/vue @js-wtao/browser
 # using yarn
-yarn add @wtjs/vue @wtjs/browser
+yarn add @js-wtao/vue @js-wtao/browser
 ```
 
 read the [mito-doc](https://mitojs.github.io/mito-doc/#/sdk/guide/introduction) to konw more info
@@ -25,8 +25,8 @@ read the [mito-doc](https://mitojs.github.io/mito-doc/#/sdk/guide/introduction) 
 ```typescript
 // main.js
 import Vue from 'vue'
-import { init } from '@wtjs/browser'
-import { vuePlugin } from '@wtjs/vue'
+import { init } from '@js-wtao/browser'
+import { vuePlugin } from '@js-wtao/vue'
 
 // multiple instances
 const MitoInstance = init({
@@ -44,8 +44,8 @@ const MitoInstance = init({
 // main.ts
 import { createApp } from 'vue'
 import App from './App.vue'
-import { init } from "@wtjs/browser";
-import { vuePlugin } from "@wtjs/vue";
+import { init } from "@js-wtao/browser";
+import { vuePlugin } from "@js-wtao/vue";
 
 const app = createApp(App)
 const MitoInstance = init({

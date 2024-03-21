@@ -1,6 +1,6 @@
-import { BrowserEventTypes } from '@wtjs/shared'
-import { getLocationHref, replaceOld, supportsHistory, _global } from '@wtjs/utils'
-import { BasePluginType, RouteChangeCollectType, voidFun } from '@wtjs/types'
+import { BrowserEventTypes } from '@js-wtao/shared'
+import { getLocationHref, replaceOld, supportsHistory, _global } from '@js-wtao/utils'
+import { BasePluginType, RouteChangeCollectType, voidFun } from '@js-wtao/types'
 import { BrowserClient } from '../browserClient'
 import { routeTransform, routeTransformedConsumer } from './hashRoute'
 

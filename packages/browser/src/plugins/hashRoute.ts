@@ -1,6 +1,6 @@
-import { BrowserBreadcrumbTypes, BrowserEventTypes } from '@wtjs/shared'
-import { isExistProperty, on, parseUrlToObj, _global } from '@wtjs/utils'
-import { BasePluginType, RouteChangeCollectType } from '@wtjs/types'
+import { BrowserBreadcrumbTypes, BrowserEventTypes } from '@js-wtao/shared'
+import { isExistProperty, on, parseUrlToObj, _global } from '@js-wtao/utils'
+import { BasePluginType, RouteChangeCollectType } from '@js-wtao/types'
 import { BrowserClient } from '../browserClient'
 import { addBreadcrumbInBrowser } from '../utils'
 

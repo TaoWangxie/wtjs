@@ -1,5 +1,5 @@
-import { BREADCRUMBCATEGORYS, WxBreadcrumbTypes, ErrorTypes } from '@wtjs/shared'
-import { WxParsedErrorType } from '@wtjs/types'
+import { BREADCRUMBCATEGORYS, WxBreadcrumbTypes, ErrorTypes } from '@js-wtao/shared'
+import { WxParsedErrorType } from '@js-wtao/types'
 
 /**
  * 解析字符串错误信息，返回message、name、stack

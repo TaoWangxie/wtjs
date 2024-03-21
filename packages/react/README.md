@@ -1,16 +1,16 @@
-# @wtjs/react
+# @js-wtao/react
 
 # ⚠️ attention
 
-**If you want to import in weixin miniprograme,please replace `@wtjs/browser` to `@miotjs/wx-mini`**
+**If you want to import in weixin miniprograme,please replace `@js-wtao/browser` to `@miotjs/wx-mini`**
 
 ## 🛠️ Install
 
 ``` bash
 # using npm
-npm install @wtjs/react @wtjs/browser
+npm install @js-wtao/react @js-wtao/browser
 # using yarn
-yarn add @wtjs/react @wtjs/browser
+yarn add @js-wtao/react @js-wtao/browser
 ```
 
 read the [mito-doc](https://mitojs.github.io/mito-doc/#/sdk/guide/introduction) to konw more info
@@ -23,7 +23,7 @@ read the [mito-doc](https://mitojs.github.io/mito-doc/#/sdk/guide/introduction) 
 
 ```js
 import React from 'react'
-import { init } from '@wtjs/browser'
+import { init } from '@js-wtao/browser'
 
 const MitoInstance = init({
   // set debug true to convenient debugger in dev,set false in prod
@@ -39,15 +39,15 @@ const MitoInstance = init({
 
 ### Add ErrorBoundary
 
-If you're using React 16 or above, you can use [ErrorBoundary](https://reactjs.org/docs/error-boundaries.html) component to catch render error and automatically send to server.Here are some configurations of ErrorBoundary component that provided by @wtjs/react.
+If you're using React 16 or above, you can use [ErrorBoundary](https://reactjs.org/docs/error-boundaries.html) component to catch render error and automatically send to server.Here are some configurations of ErrorBoundary component that provided by @js-wtao/react.
 
 **index.tsx**
 
 ```tsx
 import React from 'react'
 import App from './App'
-import { MitoProvider } from '@wtjs/react'
-import { init } from '@wtjs/browser'
+import { MitoProvider } from '@js-wtao/react'
+import { init } from '@js-wtao/browser'
 
 
 const MitoInstance = init({
@@ -69,7 +69,7 @@ const APP: React.FC = () => {
 `ErrorBoundary` component  will automatically send react error if you set the correct [dsn](https://github.com/mitojs/mitojs/blob/master/docs/option.md).
 
 ```tsx
-import { ErrorBoundary } from '@wtjs/react'
+import { ErrorBoundary } from '@js-wtao/react'
 import ChildComponent from './ChildComponent'
 
 export default function OtherComponent() {
@@ -95,8 +95,8 @@ export default function OtherComponent() {
 ```js
 import React from 'react'
 import App from './App'
-import { MitoProvider } from '@wtjs/react'
-import { init } from '@wtjs/browser'
+import { MitoProvider } from '@js-wtao/react'
+import { init } from '@js-wtao/browser'
 
 
 const MitoInstance_one = init({
@@ -124,18 +124,18 @@ const APP: React.FC = () => {
 ```
 
 ## Use in wx-mini
-If you want to use in Weixin miniprogram,just replace `@wtjs/browser` to `@wtjs/wx-mini`.Just like this:
+If you want to use in Weixin miniprogram,just replace `@js-wtao/browser` to `@js-wtao/wx-mini`.Just like this:
 
 **install**
 ```bash
-yarn add @wtjs/react @wtjs/wx-mini
+yarn add @js-wtao/react @js-wtao/wx-mini
 ```
 
 ```typescript
 import React from 'react'
 import App from './App'
-import { MitoProvider } from '@wtjs/react'
-import { init } from '@wtjs/wx-mini'
+import { MitoProvider } from '@js-wtao/react'
+import { init } from '@js-wtao/wx-mini'
 
 
 const MitoInstance = init({
@@ -154,13 +154,13 @@ const APP: React.FC = () => {
 
 
 ## Using CDN in Browser
-CDN way is **not recommended**.Because `@wtjs/web` commonjs file is include `jsxRuntime` code,so it's size is larger than else package.
+CDN way is **not recommended**.Because `@js-wtao/web` commonjs file is include `jsxRuntime` code,so it's size is larger than else package.
 
 **index.html**
 
 ```html
 <header>
-  <script src="https://cdn.jsdelivr.net/npm/@wtjs/web/dist/web.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@js-wtao/web/dist/web.min.js"></script>
   <script>
     MITO.init({
 		  dsn: 'https://test.com/yourServer',

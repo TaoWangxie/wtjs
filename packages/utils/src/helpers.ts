@@ -1,5 +1,5 @@
-import { IAnyObject } from '@wtjs/types'
-import { globalVar, ToStringTypes } from '@wtjs/shared'
+import { IAnyObject } from '@js-wtao/types'
+import { globalVar, ToStringTypes } from '@js-wtao/shared'
 import { logger } from './logger'
 import { nativeToString, variableTypeDetection } from './is'
 import { isWxMiniEnv, isBrowserEnv } from './global'
