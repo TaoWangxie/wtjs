@@ -10,6 +10,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "https://github.com/mitojs/mitojs/blob/master/packages/vue/README.md",
   "repository": {
     "type": "git",
