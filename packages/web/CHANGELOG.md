@@ -1,5 +1,12 @@
 # @js-wtao/web
 
+## 2.0.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @js-wtao/vue@3.0.0
+
 ## 2.0.1
 
 ### Patch Changes
