@@ -1,8 +1,9 @@
 <template>
   <div class="about">
     <h1>About</h1>
-    <button @click="btnclick">点击(js)</button>
-    <button @click="btnclick2">点击(reject)</button>
+    <button @click="btnclick">错误上报 （ js ）</button>
+    <br/>
+    <button @click="btnclick2">错误上报 （ promise.reject ）</button>
 
   </div>
 </template>

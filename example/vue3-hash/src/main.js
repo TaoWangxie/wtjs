@@ -8,9 +8,9 @@ import './assets/main.css'
 
 const app = createApp(App)
 
-const MitoInstance = init({
+window.wtjsInstance = init({
     // set debug true to convenient debugger in dev,set false in prod
-    debug:true,
+    debug: true,
     vue: app,
     dsn: 'https://test.com/yourInterface',
     maxBreadcrumbs: 100

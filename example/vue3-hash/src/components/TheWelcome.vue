@@ -1,6 +1,6 @@
 <script setup>
 const btnclick1 =()=>{
-  window.WebVitals.track({
+  window.wtjsInstance.transport.send({
     type:'event_click_nav',
     fromId:'dvergfcedfv'
   })
@@ -11,6 +11,6 @@ const btnclick1 =()=>{
 <template>
   <div>
     <h1>home</h1>
-    <button @click="btnclick1">点击</button>
+    <button @click="btnclick1">手动埋点</button>
   </div>
 </template>
