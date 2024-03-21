@@ -160,18 +160,18 @@
     }
   },
   "kind": "Package",
-  "canonicalReference": "@wtjs/vue!",
+  "canonicalReference": "@js-wtao/vue!",
   "docComment": "",
-  "name": "@wtjs/vue",
+  "name": "@js-wtao/vue",
   "members": [
     {
       "kind": "EntryPoint",
-      "canonicalReference": "@wtjs/vue!",
+      "canonicalReference": "@js-wtao/vue!",
       "name": "",
       "members": [
         {
           "kind": "Variable",
-          "canonicalReference": "@wtjs/vue!vuePlugin:var",
+          "canonicalReference": "@js-wtao/vue!vuePlugin:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -181,7 +181,7 @@
             {
               "kind": "Reference",
               "text": "BasePluginType",
-              "canonicalReference": "@wtjs/vue!BasePluginType:interface"
+              "canonicalReference": "@js-wtao/vue!BasePluginType:interface"
             },
             {
               "kind": "Content",
@@ -190,7 +190,7 @@
             {
               "kind": "Reference",
               "text": "BaseEventTypes",
-              "canonicalReference": "@wtjs/vue!BaseEventTypes:enum"
+              "canonicalReference": "@js-wtao/vue!BaseEventTypes:enum"
             },
             {
               "kind": "Content",
@@ -199,7 +199,7 @@
             {
               "kind": "Reference",
               "text": "BaseClient",
-              "canonicalReference": "@wtjs/vue!BaseClient:class"
+              "canonicalReference": "@js-wtao/vue!BaseClient:class"
             },
             {
               "kind": "Content",

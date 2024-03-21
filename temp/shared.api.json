@@ -160,18 +160,18 @@
     }
   },
   "kind": "Package",
-  "canonicalReference": "@wtjs/shared!",
+  "canonicalReference": "@js-wtao/shared!",
   "docComment": "",
-  "name": "@wtjs/shared",
+  "name": "@js-wtao/shared",
   "members": [
     {
       "kind": "EntryPoint",
-      "canonicalReference": "@wtjs/shared!",
+      "canonicalReference": "@js-wtao/shared!",
       "name": "",
       "members": [
         {
           "kind": "Enum",
-          "canonicalReference": "@wtjs/shared!BaseBreadcrumbTypes:enum",
+          "canonicalReference": "@js-wtao/shared!BaseBreadcrumbTypes:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -184,7 +184,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BaseBreadcrumbTypes.REACT:member",
+              "canonicalReference": "@js-wtao/shared!BaseBreadcrumbTypes.REACT:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -205,7 +205,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BaseBreadcrumbTypes.VUE:member",
+              "canonicalReference": "@js-wtao/shared!BaseBreadcrumbTypes.VUE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -228,7 +228,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@wtjs/shared!BaseEventTypes:enum",
+          "canonicalReference": "@js-wtao/shared!BaseEventTypes:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -241,7 +241,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BaseEventTypes.VUE:member",
+              "canonicalReference": "@js-wtao/shared!BaseEventTypes.VUE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -264,7 +264,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@wtjs/shared!BREADCRUMBCATEGORYS:enum",
+          "canonicalReference": "@js-wtao/shared!BREADCRUMBCATEGORYS:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -277,7 +277,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BREADCRUMBCATEGORYS.DEBUG:member",
+              "canonicalReference": "@js-wtao/shared!BREADCRUMBCATEGORYS.DEBUG:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -298,7 +298,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BREADCRUMBCATEGORYS.EXCEPTION:member",
+              "canonicalReference": "@js-wtao/shared!BREADCRUMBCATEGORYS.EXCEPTION:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -319,7 +319,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BREADCRUMBCATEGORYS.HTTP:member",
+              "canonicalReference": "@js-wtao/shared!BREADCRUMBCATEGORYS.HTTP:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -340,7 +340,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BREADCRUMBCATEGORYS.LIFECYCLE:member",
+              "canonicalReference": "@js-wtao/shared!BREADCRUMBCATEGORYS.LIFECYCLE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -361,7 +361,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BREADCRUMBCATEGORYS.USER:member",
+              "canonicalReference": "@js-wtao/shared!BREADCRUMBCATEGORYS.USER:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -384,7 +384,7 @@
         },
         {
           "kind": "TypeAlias",
-          "canonicalReference": "@wtjs/shared!BreadcrumbTypes:type",
+          "canonicalReference": "@js-wtao/shared!BreadcrumbTypes:type",
           "docComment": "",
           "excerptTokens": [
             {
@@ -394,7 +394,7 @@
             {
               "kind": "Reference",
               "text": "BrowserBreadcrumbTypes",
-              "canonicalReference": "@wtjs/shared!BrowserBreadcrumbTypes:enum"
+              "canonicalReference": "@js-wtao/shared!BrowserBreadcrumbTypes:enum"
             },
             {
               "kind": "Content",
@@ -403,7 +403,7 @@
             {
               "kind": "Reference",
               "text": "WxBreadcrumbTypes",
-              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes:enum"
+              "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes:enum"
             },
             {
               "kind": "Content",
@@ -412,7 +412,7 @@
             {
               "kind": "Reference",
               "text": "BaseBreadcrumbTypes",
-              "canonicalReference": "@wtjs/shared!BaseBreadcrumbTypes:enum"
+              "canonicalReference": "@js-wtao/shared!BaseBreadcrumbTypes:enum"
             },
             {
               "kind": "Content",
@@ -428,7 +428,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@wtjs/shared!BrowserBreadcrumbTypes:enum",
+          "canonicalReference": "@js-wtao/shared!BrowserBreadcrumbTypes:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -441,7 +441,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BrowserBreadcrumbTypes.CLICK:member",
+              "canonicalReference": "@js-wtao/shared!BrowserBreadcrumbTypes.CLICK:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -462,7 +462,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BrowserBreadcrumbTypes.CODE_ERROR:member",
+              "canonicalReference": "@js-wtao/shared!BrowserBreadcrumbTypes.CODE_ERROR:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -483,7 +483,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BrowserBreadcrumbTypes.CONSOLE:member",
+              "canonicalReference": "@js-wtao/shared!BrowserBreadcrumbTypes.CONSOLE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -504,7 +504,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BrowserBreadcrumbTypes.CUSTOMER:member",
+              "canonicalReference": "@js-wtao/shared!BrowserBreadcrumbTypes.CUSTOMER:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -525,7 +525,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BrowserBreadcrumbTypes.FETCH:member",
+              "canonicalReference": "@js-wtao/shared!BrowserBreadcrumbTypes.FETCH:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -546,7 +546,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BrowserBreadcrumbTypes.RESOURCE:member",
+              "canonicalReference": "@js-wtao/shared!BrowserBreadcrumbTypes.RESOURCE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -567,7 +567,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BrowserBreadcrumbTypes.ROUTE:member",
+              "canonicalReference": "@js-wtao/shared!BrowserBreadcrumbTypes.ROUTE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -588,7 +588,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BrowserBreadcrumbTypes.UNHANDLEDREJECTION:member",
+              "canonicalReference": "@js-wtao/shared!BrowserBreadcrumbTypes.UNHANDLEDREJECTION:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -609,7 +609,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BrowserBreadcrumbTypes.XHR:member",
+              "canonicalReference": "@js-wtao/shared!BrowserBreadcrumbTypes.XHR:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -632,7 +632,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@wtjs/shared!BrowserEventTypes:enum",
+          "canonicalReference": "@js-wtao/shared!BrowserEventTypes:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -645,7 +645,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BrowserEventTypes.CONSOLE:member",
+              "canonicalReference": "@js-wtao/shared!BrowserEventTypes.CONSOLE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -666,7 +666,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BrowserEventTypes.CUSTOMER:member",
+              "canonicalReference": "@js-wtao/shared!BrowserEventTypes.CUSTOMER:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -687,7 +687,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BrowserEventTypes.DOM:member",
+              "canonicalReference": "@js-wtao/shared!BrowserEventTypes.DOM:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -708,7 +708,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BrowserEventTypes.ERROR:member",
+              "canonicalReference": "@js-wtao/shared!BrowserEventTypes.ERROR:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -729,7 +729,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BrowserEventTypes.FETCH:member",
+              "canonicalReference": "@js-wtao/shared!BrowserEventTypes.FETCH:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -750,7 +750,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BrowserEventTypes.HASHCHANGE:member",
+              "canonicalReference": "@js-wtao/shared!BrowserEventTypes.HASHCHANGE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -771,7 +771,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BrowserEventTypes.HISTORY:member",
+              "canonicalReference": "@js-wtao/shared!BrowserEventTypes.HISTORY:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -792,7 +792,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BrowserEventTypes.UNHANDLEDREJECTION:member",
+              "canonicalReference": "@js-wtao/shared!BrowserEventTypes.UNHANDLEDREJECTION:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -813,7 +813,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!BrowserEventTypes.XHR:member",
+              "canonicalReference": "@js-wtao/shared!BrowserEventTypes.XHR:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -836,7 +836,7 @@
         },
         {
           "kind": "Variable",
-          "canonicalReference": "@wtjs/shared!ERROR_TYPE_RE:var",
+          "canonicalReference": "@js-wtao/shared!ERROR_TYPE_RE:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -858,7 +858,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@wtjs/shared!ErrorTypes:enum",
+          "canonicalReference": "@js-wtao/shared!ErrorTypes:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -871,7 +871,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!ErrorTypes.HTTP:member",
+              "canonicalReference": "@js-wtao/shared!ErrorTypes.HTTP:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -892,7 +892,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!ErrorTypes.JAVASCRIPT:member",
+              "canonicalReference": "@js-wtao/shared!ErrorTypes.JAVASCRIPT:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -913,7 +913,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!ErrorTypes.LOG:member",
+              "canonicalReference": "@js-wtao/shared!ErrorTypes.LOG:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -934,7 +934,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!ErrorTypes.PROMISE:member",
+              "canonicalReference": "@js-wtao/shared!ErrorTypes.PROMISE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -955,7 +955,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!ErrorTypes.REACT:member",
+              "canonicalReference": "@js-wtao/shared!ErrorTypes.REACT:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -976,7 +976,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!ErrorTypes.RESOURCE:member",
+              "canonicalReference": "@js-wtao/shared!ErrorTypes.RESOURCE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -997,7 +997,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!ErrorTypes.ROUTE:member",
+              "canonicalReference": "@js-wtao/shared!ErrorTypes.ROUTE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1018,7 +1018,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!ErrorTypes.UNKNOWN:member",
+              "canonicalReference": "@js-wtao/shared!ErrorTypes.UNKNOWN:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1039,7 +1039,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!ErrorTypes.UNKNOWN_FUNCTION:member",
+              "canonicalReference": "@js-wtao/shared!ErrorTypes.UNKNOWN_FUNCTION:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1060,7 +1060,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!ErrorTypes.VUE:member",
+              "canonicalReference": "@js-wtao/shared!ErrorTypes.VUE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1083,7 +1083,7 @@
         },
         {
           "kind": "TypeAlias",
-          "canonicalReference": "@wtjs/shared!EventTypes:type",
+          "canonicalReference": "@js-wtao/shared!EventTypes:type",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1093,7 +1093,7 @@
             {
               "kind": "Reference",
               "text": "BrowserEventTypes",
-              "canonicalReference": "@wtjs/shared!BrowserEventTypes:enum"
+              "canonicalReference": "@js-wtao/shared!BrowserEventTypes:enum"
             },
             {
               "kind": "Content",
@@ -1102,7 +1102,7 @@
             {
               "kind": "Reference",
               "text": "WxEventTypes",
-              "canonicalReference": "@wtjs/shared!WxEventTypes:type"
+              "canonicalReference": "@js-wtao/shared!WxEventTypes:type"
             },
             {
               "kind": "Content",
@@ -1111,7 +1111,7 @@
             {
               "kind": "Reference",
               "text": "BaseEventTypes",
-              "canonicalReference": "@wtjs/shared!BaseEventTypes:enum"
+              "canonicalReference": "@js-wtao/shared!BaseEventTypes:enum"
             },
             {
               "kind": "Content",
@@ -1127,7 +1127,7 @@
         },
         {
           "kind": "Variable",
-          "canonicalReference": "@wtjs/shared!globalVar:var",
+          "canonicalReference": "@js-wtao/shared!globalVar:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1148,7 +1148,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@wtjs/shared!HTTP_CODE:enum",
+          "canonicalReference": "@js-wtao/shared!HTTP_CODE:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1161,7 +1161,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!HTTP_CODE.BAD_REQUEST:member",
+              "canonicalReference": "@js-wtao/shared!HTTP_CODE.BAD_REQUEST:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1182,7 +1182,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!HTTP_CODE.INTERNAL_EXCEPTION:member",
+              "canonicalReference": "@js-wtao/shared!HTTP_CODE.INTERNAL_EXCEPTION:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1203,7 +1203,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!HTTP_CODE.UNAUTHORIZED:member",
+              "canonicalReference": "@js-wtao/shared!HTTP_CODE.UNAUTHORIZED:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1226,7 +1226,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@wtjs/shared!HttpTypes:enum",
+          "canonicalReference": "@js-wtao/shared!HttpTypes:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1239,7 +1239,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!HttpTypes.FETCH:member",
+              "canonicalReference": "@js-wtao/shared!HttpTypes.FETCH:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1260,7 +1260,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!HttpTypes.XHR:member",
+              "canonicalReference": "@js-wtao/shared!HttpTypes.XHR:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1283,7 +1283,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@wtjs/shared!LinstenerTypes:enum",
+          "canonicalReference": "@js-wtao/shared!LinstenerTypes:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1296,7 +1296,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!LinstenerTypes.Longpress:member",
+              "canonicalReference": "@js-wtao/shared!LinstenerTypes.Longpress:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1317,7 +1317,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!LinstenerTypes.Longtap:member",
+              "canonicalReference": "@js-wtao/shared!LinstenerTypes.Longtap:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1338,7 +1338,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!LinstenerTypes.Tap:member",
+              "canonicalReference": "@js-wtao/shared!LinstenerTypes.Tap:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1359,7 +1359,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!LinstenerTypes.Touchmove:member",
+              "canonicalReference": "@js-wtao/shared!LinstenerTypes.Touchmove:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1382,7 +1382,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@wtjs/shared!MethodTypes:enum",
+          "canonicalReference": "@js-wtao/shared!MethodTypes:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1395,7 +1395,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!MethodTypes.Delete:member",
+              "canonicalReference": "@js-wtao/shared!MethodTypes.Delete:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1416,7 +1416,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!MethodTypes.Get:member",
+              "canonicalReference": "@js-wtao/shared!MethodTypes.Get:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1437,7 +1437,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!MethodTypes.Post:member",
+              "canonicalReference": "@js-wtao/shared!MethodTypes.Post:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1458,7 +1458,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!MethodTypes.Put:member",
+              "canonicalReference": "@js-wtao/shared!MethodTypes.Put:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1481,7 +1481,7 @@
         },
         {
           "kind": "Variable",
-          "canonicalReference": "@wtjs/shared!MitoLog:var",
+          "canonicalReference": "@js-wtao/shared!MitoLog:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1498,7 +1498,7 @@
         },
         {
           "kind": "Variable",
-          "canonicalReference": "@wtjs/shared!MitoLogEmptyMsg:var",
+          "canonicalReference": "@js-wtao/shared!MitoLogEmptyMsg:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1515,7 +1515,7 @@
         },
         {
           "kind": "Variable",
-          "canonicalReference": "@wtjs/shared!MitoLogEmptyTag:var",
+          "canonicalReference": "@js-wtao/shared!MitoLogEmptyTag:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1532,7 +1532,7 @@
         },
         {
           "kind": "Variable",
-          "canonicalReference": "@wtjs/shared!SDK_NAME:var",
+          "canonicalReference": "@js-wtao/shared!SDK_NAME:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1549,7 +1549,7 @@
         },
         {
           "kind": "Variable",
-          "canonicalReference": "@wtjs/shared!SDK_VERSION:var",
+          "canonicalReference": "@js-wtao/shared!SDK_VERSION:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1570,7 +1570,7 @@
         },
         {
           "kind": "Variable",
-          "canonicalReference": "@wtjs/shared!Silent:var",
+          "canonicalReference": "@js-wtao/shared!Silent:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1587,7 +1587,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@wtjs/shared!ToStringTypes:enum",
+          "canonicalReference": "@js-wtao/shared!ToStringTypes:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1600,7 +1600,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!ToStringTypes.Array:member",
+              "canonicalReference": "@js-wtao/shared!ToStringTypes.Array:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1621,7 +1621,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!ToStringTypes.Boolean:member",
+              "canonicalReference": "@js-wtao/shared!ToStringTypes.Boolean:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1642,7 +1642,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!ToStringTypes.Function:member",
+              "canonicalReference": "@js-wtao/shared!ToStringTypes.Function:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1663,7 +1663,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!ToStringTypes.Null:member",
+              "canonicalReference": "@js-wtao/shared!ToStringTypes.Null:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1684,7 +1684,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!ToStringTypes.Number:member",
+              "canonicalReference": "@js-wtao/shared!ToStringTypes.Number:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1705,7 +1705,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!ToStringTypes.Object:member",
+              "canonicalReference": "@js-wtao/shared!ToStringTypes.Object:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1726,7 +1726,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!ToStringTypes.process:member",
+              "canonicalReference": "@js-wtao/shared!ToStringTypes.process:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1747,7 +1747,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!ToStringTypes.RegExp:member",
+              "canonicalReference": "@js-wtao/shared!ToStringTypes.RegExp:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1768,7 +1768,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!ToStringTypes.String:member",
+              "canonicalReference": "@js-wtao/shared!ToStringTypes.String:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1789,7 +1789,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!ToStringTypes.Symbol:member",
+              "canonicalReference": "@js-wtao/shared!ToStringTypes.Symbol:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1810,7 +1810,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!ToStringTypes.Undefined:member",
+              "canonicalReference": "@js-wtao/shared!ToStringTypes.Undefined:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1831,7 +1831,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!ToStringTypes.Window:member",
+              "canonicalReference": "@js-wtao/shared!ToStringTypes.Window:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1854,7 +1854,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@wtjs/shared!TrackActionType:enum",
+          "canonicalReference": "@js-wtao/shared!TrackActionType:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1867,7 +1867,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!TrackActionType.DURATION:member",
+              "canonicalReference": "@js-wtao/shared!TrackActionType.DURATION:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1888,7 +1888,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!TrackActionType.DURATION_VIEW:member",
+              "canonicalReference": "@js-wtao/shared!TrackActionType.DURATION_VIEW:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1909,7 +1909,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!TrackActionType.EVENT:member",
+              "canonicalReference": "@js-wtao/shared!TrackActionType.EVENT:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1930,7 +1930,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!TrackActionType.OTHER:member",
+              "canonicalReference": "@js-wtao/shared!TrackActionType.OTHER:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1951,7 +1951,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!TrackActionType.PAGE:member",
+              "canonicalReference": "@js-wtao/shared!TrackActionType.PAGE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1972,7 +1972,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!TrackActionType.VIEW:member",
+              "canonicalReference": "@js-wtao/shared!TrackActionType.VIEW:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1995,7 +1995,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@wtjs/shared!WxAppEvents:enum",
+          "canonicalReference": "@js-wtao/shared!WxAppEvents:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2008,7 +2008,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxAppEvents.AppOnError:member",
+              "canonicalReference": "@js-wtao/shared!WxAppEvents.AppOnError:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2029,7 +2029,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxAppEvents.AppOnHide:member",
+              "canonicalReference": "@js-wtao/shared!WxAppEvents.AppOnHide:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2050,7 +2050,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxAppEvents.AppOnLaunch:member",
+              "canonicalReference": "@js-wtao/shared!WxAppEvents.AppOnLaunch:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2071,7 +2071,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxAppEvents.AppOnPageNotFound:member",
+              "canonicalReference": "@js-wtao/shared!WxAppEvents.AppOnPageNotFound:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2092,7 +2092,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxAppEvents.AppOnShow:member",
+              "canonicalReference": "@js-wtao/shared!WxAppEvents.AppOnShow:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2113,7 +2113,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxAppEvents.AppOnUnhandledRejection:member",
+              "canonicalReference": "@js-wtao/shared!WxAppEvents.AppOnUnhandledRejection:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2136,7 +2136,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@wtjs/shared!WxBaseEventTypes:enum",
+          "canonicalReference": "@js-wtao/shared!WxBaseEventTypes:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2149,7 +2149,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBaseEventTypes.CONSOLE:member",
+              "canonicalReference": "@js-wtao/shared!WxBaseEventTypes.CONSOLE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2170,7 +2170,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBaseEventTypes.DOM:member",
+              "canonicalReference": "@js-wtao/shared!WxBaseEventTypes.DOM:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2191,7 +2191,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBaseEventTypes.MINI_BATTERY_INFO:member",
+              "canonicalReference": "@js-wtao/shared!WxBaseEventTypes.MINI_BATTERY_INFO:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2212,7 +2212,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBaseEventTypes.MINI_MEMORY_WARNING:member",
+              "canonicalReference": "@js-wtao/shared!WxBaseEventTypes.MINI_MEMORY_WARNING:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2233,7 +2233,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBaseEventTypes.MINI_NETWORK_STATUS_CHANGE:member",
+              "canonicalReference": "@js-wtao/shared!WxBaseEventTypes.MINI_NETWORK_STATUS_CHANGE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2254,7 +2254,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBaseEventTypes.MINI_PERFORMANCE:member",
+              "canonicalReference": "@js-wtao/shared!WxBaseEventTypes.MINI_PERFORMANCE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2275,7 +2275,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBaseEventTypes.REQUEST:member",
+              "canonicalReference": "@js-wtao/shared!WxBaseEventTypes.REQUEST:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2296,7 +2296,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBaseEventTypes.ROUTE:member",
+              "canonicalReference": "@js-wtao/shared!WxBaseEventTypes.ROUTE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2319,7 +2319,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes:enum",
+          "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2332,7 +2332,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.APP_ON_HIDE:member",
+              "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes.APP_ON_HIDE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2353,7 +2353,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.APP_ON_LAUNCH:member",
+              "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes.APP_ON_LAUNCH:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2374,7 +2374,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.APP_ON_SHOW:member",
+              "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes.APP_ON_SHOW:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2395,7 +2395,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.CODE_ERROR:member",
+              "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes.CODE_ERROR:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2416,7 +2416,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.CONSOLE:member",
+              "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes.CONSOLE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2437,7 +2437,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.CUSTOMER:member",
+              "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes.CUSTOMER:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2458,7 +2458,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.PAGE_ON_HIDE:member",
+              "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes.PAGE_ON_HIDE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2479,7 +2479,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.PAGE_ON_LOAD:member",
+              "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes.PAGE_ON_LOAD:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2500,7 +2500,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.PAGE_ON_READY:member",
+              "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes.PAGE_ON_READY:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2521,7 +2521,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.PAGE_ON_SHARE_APP_MESSAGE:member",
+              "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes.PAGE_ON_SHARE_APP_MESSAGE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2542,7 +2542,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.PAGE_ON_SHARE_TIMELINE:member",
+              "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes.PAGE_ON_SHARE_TIMELINE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2563,7 +2563,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.PAGE_ON_SHOW:member",
+              "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes.PAGE_ON_SHOW:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2584,7 +2584,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.PAGE_ON_TAB_ITEM_TAP:member",
+              "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes.PAGE_ON_TAB_ITEM_TAP:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2605,7 +2605,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.PAGE_ON_UNLOAD:member",
+              "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes.PAGE_ON_UNLOAD:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2626,7 +2626,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.REACT:member",
+              "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes.REACT:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2647,7 +2647,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.RESOURCE:member",
+              "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes.RESOURCE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2668,7 +2668,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.ROUTE:member",
+              "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes.ROUTE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2689,7 +2689,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.TAP:member",
+              "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes.TAP:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2710,7 +2710,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.TOUCHMOVE:member",
+              "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes.TOUCHMOVE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2731,7 +2731,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.UNHANDLEDREJECTION:member",
+              "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes.UNHANDLEDREJECTION:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2752,7 +2752,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.VUE:member",
+              "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes.VUE:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2773,7 +2773,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxBreadcrumbTypes.XHR:member",
+              "canonicalReference": "@js-wtao/shared!WxBreadcrumbTypes.XHR:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2796,7 +2796,7 @@
         },
         {
           "kind": "TypeAlias",
-          "canonicalReference": "@wtjs/shared!WxEventTypes:type",
+          "canonicalReference": "@js-wtao/shared!WxEventTypes:type",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2806,7 +2806,7 @@
             {
               "kind": "Reference",
               "text": "WxAppEvents",
-              "canonicalReference": "@wtjs/shared!WxAppEvents:enum"
+              "canonicalReference": "@js-wtao/shared!WxAppEvents:enum"
             },
             {
               "kind": "Content",
@@ -2815,7 +2815,7 @@
             {
               "kind": "Reference",
               "text": "WxPageEvents",
-              "canonicalReference": "@wtjs/shared!WxPageEvents:enum"
+              "canonicalReference": "@js-wtao/shared!WxPageEvents:enum"
             },
             {
               "kind": "Content",
@@ -2824,7 +2824,7 @@
             {
               "kind": "Reference",
               "text": "WxBaseEventTypes",
-              "canonicalReference": "@wtjs/shared!WxBaseEventTypes:enum"
+              "canonicalReference": "@js-wtao/shared!WxBaseEventTypes:enum"
             },
             {
               "kind": "Content",
@@ -2840,7 +2840,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@wtjs/shared!WxPageEvents:enum",
+          "canonicalReference": "@js-wtao/shared!WxPageEvents:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2853,7 +2853,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxPageEvents.PageOnHide:member",
+              "canonicalReference": "@js-wtao/shared!WxPageEvents.PageOnHide:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2874,7 +2874,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxPageEvents.PageOnLoad:member",
+              "canonicalReference": "@js-wtao/shared!WxPageEvents.PageOnLoad:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2895,7 +2895,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxPageEvents.PageOnReady:member",
+              "canonicalReference": "@js-wtao/shared!WxPageEvents.PageOnReady:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2916,7 +2916,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxPageEvents.PageOnShareAppMessage:member",
+              "canonicalReference": "@js-wtao/shared!WxPageEvents.PageOnShareAppMessage:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2937,7 +2937,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxPageEvents.PageOnShareTimeline:member",
+              "canonicalReference": "@js-wtao/shared!WxPageEvents.PageOnShareTimeline:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2958,7 +2958,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxPageEvents.PageOnShow:member",
+              "canonicalReference": "@js-wtao/shared!WxPageEvents.PageOnShow:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2979,7 +2979,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxPageEvents.PageOnTabItemTap:member",
+              "canonicalReference": "@js-wtao/shared!WxPageEvents.PageOnTabItemTap:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3000,7 +3000,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxPageEvents.PageOnUnload:member",
+              "canonicalReference": "@js-wtao/shared!WxPageEvents.PageOnUnload:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3023,7 +3023,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@wtjs/shared!WxRouteEvents:enum",
+          "canonicalReference": "@js-wtao/shared!WxRouteEvents:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3036,7 +3036,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxRouteEvents.NavigateBack:member",
+              "canonicalReference": "@js-wtao/shared!WxRouteEvents.NavigateBack:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3057,7 +3057,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxRouteEvents.NavigateTo:member",
+              "canonicalReference": "@js-wtao/shared!WxRouteEvents.NavigateTo:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3078,7 +3078,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxRouteEvents.NavigateToMiniProgram:member",
+              "canonicalReference": "@js-wtao/shared!WxRouteEvents.NavigateToMiniProgram:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3099,7 +3099,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxRouteEvents.RedirectTo:member",
+              "canonicalReference": "@js-wtao/shared!WxRouteEvents.RedirectTo:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3120,7 +3120,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxRouteEvents.ReLaunch:member",
+              "canonicalReference": "@js-wtao/shared!WxRouteEvents.ReLaunch:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3141,7 +3141,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxRouteEvents.RouteFail:member",
+              "canonicalReference": "@js-wtao/shared!WxRouteEvents.RouteFail:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3162,7 +3162,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/shared!WxRouteEvents.SwitchTab:member",
+              "canonicalReference": "@js-wtao/shared!WxRouteEvents.SwitchTab:member",
               "docComment": "",
               "excerptTokens": [
                 {

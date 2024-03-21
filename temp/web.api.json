@@ -160,13 +160,13 @@
     }
   },
   "kind": "Package",
-  "canonicalReference": "@wtjs/web!",
+  "canonicalReference": "@js-wtao/web!",
   "docComment": "",
-  "name": "@wtjs/web",
+  "name": "@js-wtao/web",
   "members": [
     {
       "kind": "EntryPoint",
-      "canonicalReference": "@wtjs/web!",
+      "canonicalReference": "@js-wtao/web!",
       "name": "",
       "members": []
     }

@@ -1,5 +1,11 @@
 # @js-wtao/browser
 
+## 3.0.0
+
+### Major Changes
+
+- 再次发布
+
 ## 2.0.0
 
 ### Major Changes

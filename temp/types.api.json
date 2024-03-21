@@ -160,18 +160,18 @@
     }
   },
   "kind": "Package",
-  "canonicalReference": "@wtjs/types!",
+  "canonicalReference": "@js-wtao/types!",
   "docComment": "",
-  "name": "@wtjs/types",
+  "name": "@js-wtao/types",
   "members": [
     {
       "kind": "EntryPoint",
-      "canonicalReference": "@wtjs/types!",
+      "canonicalReference": "@js-wtao/types!",
       "name": "",
       "members": [
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!AuthInfo:interface",
+          "canonicalReference": "@js-wtao/types!AuthInfo:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -184,7 +184,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!AuthInfo#apikey:member",
+              "canonicalReference": "@js-wtao/types!AuthInfo#apikey:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -210,7 +210,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!AuthInfo#sdkName:member",
+              "canonicalReference": "@js-wtao/types!AuthInfo#sdkName:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -236,7 +236,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!AuthInfo#sdkVersion:member",
+              "canonicalReference": "@js-wtao/types!AuthInfo#sdkVersion:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -262,7 +262,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!AuthInfo#trackerId:member",
+              "canonicalReference": "@js-wtao/types!AuthInfo#trackerId:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -291,7 +291,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!BaseClientType:interface",
+          "canonicalReference": "@js-wtao/types!BaseClientType:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -301,7 +301,7 @@
             {
               "kind": "Reference",
               "text": "BaseOptionsFieldsIntegrationType",
-              "canonicalReference": "@wtjs/types!BaseOptionsFieldsIntegrationType:type"
+              "canonicalReference": "@js-wtao/types!BaseOptionsFieldsIntegrationType:type"
             },
             {
               "kind": "Content",
@@ -314,7 +314,7 @@
             {
               "kind": "Reference",
               "text": "BaseOptionsFieldsIntegrationType",
-              "canonicalReference": "@wtjs/types!BaseOptionsFieldsIntegrationType:type"
+              "canonicalReference": "@js-wtao/types!BaseOptionsFieldsIntegrationType:type"
             },
             {
               "kind": "Content",
@@ -339,7 +339,7 @@
           "members": [
             {
               "kind": "MethodSignature",
-              "canonicalReference": "@wtjs/types!BaseClientType#getOptions:member(1)",
+              "canonicalReference": "@js-wtao/types!BaseClientType#getOptions:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -367,7 +367,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BaseClientType#options:member",
+              "canonicalReference": "@js-wtao/types!BaseClientType#options:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -393,7 +393,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BaseClientType#SDK_NAME:member",
+              "canonicalReference": "@js-wtao/types!BaseClientType#SDK_NAME:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -419,7 +419,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BaseClientType#SDK_VERSION:member",
+              "canonicalReference": "@js-wtao/types!BaseClientType#SDK_VERSION:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -448,7 +448,7 @@
         },
         {
           "kind": "TypeAlias",
-          "canonicalReference": "@wtjs/types!BaseOptionsFieldsIntegrationType:type",
+          "canonicalReference": "@js-wtao/types!BaseOptionsFieldsIntegrationType:type",
           "docComment": "",
           "excerptTokens": [
             {
@@ -458,7 +458,7 @@
             {
               "kind": "Reference",
               "text": "BaseOptionsFieldsType",
-              "canonicalReference": "@wtjs/types!BaseOptionsFieldsType:interface"
+              "canonicalReference": "@js-wtao/types!BaseOptionsFieldsType:interface"
             },
             {
               "kind": "Content",
@@ -467,7 +467,7 @@
             {
               "kind": "Reference",
               "text": "BaseOptionsHooksType",
-              "canonicalReference": "@wtjs/types!BaseOptionsHooksType:interface"
+              "canonicalReference": "@js-wtao/types!BaseOptionsHooksType:interface"
             },
             {
               "kind": "Content",
@@ -483,7 +483,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!BaseOptionsFieldsType:interface",
+          "canonicalReference": "@js-wtao/types!BaseOptionsFieldsType:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -496,7 +496,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BaseOptionsFieldsType#apikey:member",
+              "canonicalReference": "@js-wtao/types!BaseOptionsFieldsType#apikey:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -522,7 +522,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BaseOptionsFieldsType#debug:member",
+              "canonicalReference": "@js-wtao/types!BaseOptionsFieldsType#debug:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -548,7 +548,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BaseOptionsFieldsType#disabled:member",
+              "canonicalReference": "@js-wtao/types!BaseOptionsFieldsType#disabled:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -574,7 +574,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BaseOptionsFieldsType#dsn:member",
+              "canonicalReference": "@js-wtao/types!BaseOptionsFieldsType#dsn:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -600,7 +600,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BaseOptionsFieldsType#enableTraceId:member",
+              "canonicalReference": "@js-wtao/types!BaseOptionsFieldsType#enableTraceId:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -626,7 +626,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BaseOptionsFieldsType#filterXhrUrlRegExp:member",
+              "canonicalReference": "@js-wtao/types!BaseOptionsFieldsType#filterXhrUrlRegExp:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -653,7 +653,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BaseOptionsFieldsType#includeHttpUrlTraceIdRegExp:member",
+              "canonicalReference": "@js-wtao/types!BaseOptionsFieldsType#includeHttpUrlTraceIdRegExp:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -680,7 +680,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BaseOptionsFieldsType#maxBreadcrumbs:member",
+              "canonicalReference": "@js-wtao/types!BaseOptionsFieldsType#maxBreadcrumbs:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -706,7 +706,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BaseOptionsFieldsType#maxDuplicateCount:member",
+              "canonicalReference": "@js-wtao/types!BaseOptionsFieldsType#maxDuplicateCount:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -732,7 +732,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BaseOptionsFieldsType#throttleDelayTime:member",
+              "canonicalReference": "@js-wtao/types!BaseOptionsFieldsType#throttleDelayTime:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -758,7 +758,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BaseOptionsFieldsType#traceIdFieldName:member",
+              "canonicalReference": "@js-wtao/types!BaseOptionsFieldsType#traceIdFieldName:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -784,7 +784,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BaseOptionsFieldsType#vue:member",
+              "canonicalReference": "@js-wtao/types!BaseOptionsFieldsType#vue:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -794,7 +794,7 @@
                 {
                   "kind": "Reference",
                   "text": "VueInstance",
-                  "canonicalReference": "@wtjs/types!VueInstance:interface"
+                  "canonicalReference": "@js-wtao/types!VueInstance:interface"
                 },
                 {
                   "kind": "Content",
@@ -814,7 +814,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!BaseOptionsHooksType:interface",
+          "canonicalReference": "@js-wtao/types!BaseOptionsHooksType:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -827,7 +827,7 @@
           "members": [
             {
               "kind": "MethodSignature",
-              "canonicalReference": "@wtjs/types!BaseOptionsHooksType#backTrackerId:member(1)",
+              "canonicalReference": "@js-wtao/types!BaseOptionsHooksType#backTrackerId:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -855,7 +855,7 @@
             },
             {
               "kind": "MethodSignature",
-              "canonicalReference": "@wtjs/types!BaseOptionsHooksType#beforeAppAjaxSend:member(1)",
+              "canonicalReference": "@js-wtao/types!BaseOptionsHooksType#beforeAppAjaxSend:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -865,7 +865,7 @@
                 {
                   "kind": "Reference",
                   "text": "IRequestHeaderConfig",
-                  "canonicalReference": "@wtjs/types!~IRequestHeaderConfig:interface"
+                  "canonicalReference": "@js-wtao/types!~IRequestHeaderConfig:interface"
                 },
                 {
                   "kind": "Content",
@@ -874,7 +874,7 @@
                 {
                   "kind": "Reference",
                   "text": "IBeforeAppAjaxSendConfig",
-                  "canonicalReference": "@wtjs/types!IBeforeAppAjaxSendConfig:interface"
+                  "canonicalReference": "@js-wtao/types!IBeforeAppAjaxSendConfig:interface"
                 },
                 {
                   "kind": "Content",
@@ -916,7 +916,7 @@
             },
             {
               "kind": "MethodSignature",
-              "canonicalReference": "@wtjs/types!BaseOptionsHooksType#beforeDataReport:member(1)",
+              "canonicalReference": "@js-wtao/types!BaseOptionsHooksType#beforeDataReport:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -926,7 +926,7 @@
                 {
                   "kind": "Reference",
                   "text": "TransportDataType",
-                  "canonicalReference": "@wtjs/types!TransportDataType:interface"
+                  "canonicalReference": "@js-wtao/types!TransportDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -944,7 +944,7 @@
                 {
                   "kind": "Reference",
                   "text": "TransportDataType",
-                  "canonicalReference": "@wtjs/types!TransportDataType:interface"
+                  "canonicalReference": "@js-wtao/types!TransportDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -953,7 +953,7 @@
                 {
                   "kind": "Reference",
                   "text": "CANCEL",
-                  "canonicalReference": "@wtjs/types!~CANCEL:type"
+                  "canonicalReference": "@js-wtao/types!~CANCEL:type"
                 },
                 {
                   "kind": "Content",
@@ -962,7 +962,7 @@
                 {
                   "kind": "Reference",
                   "text": "TransportDataType",
-                  "canonicalReference": "@wtjs/types!TransportDataType:interface"
+                  "canonicalReference": "@js-wtao/types!TransportDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -971,7 +971,7 @@
                 {
                   "kind": "Reference",
                   "text": "CANCEL",
-                  "canonicalReference": "@wtjs/types!~CANCEL:type"
+                  "canonicalReference": "@js-wtao/types!~CANCEL:type"
                 },
                 {
                   "kind": "Content",
@@ -1002,7 +1002,7 @@
             },
             {
               "kind": "MethodSignature",
-              "canonicalReference": "@wtjs/types!BaseOptionsHooksType#beforePushBreadcrumb:member(1)",
+              "canonicalReference": "@js-wtao/types!BaseOptionsHooksType#beforePushBreadcrumb:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1012,7 +1012,7 @@
                 {
                   "kind": "Reference",
                   "text": "Breadcrumb",
-                  "canonicalReference": "@wtjs/types!Breadcrumb:class"
+                  "canonicalReference": "@js-wtao/types!Breadcrumb:class"
                 },
                 {
                   "kind": "Content",
@@ -1021,7 +1021,7 @@
                 {
                   "kind": "Reference",
                   "text": "BreadcrumbPushData",
-                  "canonicalReference": "@wtjs/types!BreadcrumbPushData:interface"
+                  "canonicalReference": "@js-wtao/types!BreadcrumbPushData:interface"
                 },
                 {
                   "kind": "Content",
@@ -1030,7 +1030,7 @@
                 {
                   "kind": "Reference",
                   "text": "BreadcrumbPushData",
-                  "canonicalReference": "@wtjs/types!BreadcrumbPushData:interface"
+                  "canonicalReference": "@js-wtao/types!BreadcrumbPushData:interface"
                 },
                 {
                   "kind": "Content",
@@ -1039,7 +1039,7 @@
                 {
                   "kind": "Reference",
                   "text": "CANCEL",
-                  "canonicalReference": "@wtjs/types!~CANCEL:type"
+                  "canonicalReference": "@js-wtao/types!~CANCEL:type"
                 },
                 {
                   "kind": "Content",
@@ -1073,7 +1073,7 @@
             },
             {
               "kind": "MethodSignature",
-              "canonicalReference": "@wtjs/types!BaseOptionsHooksType#configReportUrl:member(1)",
+              "canonicalReference": "@js-wtao/types!BaseOptionsHooksType#configReportUrl:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1083,7 +1083,7 @@
                 {
                   "kind": "Reference",
                   "text": "TransportDataType",
-                  "canonicalReference": "@wtjs/types!TransportDataType:interface"
+                  "canonicalReference": "@js-wtao/types!TransportDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -1136,7 +1136,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!BaseOptionsType:interface",
+          "canonicalReference": "@js-wtao/types!BaseOptionsType:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1146,7 +1146,7 @@
             {
               "kind": "Reference",
               "text": "BaseOptionsFieldsIntegrationType",
-              "canonicalReference": "@wtjs/types!BaseOptionsFieldsIntegrationType:type"
+              "canonicalReference": "@js-wtao/types!BaseOptionsFieldsIntegrationType:type"
             },
             {
               "kind": "Content",
@@ -1155,7 +1155,7 @@
             {
               "kind": "Reference",
               "text": "BaseOptionsFieldsIntegrationType",
-              "canonicalReference": "@wtjs/types!BaseOptionsFieldsIntegrationType:type"
+              "canonicalReference": "@js-wtao/types!BaseOptionsFieldsIntegrationType:type"
             },
             {
               "kind": "Content",
@@ -1180,7 +1180,7 @@
           "members": [
             {
               "kind": "MethodSignature",
-              "canonicalReference": "@wtjs/types!BaseOptionsType#bindOptions:member(1)",
+              "canonicalReference": "@js-wtao/types!BaseOptionsType#bindOptions:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1232,7 +1232,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!BasePluginType:interface",
+          "canonicalReference": "@js-wtao/types!BasePluginType:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1242,7 +1242,7 @@
             {
               "kind": "Reference",
               "text": "EventTypes",
-              "canonicalReference": "@wtjs/types!EventTypes:type"
+              "canonicalReference": "@js-wtao/types!EventTypes:type"
             },
             {
               "kind": "Content",
@@ -1255,7 +1255,7 @@
             {
               "kind": "Reference",
               "text": "EventTypes",
-              "canonicalReference": "@wtjs/types!EventTypes:type"
+              "canonicalReference": "@js-wtao/types!EventTypes:type"
             },
             {
               "kind": "Content",
@@ -1264,7 +1264,7 @@
             {
               "kind": "Reference",
               "text": "BaseClientType",
-              "canonicalReference": "@wtjs/types!BaseClientType:interface"
+              "canonicalReference": "@js-wtao/types!BaseClientType:interface"
             },
             {
               "kind": "Content",
@@ -1277,7 +1277,7 @@
             {
               "kind": "Reference",
               "text": "BaseClientType",
-              "canonicalReference": "@wtjs/types!BaseClientType:interface"
+              "canonicalReference": "@js-wtao/types!BaseClientType:interface"
             },
             {
               "kind": "Content",
@@ -1313,7 +1313,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BasePluginType#consumer:member",
+              "canonicalReference": "@js-wtao/types!BasePluginType#consumer:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1339,7 +1339,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BasePluginType#monitor:member",
+              "canonicalReference": "@js-wtao/types!BasePluginType#monitor:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1365,7 +1365,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BasePluginType#name:member",
+              "canonicalReference": "@js-wtao/types!BasePluginType#name:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1391,7 +1391,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BasePluginType#transform:member",
+              "canonicalReference": "@js-wtao/types!BasePluginType#transform:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1420,7 +1420,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!BaseTransformType:interface",
+          "canonicalReference": "@js-wtao/types!BaseTransformType:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1433,7 +1433,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BaseTransformType#level:member",
+              "canonicalReference": "@js-wtao/types!BaseTransformType#level:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1459,7 +1459,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BaseTransformType#message:member",
+              "canonicalReference": "@js-wtao/types!BaseTransformType#message:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1485,7 +1485,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BaseTransformType#name:member",
+              "canonicalReference": "@js-wtao/types!BaseTransformType#name:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1511,7 +1511,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BaseTransformType#time:member",
+              "canonicalReference": "@js-wtao/types!BaseTransformType#time:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1537,7 +1537,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BaseTransformType#type:member",
+              "canonicalReference": "@js-wtao/types!BaseTransformType#type:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1547,7 +1547,7 @@
                 {
                   "kind": "Reference",
                   "text": "ErrorTypes",
-                  "canonicalReference": "@wtjs/types!ErrorTypes:enum"
+                  "canonicalReference": "@js-wtao/types!ErrorTypes:enum"
                 },
                 {
                   "kind": "Content",
@@ -1564,7 +1564,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BaseTransformType#url:member",
+              "canonicalReference": "@js-wtao/types!BaseTransformType#url:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1593,7 +1593,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!BreadcrumbPushData:interface",
+          "canonicalReference": "@js-wtao/types!BreadcrumbPushData:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1606,7 +1606,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BreadcrumbPushData#category:member",
+              "canonicalReference": "@js-wtao/types!BreadcrumbPushData#category:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1616,7 +1616,7 @@
                 {
                   "kind": "Reference",
                   "text": "BREADCRUMBCATEGORYS",
-                  "canonicalReference": "@wtjs/types!BREADCRUMBCATEGORYS:enum"
+                  "canonicalReference": "@js-wtao/types!BREADCRUMBCATEGORYS:enum"
                 },
                 {
                   "kind": "Content",
@@ -1633,7 +1633,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BreadcrumbPushData#data:member",
+              "canonicalReference": "@js-wtao/types!BreadcrumbPushData#data:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1643,7 +1643,7 @@
                 {
                   "kind": "Reference",
                   "text": "ReportDataType",
-                  "canonicalReference": "@wtjs/types!ReportDataType:interface"
+                  "canonicalReference": "@js-wtao/types!ReportDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -1652,7 +1652,7 @@
                 {
                   "kind": "Reference",
                   "text": "RouteChangeCollectType",
-                  "canonicalReference": "@wtjs/types!RouteChangeCollectType:interface"
+                  "canonicalReference": "@js-wtao/types!RouteChangeCollectType:interface"
                 },
                 {
                   "kind": "Content",
@@ -1661,7 +1661,7 @@
                 {
                   "kind": "Reference",
                   "text": "ConsoleCollectType",
-                  "canonicalReference": "@wtjs/types!ConsoleCollectType:interface"
+                  "canonicalReference": "@js-wtao/types!ConsoleCollectType:interface"
                 },
                 {
                   "kind": "Content",
@@ -1670,7 +1670,7 @@
                 {
                   "kind": "Reference",
                   "text": "TNumStrObj",
-                  "canonicalReference": "@wtjs/types!TNumStrObj:type"
+                  "canonicalReference": "@js-wtao/types!TNumStrObj:type"
                 },
                 {
                   "kind": "Content",
@@ -1687,7 +1687,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BreadcrumbPushData#level:member",
+              "canonicalReference": "@js-wtao/types!BreadcrumbPushData#level:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1697,7 +1697,7 @@
                 {
                   "kind": "Reference",
                   "text": "Severity",
-                  "canonicalReference": "@wtjs/types!Severity:enum"
+                  "canonicalReference": "@js-wtao/types!Severity:enum"
                 },
                 {
                   "kind": "Content",
@@ -1714,7 +1714,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BreadcrumbPushData#time:member",
+              "canonicalReference": "@js-wtao/types!BreadcrumbPushData#time:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1740,7 +1740,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!BreadcrumbPushData#type:member",
+              "canonicalReference": "@js-wtao/types!BreadcrumbPushData#type:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1750,7 +1750,7 @@
                 {
                   "kind": "Reference",
                   "text": "BreadcrumbTypes",
-                  "canonicalReference": "@wtjs/types!BreadcrumbTypes:type"
+                  "canonicalReference": "@js-wtao/types!BreadcrumbTypes:type"
                 },
                 {
                   "kind": "Content",
@@ -1770,7 +1770,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!ConsoleCollectType:interface",
+          "canonicalReference": "@js-wtao/types!ConsoleCollectType:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1783,7 +1783,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!ConsoleCollectType#args:member",
+              "canonicalReference": "@js-wtao/types!ConsoleCollectType#args:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1809,7 +1809,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!ConsoleCollectType#level:member",
+              "canonicalReference": "@js-wtao/types!ConsoleCollectType#level:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1838,7 +1838,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!DeviceInfo:interface",
+          "canonicalReference": "@js-wtao/types!DeviceInfo:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1851,7 +1851,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!DeviceInfo#clientHeight:member",
+              "canonicalReference": "@js-wtao/types!DeviceInfo#clientHeight:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1877,7 +1877,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!DeviceInfo#clientWidth:member",
+              "canonicalReference": "@js-wtao/types!DeviceInfo#clientWidth:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1903,7 +1903,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!DeviceInfo#netType:member",
+              "canonicalReference": "@js-wtao/types!DeviceInfo#netType:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1929,7 +1929,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!DeviceInfo#ratio:member",
+              "canonicalReference": "@js-wtao/types!DeviceInfo#ratio:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1958,7 +1958,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!ErrorStack:interface",
+          "canonicalReference": "@js-wtao/types!ErrorStack:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1971,7 +1971,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!ErrorStack#args:member",
+              "canonicalReference": "@js-wtao/types!ErrorStack#args:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1997,7 +1997,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!ErrorStack#column:member",
+              "canonicalReference": "@js-wtao/types!ErrorStack#column:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2023,7 +2023,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!ErrorStack#func:member",
+              "canonicalReference": "@js-wtao/types!ErrorStack#func:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2049,7 +2049,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!ErrorStack#line:member",
+              "canonicalReference": "@js-wtao/types!ErrorStack#line:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2075,7 +2075,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!ErrorStack#url:member",
+              "canonicalReference": "@js-wtao/types!ErrorStack#url:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2104,7 +2104,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!HttpCollectedType:interface",
+          "canonicalReference": "@js-wtao/types!HttpCollectedType:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2117,7 +2117,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!HttpCollectedType#elapsedTime:member",
+              "canonicalReference": "@js-wtao/types!HttpCollectedType#elapsedTime:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2143,7 +2143,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!HttpCollectedType#errMsg:member",
+              "canonicalReference": "@js-wtao/types!HttpCollectedType#errMsg:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2169,7 +2169,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!HttpCollectedType#request:member",
+              "canonicalReference": "@js-wtao/types!HttpCollectedType#request:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2183,7 +2183,7 @@
                 {
                   "kind": "Reference",
                   "text": "HttpTypes",
-                  "canonicalReference": "@wtjs/types!HttpTypes:enum"
+                  "canonicalReference": "@js-wtao/types!HttpTypes:enum"
                 },
                 {
                   "kind": "Content",
@@ -2204,7 +2204,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!HttpCollectedType#response:member",
+              "canonicalReference": "@js-wtao/types!HttpCollectedType#response:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2230,7 +2230,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!HttpCollectedType#time:member",
+              "canonicalReference": "@js-wtao/types!HttpCollectedType#time:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2259,7 +2259,7 @@
         },
         {
           "kind": "TypeAlias",
-          "canonicalReference": "@wtjs/types!HttpMethod:type",
+          "canonicalReference": "@js-wtao/types!HttpMethod:type",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2284,7 +2284,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!HttpTransformedType:interface",
+          "canonicalReference": "@js-wtao/types!HttpTransformedType:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2294,7 +2294,7 @@
             {
               "kind": "Reference",
               "text": "HttpCollectedType",
-              "canonicalReference": "@wtjs/types!HttpCollectedType:interface"
+              "canonicalReference": "@js-wtao/types!HttpCollectedType:interface"
             },
             {
               "kind": "Content",
@@ -2303,7 +2303,7 @@
             {
               "kind": "Reference",
               "text": "BaseTransformType",
-              "canonicalReference": "@wtjs/types!BaseTransformType:interface"
+              "canonicalReference": "@js-wtao/types!BaseTransformType:interface"
             },
             {
               "kind": "Content",
@@ -2326,7 +2326,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!IAnyObject:interface",
+          "canonicalReference": "@js-wtao/types!IAnyObject:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2339,7 +2339,7 @@
           "members": [
             {
               "kind": "IndexSignature",
-              "canonicalReference": "@wtjs/types!IAnyObject:index(1)",
+              "canonicalReference": "@js-wtao/types!IAnyObject:index(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2384,7 +2384,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!IBeforeAppAjaxSendConfig:interface",
+          "canonicalReference": "@js-wtao/types!IBeforeAppAjaxSendConfig:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2397,7 +2397,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!IBeforeAppAjaxSendConfig#setRequestHeader:member",
+              "canonicalReference": "@js-wtao/types!IBeforeAppAjaxSendConfig#setRequestHeader:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2407,7 +2407,7 @@
                 {
                   "kind": "Reference",
                   "text": "TSetRequestHeader",
-                  "canonicalReference": "@wtjs/types!~TSetRequestHeader:type"
+                  "canonicalReference": "@js-wtao/types!~TSetRequestHeader:type"
                 },
                 {
                   "kind": "Content",
@@ -2427,7 +2427,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!LocalStorageValue:interface",
+          "canonicalReference": "@js-wtao/types!LocalStorageValue:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2461,7 +2461,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!LocalStorageValue#expireTime:member",
+              "canonicalReference": "@js-wtao/types!LocalStorageValue#expireTime:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2487,7 +2487,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!LocalStorageValue#value:member",
+              "canonicalReference": "@js-wtao/types!LocalStorageValue#value:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2516,7 +2516,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!LogTypes:interface",
+          "canonicalReference": "@js-wtao/types!LogTypes:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2529,7 +2529,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!LogTypes#ex:member",
+              "canonicalReference": "@js-wtao/types!LogTypes#ex:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2560,7 +2560,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!LogTypes#level:member",
+              "canonicalReference": "@js-wtao/types!LogTypes#level:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2570,7 +2570,7 @@
                 {
                   "kind": "Reference",
                   "text": "Severity",
-                  "canonicalReference": "@wtjs/types!Severity:enum"
+                  "canonicalReference": "@js-wtao/types!Severity:enum"
                 },
                 {
                   "kind": "Content",
@@ -2587,7 +2587,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!LogTypes#message:member",
+              "canonicalReference": "@js-wtao/types!LogTypes#message:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2597,7 +2597,7 @@
                 {
                   "kind": "Reference",
                   "text": "TNumStrObj",
-                  "canonicalReference": "@wtjs/types!TNumStrObj:type"
+                  "canonicalReference": "@js-wtao/types!TNumStrObj:type"
                 },
                 {
                   "kind": "Content",
@@ -2614,7 +2614,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!LogTypes#tag:member",
+              "canonicalReference": "@js-wtao/types!LogTypes#tag:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2624,7 +2624,7 @@
                 {
                   "kind": "Reference",
                   "text": "TNumStrObj",
-                  "canonicalReference": "@wtjs/types!TNumStrObj:type"
+                  "canonicalReference": "@js-wtao/types!TNumStrObj:type"
                 },
                 {
                   "kind": "Content",
@@ -2644,7 +2644,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!MITOXMLHttpRequest:interface",
+          "canonicalReference": "@js-wtao/types!MITOXMLHttpRequest:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2666,7 +2666,7 @@
           "members": [
             {
               "kind": "IndexSignature",
-              "canonicalReference": "@wtjs/types!MITOXMLHttpRequest:index(1)",
+              "canonicalReference": "@js-wtao/types!MITOXMLHttpRequest:index(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2708,7 +2708,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!MITOXMLHttpRequest#httpCollect:member",
+              "canonicalReference": "@js-wtao/types!MITOXMLHttpRequest#httpCollect:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2718,7 +2718,7 @@
                 {
                   "kind": "Reference",
                   "text": "HttpCollectedType",
-                  "canonicalReference": "@wtjs/types!HttpCollectedType:interface"
+                  "canonicalReference": "@js-wtao/types!HttpCollectedType:interface"
                 },
                 {
                   "kind": "Content",
@@ -2743,7 +2743,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!ReportDataType:interface",
+          "canonicalReference": "@js-wtao/types!ReportDataType:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2762,7 +2762,7 @@
             {
               "kind": "Reference",
               "text": "HttpTransformedType",
-              "canonicalReference": "@wtjs/types!HttpTransformedType:interface"
+              "canonicalReference": "@js-wtao/types!HttpTransformedType:interface"
             },
             {
               "kind": "Content",
@@ -2774,7 +2774,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!ReportDataType#componentName:member",
+              "canonicalReference": "@js-wtao/types!ReportDataType#componentName:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2800,7 +2800,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!ReportDataType#customTag:member",
+              "canonicalReference": "@js-wtao/types!ReportDataType#customTag:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2826,7 +2826,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!ReportDataType#errorId:member",
+              "canonicalReference": "@js-wtao/types!ReportDataType#errorId:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2852,7 +2852,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!ReportDataType#propsData:member",
+              "canonicalReference": "@js-wtao/types!ReportDataType#propsData:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2878,7 +2878,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!ReportDataType#stack:member",
+              "canonicalReference": "@js-wtao/types!ReportDataType#stack:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2912,7 +2912,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!ResourceErrorTarget:interface",
+          "canonicalReference": "@js-wtao/types!ResourceErrorTarget:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2925,7 +2925,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!ResourceErrorTarget#href:member",
+              "canonicalReference": "@js-wtao/types!ResourceErrorTarget#href:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2951,7 +2951,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!ResourceErrorTarget#localName:member",
+              "canonicalReference": "@js-wtao/types!ResourceErrorTarget#localName:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2977,7 +2977,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!ResourceErrorTarget#src:member",
+              "canonicalReference": "@js-wtao/types!ResourceErrorTarget#src:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3006,7 +3006,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!RouteChangeCollectType:interface",
+          "canonicalReference": "@js-wtao/types!RouteChangeCollectType:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3019,7 +3019,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!RouteChangeCollectType#from:member",
+              "canonicalReference": "@js-wtao/types!RouteChangeCollectType#from:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3045,7 +3045,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!RouteChangeCollectType#to:member",
+              "canonicalReference": "@js-wtao/types!RouteChangeCollectType#to:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3074,7 +3074,7 @@
         },
         {
           "kind": "TypeAlias",
-          "canonicalReference": "@wtjs/types!TNumStrObj:type",
+          "canonicalReference": "@js-wtao/types!TNumStrObj:type",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3099,7 +3099,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!TrackReportDataType:interface",
+          "canonicalReference": "@js-wtao/types!TrackReportDataType:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3112,7 +3112,7 @@
           "members": [
             {
               "kind": "IndexSignature",
-              "canonicalReference": "@wtjs/types!TrackReportDataType:index(1)",
+              "canonicalReference": "@js-wtao/types!TrackReportDataType:index(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3154,7 +3154,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!TrackReportDataType#actionType:member",
+              "canonicalReference": "@js-wtao/types!TrackReportDataType#actionType:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3164,7 +3164,7 @@
                 {
                   "kind": "Reference",
                   "text": "TrackActionType",
-                  "canonicalReference": "@wtjs/types!TrackActionType:enum"
+                  "canonicalReference": "@js-wtao/types!TrackActionType:enum"
                 },
                 {
                   "kind": "Content",
@@ -3185,7 +3185,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!TrackReportDataType#durationTime:member",
+              "canonicalReference": "@js-wtao/types!TrackReportDataType#durationTime:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3211,7 +3211,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!TrackReportDataType#id:member",
+              "canonicalReference": "@js-wtao/types!TrackReportDataType#id:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3237,7 +3237,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!TrackReportDataType#isTrack:member",
+              "canonicalReference": "@js-wtao/types!TrackReportDataType#isTrack:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3263,7 +3263,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!TrackReportDataType#startTime:member",
+              "canonicalReference": "@js-wtao/types!TrackReportDataType#startTime:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3289,7 +3289,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!TrackReportDataType#trackId:member",
+              "canonicalReference": "@js-wtao/types!TrackReportDataType#trackId:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3315,7 +3315,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!TrackReportDataType#trackTime:member",
+              "canonicalReference": "@js-wtao/types!TrackReportDataType#trackTime:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3344,7 +3344,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!TransportDataType:interface",
+          "canonicalReference": "@js-wtao/types!TransportDataType:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3357,7 +3357,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!TransportDataType#authInfo:member",
+              "canonicalReference": "@js-wtao/types!TransportDataType#authInfo:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3367,7 +3367,7 @@
                 {
                   "kind": "Reference",
                   "text": "AuthInfo",
-                  "canonicalReference": "@wtjs/types!AuthInfo:interface"
+                  "canonicalReference": "@js-wtao/types!AuthInfo:interface"
                 },
                 {
                   "kind": "Content",
@@ -3384,7 +3384,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!TransportDataType#breadcrumb:member",
+              "canonicalReference": "@js-wtao/types!TransportDataType#breadcrumb:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3394,7 +3394,7 @@
                 {
                   "kind": "Reference",
                   "text": "BreadcrumbPushData",
-                  "canonicalReference": "@wtjs/types!BreadcrumbPushData:interface"
+                  "canonicalReference": "@js-wtao/types!BreadcrumbPushData:interface"
                 },
                 {
                   "kind": "Content",
@@ -3415,7 +3415,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!TransportDataType#data:member",
+              "canonicalReference": "@js-wtao/types!TransportDataType#data:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3425,7 +3425,7 @@
                 {
                   "kind": "Reference",
                   "text": "ReportDataType",
-                  "canonicalReference": "@wtjs/types!ReportDataType:interface"
+                  "canonicalReference": "@js-wtao/types!ReportDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -3442,7 +3442,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!TransportDataType#deviceInfo:member",
+              "canonicalReference": "@js-wtao/types!TransportDataType#deviceInfo:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3452,7 +3452,7 @@
                 {
                   "kind": "Reference",
                   "text": "DeviceInfo",
-                  "canonicalReference": "@wtjs/types!DeviceInfo:interface"
+                  "canonicalReference": "@js-wtao/types!DeviceInfo:interface"
                 },
                 {
                   "kind": "Content",
@@ -3469,7 +3469,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!TransportDataType#record:member",
+              "canonicalReference": "@js-wtao/types!TransportDataType#record:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3498,7 +3498,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!ViewModel:interface",
+          "canonicalReference": "@js-wtao/types!ViewModel:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3511,7 +3511,7 @@
           "members": [
             {
               "kind": "IndexSignature",
-              "canonicalReference": "@wtjs/types!ViewModel:index(1)",
+              "canonicalReference": "@js-wtao/types!ViewModel:index(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3553,7 +3553,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!ViewModel#$options:member",
+              "canonicalReference": "@js-wtao/types!ViewModel#$options:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3567,7 +3567,7 @@
                 {
                   "kind": "Reference",
                   "text": "IAnyObject",
-                  "canonicalReference": "@wtjs/types!IAnyObject:interface"
+                  "canonicalReference": "@js-wtao/types!IAnyObject:interface"
                 },
                 {
                   "kind": "Content",
@@ -3576,7 +3576,7 @@
                 {
                   "kind": "Reference",
                   "text": "IAnyObject",
-                  "canonicalReference": "@wtjs/types!IAnyObject:interface"
+                  "canonicalReference": "@js-wtao/types!IAnyObject:interface"
                 },
                 {
                   "kind": "Content",
@@ -3597,7 +3597,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!ViewModel#$props:member",
+              "canonicalReference": "@js-wtao/types!ViewModel#$props:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3628,7 +3628,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!ViewModel#$root:member",
+              "canonicalReference": "@js-wtao/types!ViewModel#$root:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3662,7 +3662,7 @@
         },
         {
           "kind": "TypeAlias",
-          "canonicalReference": "@wtjs/types!voidFun:type",
+          "canonicalReference": "@js-wtao/types!voidFun:type",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3687,7 +3687,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!VueConfiguration:interface",
+          "canonicalReference": "@js-wtao/types!VueConfiguration:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3700,7 +3700,7 @@
           "members": [
             {
               "kind": "IndexSignature",
-              "canonicalReference": "@wtjs/types!VueConfiguration:index(1)",
+              "canonicalReference": "@js-wtao/types!VueConfiguration:index(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3742,7 +3742,7 @@
             },
             {
               "kind": "MethodSignature",
-              "canonicalReference": "@wtjs/types!VueConfiguration#errorHandler:member(1)",
+              "canonicalReference": "@js-wtao/types!VueConfiguration#errorHandler:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3761,7 +3761,7 @@
                 {
                   "kind": "Reference",
                   "text": "ViewModel",
-                  "canonicalReference": "@wtjs/types!ViewModel:interface"
+                  "canonicalReference": "@js-wtao/types!ViewModel:interface"
                 },
                 {
                   "kind": "Content",
@@ -3822,7 +3822,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!VueConfiguration#silent:member",
+              "canonicalReference": "@js-wtao/types!VueConfiguration#silent:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3848,7 +3848,7 @@
             },
             {
               "kind": "MethodSignature",
-              "canonicalReference": "@wtjs/types!VueConfiguration#warnHandler:member(1)",
+              "canonicalReference": "@js-wtao/types!VueConfiguration#warnHandler:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3866,7 +3866,7 @@
                 {
                   "kind": "Reference",
                   "text": "ViewModel",
-                  "canonicalReference": "@wtjs/types!ViewModel:interface"
+                  "canonicalReference": "@js-wtao/types!ViewModel:interface"
                 },
                 {
                   "kind": "Content",
@@ -3930,7 +3930,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!VueInstance:interface",
+          "canonicalReference": "@js-wtao/types!VueInstance:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3943,7 +3943,7 @@
           "members": [
             {
               "kind": "IndexSignature",
-              "canonicalReference": "@wtjs/types!VueInstance:index(1)",
+              "canonicalReference": "@js-wtao/types!VueInstance:index(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3985,7 +3985,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!VueInstance#config:member",
+              "canonicalReference": "@js-wtao/types!VueInstance#config:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3995,7 +3995,7 @@
                 {
                   "kind": "Reference",
                   "text": "VueConfiguration",
-                  "canonicalReference": "@wtjs/types!VueConfiguration:interface"
+                  "canonicalReference": "@js-wtao/types!VueConfiguration:interface"
                 },
                 {
                   "kind": "Content",
@@ -4012,7 +4012,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!VueInstance#version:member",
+              "canonicalReference": "@js-wtao/types!VueInstance#version:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -4041,7 +4041,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/types!WxParsedErrorType:interface",
+          "canonicalReference": "@js-wtao/types!WxParsedErrorType:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -4054,7 +4054,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!WxParsedErrorType#message:member",
+              "canonicalReference": "@js-wtao/types!WxParsedErrorType#message:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -4080,7 +4080,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!WxParsedErrorType#name:member",
+              "canonicalReference": "@js-wtao/types!WxParsedErrorType#name:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -4106,7 +4106,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/types!WxParsedErrorType#stack:member",
+              "canonicalReference": "@js-wtao/types!WxParsedErrorType#stack:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -4116,7 +4116,7 @@
                 {
                   "kind": "Reference",
                   "text": "ErrorStack",
-                  "canonicalReference": "@wtjs/types!ErrorStack:interface"
+                  "canonicalReference": "@js-wtao/types!ErrorStack:interface"
                 },
                 {
                   "kind": "Content",

@@ -160,18 +160,18 @@
     }
   },
   "kind": "Package",
-  "canonicalReference": "@wtjs/utils!",
+  "canonicalReference": "@js-wtao/utils!",
   "docComment": "",
-  "name": "@wtjs/utils",
+  "name": "@js-wtao/utils",
   "members": [
     {
       "kind": "EntryPoint",
-      "canonicalReference": "@wtjs/utils!",
+      "canonicalReference": "@js-wtao/utils!",
       "name": "",
       "members": [
         {
           "kind": "Variable",
-          "canonicalReference": "@wtjs/utils!_global:var",
+          "canonicalReference": "@js-wtao/utils!_global:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -192,7 +192,7 @@
         },
         {
           "kind": "Variable",
-          "canonicalReference": "@wtjs/utils!_support:var",
+          "canonicalReference": "@js-wtao/utils!_support:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -202,7 +202,7 @@
             {
               "kind": "Reference",
               "text": "MitoSupport",
-              "canonicalReference": "@wtjs/utils!MitoSupport:interface"
+              "canonicalReference": "@js-wtao/utils!MitoSupport:interface"
             }
           ],
           "releaseTag": "Public",
@@ -214,7 +214,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!createErrorId:function(1)",
+          "canonicalReference": "@js-wtao/utils!createErrorId:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -224,7 +224,7 @@
             {
               "kind": "Reference",
               "text": "ReportDataType",
-              "canonicalReference": "@wtjs/utils!ReportDataType:interface"
+              "canonicalReference": "@js-wtao/utils!ReportDataType:interface"
             },
             {
               "kind": "Content",
@@ -288,7 +288,7 @@
         },
         {
           "kind": "Variable",
-          "canonicalReference": "@wtjs/utils!defaultFunctionName:var",
+          "canonicalReference": "@js-wtao/utils!defaultFunctionName:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -305,7 +305,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!extractErrorStack:function(1)",
+          "canonicalReference": "@js-wtao/utils!extractErrorStack:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -323,7 +323,7 @@
             {
               "kind": "Reference",
               "text": "Severity",
-              "canonicalReference": "@wtjs/utils!Severity:enum"
+              "canonicalReference": "@js-wtao/utils!Severity:enum"
             },
             {
               "kind": "Content",
@@ -336,7 +336,7 @@
             {
               "kind": "Reference",
               "text": "Severity",
-              "canonicalReference": "@wtjs/utils!Severity:enum"
+              "canonicalReference": "@js-wtao/utils!Severity:enum"
             },
             {
               "kind": "Content",
@@ -345,7 +345,7 @@
             {
               "kind": "Reference",
               "text": "Severity",
-              "canonicalReference": "@wtjs/utils!Severity:enum"
+              "canonicalReference": "@js-wtao/utils!Severity:enum"
             },
             {
               "kind": "Content",
@@ -382,7 +382,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!firstStrtoLowerCase:function(1)",
+          "canonicalReference": "@js-wtao/utils!firstStrtoLowerCase:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -425,7 +425,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!firstStrtoUppercase:function(1)",
+          "canonicalReference": "@js-wtao/utils!firstStrtoUppercase:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -468,7 +468,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!fromHttpStatus:function(1)",
+          "canonicalReference": "@js-wtao/utils!fromHttpStatus:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -486,7 +486,7 @@
             {
               "kind": "Reference",
               "text": "SpanStatus.Ok",
-              "canonicalReference": "@wtjs/utils!SpanStatus.Ok:member"
+              "canonicalReference": "@js-wtao/utils!SpanStatus.Ok:member"
             },
             {
               "kind": "Content",
@@ -495,7 +495,7 @@
             {
               "kind": "Reference",
               "text": "SpanStatus.DeadlineExceeded",
-              "canonicalReference": "@wtjs/utils!SpanStatus.DeadlineExceeded:member"
+              "canonicalReference": "@js-wtao/utils!SpanStatus.DeadlineExceeded:member"
             },
             {
               "kind": "Content",
@@ -504,7 +504,7 @@
             {
               "kind": "Reference",
               "text": "SpanStatus.Unauthenticated",
-              "canonicalReference": "@wtjs/utils!SpanStatus.Unauthenticated:member"
+              "canonicalReference": "@js-wtao/utils!SpanStatus.Unauthenticated:member"
             },
             {
               "kind": "Content",
@@ -513,7 +513,7 @@
             {
               "kind": "Reference",
               "text": "SpanStatus.PermissionDenied",
-              "canonicalReference": "@wtjs/utils!SpanStatus.PermissionDenied:member"
+              "canonicalReference": "@js-wtao/utils!SpanStatus.PermissionDenied:member"
             },
             {
               "kind": "Content",
@@ -522,7 +522,7 @@
             {
               "kind": "Reference",
               "text": "SpanStatus.NotFound",
-              "canonicalReference": "@wtjs/utils!SpanStatus.NotFound:member"
+              "canonicalReference": "@js-wtao/utils!SpanStatus.NotFound:member"
             },
             {
               "kind": "Content",
@@ -531,7 +531,7 @@
             {
               "kind": "Reference",
               "text": "SpanStatus.ResourceExhausted",
-              "canonicalReference": "@wtjs/utils!SpanStatus.ResourceExhausted:member"
+              "canonicalReference": "@js-wtao/utils!SpanStatus.ResourceExhausted:member"
             },
             {
               "kind": "Content",
@@ -540,7 +540,7 @@
             {
               "kind": "Reference",
               "text": "SpanStatus.InvalidArgument",
-              "canonicalReference": "@wtjs/utils!SpanStatus.InvalidArgument:member"
+              "canonicalReference": "@js-wtao/utils!SpanStatus.InvalidArgument:member"
             },
             {
               "kind": "Content",
@@ -549,7 +549,7 @@
             {
               "kind": "Reference",
               "text": "SpanStatus.Unimplemented",
-              "canonicalReference": "@wtjs/utils!SpanStatus.Unimplemented:member"
+              "canonicalReference": "@js-wtao/utils!SpanStatus.Unimplemented:member"
             },
             {
               "kind": "Content",
@@ -558,7 +558,7 @@
             {
               "kind": "Reference",
               "text": "SpanStatus.Unavailable",
-              "canonicalReference": "@wtjs/utils!SpanStatus.Unavailable:member"
+              "canonicalReference": "@js-wtao/utils!SpanStatus.Unavailable:member"
             },
             {
               "kind": "Content",
@@ -567,7 +567,7 @@
             {
               "kind": "Reference",
               "text": "SpanStatus.InternalError",
-              "canonicalReference": "@wtjs/utils!SpanStatus.InternalError:member"
+              "canonicalReference": "@js-wtao/utils!SpanStatus.InternalError:member"
             },
             {
               "kind": "Content",
@@ -576,7 +576,7 @@
             {
               "kind": "Reference",
               "text": "SpanStatus.UnknownError",
-              "canonicalReference": "@wtjs/utils!SpanStatus.UnknownError:member"
+              "canonicalReference": "@js-wtao/utils!SpanStatus.UnknownError:member"
             },
             {
               "kind": "Content",
@@ -585,7 +585,7 @@
             {
               "kind": "Reference",
               "text": "SpanStatus.AlreadyExists",
-              "canonicalReference": "@wtjs/utils!SpanStatus.AlreadyExists:member"
+              "canonicalReference": "@js-wtao/utils!SpanStatus.AlreadyExists:member"
             },
             {
               "kind": "Content",
@@ -594,7 +594,7 @@
             {
               "kind": "Reference",
               "text": "SpanStatus.FailedPrecondition",
-              "canonicalReference": "@wtjs/utils!SpanStatus.FailedPrecondition:member"
+              "canonicalReference": "@js-wtao/utils!SpanStatus.FailedPrecondition:member"
             },
             {
               "kind": "Content",
@@ -620,7 +620,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!generateUUID:function(1)",
+          "canonicalReference": "@js-wtao/utils!generateUUID:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -647,7 +647,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!getAppId:function(1)",
+          "canonicalReference": "@js-wtao/utils!getAppId:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -674,7 +674,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!getBigVersion:function(1)",
+          "canonicalReference": "@js-wtao/utils!getBigVersion:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -717,7 +717,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!getBreadcrumbCategoryInBrowser:function(1)",
+          "canonicalReference": "@js-wtao/utils!getBreadcrumbCategoryInBrowser:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -727,7 +727,7 @@
             {
               "kind": "Reference",
               "text": "BrowserBreadcrumbTypes",
-              "canonicalReference": "@wtjs/utils!BrowserBreadcrumbTypes:enum"
+              "canonicalReference": "@js-wtao/utils!BrowserBreadcrumbTypes:enum"
             },
             {
               "kind": "Content",
@@ -736,7 +736,7 @@
             {
               "kind": "Reference",
               "text": "BREADCRUMBCATEGORYS",
-              "canonicalReference": "@wtjs/utils!BREADCRUMBCATEGORYS:enum"
+              "canonicalReference": "@js-wtao/utils!BREADCRUMBCATEGORYS:enum"
             },
             {
               "kind": "Content",
@@ -762,7 +762,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!getBreadcrumbCategoryInWx:function(1)",
+          "canonicalReference": "@js-wtao/utils!getBreadcrumbCategoryInWx:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -772,7 +772,7 @@
             {
               "kind": "Reference",
               "text": "WxBreadcrumbTypes",
-              "canonicalReference": "@wtjs/utils!WxBreadcrumbTypes:enum"
+              "canonicalReference": "@js-wtao/utils!WxBreadcrumbTypes:enum"
             },
             {
               "kind": "Content",
@@ -781,7 +781,7 @@
             {
               "kind": "Reference",
               "text": "BREADCRUMBCATEGORYS",
-              "canonicalReference": "@wtjs/utils!BREADCRUMBCATEGORYS:enum"
+              "canonicalReference": "@js-wtao/utils!BREADCRUMBCATEGORYS:enum"
             },
             {
               "kind": "Content",
@@ -807,7 +807,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!getCurrentRoute:function(1)",
+          "canonicalReference": "@js-wtao/utils!getCurrentRoute:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -834,7 +834,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!getFlutterRealOrigin:function(1)",
+          "canonicalReference": "@js-wtao/utils!getFlutterRealOrigin:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -877,7 +877,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!getFlutterRealPath:function(1)",
+          "canonicalReference": "@js-wtao/utils!getFlutterRealPath:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -920,7 +920,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!getFunctionName:function(1)",
+          "canonicalReference": "@js-wtao/utils!getFunctionName:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -963,7 +963,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!getGlobal:function(1)",
+          "canonicalReference": "@js-wtao/utils!getGlobal:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -973,7 +973,7 @@
             {
               "kind": "Reference",
               "text": "MITOGlobal",
-              "canonicalReference": "@wtjs/utils!~MITOGlobal:interface"
+              "canonicalReference": "@js-wtao/utils!~MITOGlobal:interface"
             },
             {
               "kind": "Content",
@@ -1008,7 +1008,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!getLocationHref:function(1)",
+          "canonicalReference": "@js-wtao/utils!getLocationHref:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1035,7 +1035,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!getObjectWithForIn:function(1)",
+          "canonicalReference": "@js-wtao/utils!getObjectWithForIn:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1045,7 +1045,7 @@
             {
               "kind": "Reference",
               "text": "IAnyObject",
-              "canonicalReference": "@wtjs/utils!IAnyObject:interface"
+              "canonicalReference": "@js-wtao/utils!IAnyObject:interface"
             },
             {
               "kind": "Content",
@@ -1054,7 +1054,7 @@
             {
               "kind": "Reference",
               "text": "IAnyObject",
-              "canonicalReference": "@wtjs/utils!IAnyObject:interface"
+              "canonicalReference": "@js-wtao/utils!IAnyObject:interface"
             },
             {
               "kind": "Content",
@@ -1101,7 +1101,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!getRealPath:function(1)",
+          "canonicalReference": "@js-wtao/utils!getRealPath:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1144,7 +1144,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!getTimestamp:function(1)",
+          "canonicalReference": "@js-wtao/utils!getTimestamp:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1171,7 +1171,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!getUrlWithEnv:function(1)",
+          "canonicalReference": "@js-wtao/utils!getUrlWithEnv:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1198,7 +1198,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!hashCode:function(1)",
+          "canonicalReference": "@js-wtao/utils!hashCode:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1241,7 +1241,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!htmlElementAsString:function(1)",
+          "canonicalReference": "@js-wtao/utils!htmlElementAsString:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1285,7 +1285,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!interceptStr:function(1)",
+          "canonicalReference": "@js-wtao/utils!interceptStr:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1343,7 +1343,7 @@
         },
         {
           "kind": "Variable",
-          "canonicalReference": "@wtjs/utils!isBrowserEnv:var",
+          "canonicalReference": "@js-wtao/utils!isBrowserEnv:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1364,7 +1364,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!isEmpty:function(1)",
+          "canonicalReference": "@js-wtao/utils!isEmpty:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1407,7 +1407,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!isEmptyObject:function(1)",
+          "canonicalReference": "@js-wtao/utils!isEmptyObject:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1451,7 +1451,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!isError:function(1)",
+          "canonicalReference": "@js-wtao/utils!isError:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1494,7 +1494,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!isExistProperty:function(1)",
+          "canonicalReference": "@js-wtao/utils!isExistProperty:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1553,7 +1553,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!isInclude:function(1)",
+          "canonicalReference": "@js-wtao/utils!isInclude:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1611,7 +1611,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!isInstanceOf:function(1)",
+          "canonicalReference": "@js-wtao/utils!isInstanceOf:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1669,7 +1669,7 @@
         },
         {
           "kind": "Variable",
-          "canonicalReference": "@wtjs/utils!isNodeEnv:var",
+          "canonicalReference": "@js-wtao/utils!isNodeEnv:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1690,7 +1690,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!isType:function(1)",
+          "canonicalReference": "@js-wtao/utils!isType:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1733,7 +1733,7 @@
         },
         {
           "kind": "Variable",
-          "canonicalReference": "@wtjs/utils!isWxMiniEnv:var",
+          "canonicalReference": "@js-wtao/utils!isWxMiniEnv:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1754,7 +1754,7 @@
         },
         {
           "kind": "Class",
-          "canonicalReference": "@wtjs/utils!Logger:class",
+          "canonicalReference": "@js-wtao/utils!Logger:class",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1767,7 +1767,7 @@
           "members": [
             {
               "kind": "Constructor",
-              "canonicalReference": "@wtjs/utils!Logger:constructor(1)",
+              "canonicalReference": "@js-wtao/utils!Logger:constructor(1)",
               "docComment": "/**\n * Constructs a new instance of the `Logger` class\n */\n",
               "excerptTokens": [
                 {
@@ -1781,7 +1781,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/utils!Logger#bindOptions:member(1)",
+              "canonicalReference": "@js-wtao/utils!Logger#bindOptions:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1826,7 +1826,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/utils!Logger#disable:member(1)",
+              "canonicalReference": "@js-wtao/utils!Logger#disable:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1855,7 +1855,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/utils!Logger#enable:member(1)",
+              "canonicalReference": "@js-wtao/utils!Logger#enable:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1884,7 +1884,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/utils!Logger#error:member(1)",
+              "canonicalReference": "@js-wtao/utils!Logger#error:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1929,7 +1929,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/utils!Logger#getEnableStatus:member(1)",
+              "canonicalReference": "@js-wtao/utils!Logger#getEnableStatus:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1958,7 +1958,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/utils!Logger#log:member(1)",
+              "canonicalReference": "@js-wtao/utils!Logger#log:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2003,7 +2003,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/utils!Logger#warn:member(1)",
+              "canonicalReference": "@js-wtao/utils!Logger#warn:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2051,7 +2051,7 @@
         },
         {
           "kind": "Variable",
-          "canonicalReference": "@wtjs/utils!logger:var",
+          "canonicalReference": "@js-wtao/utils!logger:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2061,7 +2061,7 @@
             {
               "kind": "Reference",
               "text": "Logger",
-              "canonicalReference": "@wtjs/utils!Logger:class"
+              "canonicalReference": "@js-wtao/utils!Logger:class"
             }
           ],
           "releaseTag": "Public",
@@ -2073,7 +2073,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/utils!MitoSupport:interface",
+          "canonicalReference": "@js-wtao/utils!MitoSupport:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2086,7 +2086,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/utils!MitoSupport#deviceInfo:member",
+              "canonicalReference": "@js-wtao/utils!MitoSupport#deviceInfo:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2096,7 +2096,7 @@
                 {
                   "kind": "Reference",
                   "text": "DeviceInfo",
-                  "canonicalReference": "@wtjs/utils!DeviceInfo:interface"
+                  "canonicalReference": "@js-wtao/utils!DeviceInfo:interface"
                 },
                 {
                   "kind": "Content",
@@ -2113,7 +2113,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/utils!MitoSupport#logger:member",
+              "canonicalReference": "@js-wtao/utils!MitoSupport#logger:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2123,7 +2123,7 @@
                 {
                   "kind": "Reference",
                   "text": "Logger",
-                  "canonicalReference": "@wtjs/utils!Logger:class"
+                  "canonicalReference": "@js-wtao/utils!Logger:class"
                 },
                 {
                   "kind": "Content",
@@ -2140,7 +2140,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/utils!MitoSupport#record:member",
+              "canonicalReference": "@js-wtao/utils!MitoSupport#record:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2166,7 +2166,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/utils!MitoSupport#replaceFlag:member",
+              "canonicalReference": "@js-wtao/utils!MitoSupport#replaceFlag:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2180,7 +2180,7 @@
                 {
                   "kind": "Reference",
                   "text": "EventTypes",
-                  "canonicalReference": "@wtjs/utils!EventTypes:type"
+                  "canonicalReference": "@js-wtao/utils!EventTypes:type"
                 },
                 {
                   "kind": "Content",
@@ -2204,7 +2204,7 @@
         },
         {
           "kind": "Variable",
-          "canonicalReference": "@wtjs/utils!nativeToString:var",
+          "canonicalReference": "@js-wtao/utils!nativeToString:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2225,7 +2225,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!nativeTryCatch:function(1)",
+          "canonicalReference": "@js-wtao/utils!nativeTryCatch:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2283,7 +2283,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!on:function(1)",
+          "canonicalReference": "@js-wtao/utils!on:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2310,7 +2310,7 @@
             {
               "kind": "Reference",
               "text": "TotalEventName",
-              "canonicalReference": "@wtjs/utils!~TotalEventName:type"
+              "canonicalReference": "@js-wtao/utils!~TotalEventName:type"
             },
             {
               "kind": "Content",
@@ -2382,7 +2382,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!parseErrorString:function(1)",
+          "canonicalReference": "@js-wtao/utils!parseErrorString:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2400,7 +2400,7 @@
             {
               "kind": "Reference",
               "text": "WxParsedErrorType",
-              "canonicalReference": "@wtjs/utils!WxParsedErrorType:interface"
+              "canonicalReference": "@js-wtao/utils!WxParsedErrorType:interface"
             },
             {
               "kind": "Content",
@@ -2426,7 +2426,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!parseUrlToObj:function(1)",
+          "canonicalReference": "@js-wtao/utils!parseUrlToObj:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2469,7 +2469,7 @@
         },
         {
           "kind": "Class",
-          "canonicalReference": "@wtjs/utils!Queue:class",
+          "canonicalReference": "@js-wtao/utils!Queue:class",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2482,7 +2482,7 @@
           "members": [
             {
               "kind": "Constructor",
-              "canonicalReference": "@wtjs/utils!Queue:constructor(1)",
+              "canonicalReference": "@js-wtao/utils!Queue:constructor(1)",
               "docComment": "/**\n * Constructs a new instance of the `Queue` class\n */\n",
               "excerptTokens": [
                 {
@@ -2496,7 +2496,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/utils!Queue#addTask:member(1)",
+              "canonicalReference": "@js-wtao/utils!Queue#addTask:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2541,7 +2541,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/utils!Queue#clear:member(1)",
+              "canonicalReference": "@js-wtao/utils!Queue#clear:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2570,7 +2570,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/utils!Queue#flushStack:member(1)",
+              "canonicalReference": "@js-wtao/utils!Queue#flushStack:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2599,7 +2599,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/utils!Queue#getStack:member(1)",
+              "canonicalReference": "@js-wtao/utils!Queue#getStack:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2631,7 +2631,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!removeHashPath:function(1)",
+          "canonicalReference": "@js-wtao/utils!removeHashPath:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2674,7 +2674,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!replaceOld:function(1)",
+          "canonicalReference": "@js-wtao/utils!replaceOld:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2684,7 +2684,7 @@
             {
               "kind": "Reference",
               "text": "IAnyObject",
-              "canonicalReference": "@wtjs/utils!IAnyObject:interface"
+              "canonicalReference": "@js-wtao/utils!IAnyObject:interface"
             },
             {
               "kind": "Content",
@@ -2763,7 +2763,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!safeStringify:function(1)",
+          "canonicalReference": "@js-wtao/utils!safeStringify:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2806,7 +2806,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!setUrlQuery:function(1)",
+          "canonicalReference": "@js-wtao/utils!setUrlQuery:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2864,7 +2864,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@wtjs/utils!Severity:enum",
+          "canonicalReference": "@js-wtao/utils!Severity:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -2877,7 +2877,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!Severity.Critical:member",
+              "canonicalReference": "@js-wtao/utils!Severity.Critical:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2898,7 +2898,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!Severity.Debug:member",
+              "canonicalReference": "@js-wtao/utils!Severity.Debug:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2919,7 +2919,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!Severity.Else:member",
+              "canonicalReference": "@js-wtao/utils!Severity.Else:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2940,7 +2940,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!Severity.Error:member",
+              "canonicalReference": "@js-wtao/utils!Severity.Error:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2961,7 +2961,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!Severity.High:member",
+              "canonicalReference": "@js-wtao/utils!Severity.High:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2982,7 +2982,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!Severity.Info:member",
+              "canonicalReference": "@js-wtao/utils!Severity.Info:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3003,7 +3003,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!Severity.Low:member",
+              "canonicalReference": "@js-wtao/utils!Severity.Low:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3024,7 +3024,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!Severity.Normal:member",
+              "canonicalReference": "@js-wtao/utils!Severity.Normal:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3045,7 +3045,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!Severity.Warning:member",
+              "canonicalReference": "@js-wtao/utils!Severity.Warning:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3068,7 +3068,7 @@
         },
         {
           "kind": "Namespace",
-          "canonicalReference": "@wtjs/utils!Severity:namespace",
+          "canonicalReference": "@js-wtao/utils!Severity:namespace",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3081,7 +3081,7 @@
           "members": [
             {
               "kind": "Function",
-              "canonicalReference": "@wtjs/utils!Severity.fromString:function(1)",
+              "canonicalReference": "@js-wtao/utils!Severity.fromString:function(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3099,7 +3099,7 @@
                 {
                   "kind": "Reference",
                   "text": "Severity",
-                  "canonicalReference": "@wtjs/utils!Severity:enum"
+                  "canonicalReference": "@js-wtao/utils!Severity:enum"
                 },
                 {
                   "kind": "Content",
@@ -3127,7 +3127,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!silentConsoleScope:function(1)",
+          "canonicalReference": "@js-wtao/utils!silentConsoleScope:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3171,7 +3171,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!sleepRun:function(1)",
+          "canonicalReference": "@js-wtao/utils!sleepRun:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3229,7 +3229,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!sortObjByKey:function(1)",
+          "canonicalReference": "@js-wtao/utils!sortObjByKey:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3293,7 +3293,7 @@
         },
         {
           "kind": "Enum",
-          "canonicalReference": "@wtjs/utils!SpanStatus:enum",
+          "canonicalReference": "@js-wtao/utils!SpanStatus:enum",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3306,7 +3306,7 @@
           "members": [
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!SpanStatus.Aborted:member",
+              "canonicalReference": "@js-wtao/utils!SpanStatus.Aborted:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3327,7 +3327,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!SpanStatus.AlreadyExists:member",
+              "canonicalReference": "@js-wtao/utils!SpanStatus.AlreadyExists:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3348,7 +3348,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!SpanStatus.Cancelled:member",
+              "canonicalReference": "@js-wtao/utils!SpanStatus.Cancelled:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3369,7 +3369,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!SpanStatus.DataLoss:member",
+              "canonicalReference": "@js-wtao/utils!SpanStatus.DataLoss:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3390,7 +3390,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!SpanStatus.DeadlineExceeded:member",
+              "canonicalReference": "@js-wtao/utils!SpanStatus.DeadlineExceeded:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3411,7 +3411,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!SpanStatus.FailedPrecondition:member",
+              "canonicalReference": "@js-wtao/utils!SpanStatus.FailedPrecondition:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3432,7 +3432,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!SpanStatus.InternalError:member",
+              "canonicalReference": "@js-wtao/utils!SpanStatus.InternalError:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3453,7 +3453,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!SpanStatus.InvalidArgument:member",
+              "canonicalReference": "@js-wtao/utils!SpanStatus.InvalidArgument:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3474,7 +3474,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!SpanStatus.NotFound:member",
+              "canonicalReference": "@js-wtao/utils!SpanStatus.NotFound:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3495,7 +3495,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!SpanStatus.Ok:member",
+              "canonicalReference": "@js-wtao/utils!SpanStatus.Ok:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3516,7 +3516,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!SpanStatus.OutOfRange:member",
+              "canonicalReference": "@js-wtao/utils!SpanStatus.OutOfRange:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3537,7 +3537,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!SpanStatus.PermissionDenied:member",
+              "canonicalReference": "@js-wtao/utils!SpanStatus.PermissionDenied:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3558,7 +3558,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!SpanStatus.ResourceExhausted:member",
+              "canonicalReference": "@js-wtao/utils!SpanStatus.ResourceExhausted:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3579,7 +3579,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!SpanStatus.Unauthenticated:member",
+              "canonicalReference": "@js-wtao/utils!SpanStatus.Unauthenticated:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3600,7 +3600,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!SpanStatus.Unavailable:member",
+              "canonicalReference": "@js-wtao/utils!SpanStatus.Unavailable:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3621,7 +3621,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!SpanStatus.Unimplemented:member",
+              "canonicalReference": "@js-wtao/utils!SpanStatus.Unimplemented:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3642,7 +3642,7 @@
             },
             {
               "kind": "EnumMember",
-              "canonicalReference": "@wtjs/utils!SpanStatus.UnknownError:member",
+              "canonicalReference": "@js-wtao/utils!SpanStatus.UnknownError:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -3665,7 +3665,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!stringToObjAndOrder:function(1)",
+          "canonicalReference": "@js-wtao/utils!stringToObjAndOrder:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3708,7 +3708,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!supportsHistory:function(1)",
+          "canonicalReference": "@js-wtao/utils!supportsHistory:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3735,7 +3735,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!throttle:function(1)",
+          "canonicalReference": "@js-wtao/utils!throttle:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3795,7 +3795,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!toStringAny:function(1)",
+          "canonicalReference": "@js-wtao/utils!toStringAny:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3813,7 +3813,7 @@
             {
               "kind": "Reference",
               "text": "ToStringTypes",
-              "canonicalReference": "@wtjs/utils!ToStringTypes:enum"
+              "canonicalReference": "@js-wtao/utils!ToStringTypes:enum"
             },
             {
               "kind": "Content",
@@ -3854,7 +3854,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!toStringValidateOption:function(1)",
+          "canonicalReference": "@js-wtao/utils!toStringValidateOption:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3880,7 +3880,7 @@
             {
               "kind": "Reference",
               "text": "ToStringTypes",
-              "canonicalReference": "@wtjs/utils!ToStringTypes:enum"
+              "canonicalReference": "@js-wtao/utils!ToStringTypes:enum"
             },
             {
               "kind": "Content",
@@ -3928,7 +3928,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!unknownToString:function(1)",
+          "canonicalReference": "@js-wtao/utils!unknownToString:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3971,7 +3971,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/utils!validateOptionsAndSet:function(1)",
+          "canonicalReference": "@js-wtao/utils!validateOptionsAndSet:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -3993,7 +3993,7 @@
             {
               "kind": "Reference",
               "text": "ToStringTypes",
-              "canonicalReference": "@wtjs/utils!ToStringTypes:enum"
+              "canonicalReference": "@js-wtao/utils!ToStringTypes:enum"
             },
             {
               "kind": "Content",
@@ -4038,7 +4038,7 @@
         },
         {
           "kind": "Variable",
-          "canonicalReference": "@wtjs/utils!variableTypeDetection:var",
+          "canonicalReference": "@js-wtao/utils!variableTypeDetection:var",
           "docComment": "",
           "excerptTokens": [
             {

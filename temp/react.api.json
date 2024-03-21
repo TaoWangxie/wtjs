@@ -160,18 +160,18 @@
     }
   },
   "kind": "Package",
-  "canonicalReference": "@wtjs/react!",
+  "canonicalReference": "@js-wtao/react!",
   "docComment": "",
-  "name": "@wtjs/react",
+  "name": "@js-wtao/react",
   "members": [
     {
       "kind": "EntryPoint",
-      "canonicalReference": "@wtjs/react!",
+      "canonicalReference": "@js-wtao/react!",
       "name": "",
       "members": [
         {
           "kind": "Variable",
-          "canonicalReference": "@wtjs/react!ErrorBoundary:var",
+          "canonicalReference": "@js-wtao/react!ErrorBoundary:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -190,7 +190,7 @@
             {
               "kind": "Reference",
               "text": "ErrorBoundaryProps",
-              "canonicalReference": "@wtjs/react!~ErrorBoundaryProps:interface"
+              "canonicalReference": "@js-wtao/react!~ErrorBoundaryProps:interface"
             },
             {
               "kind": "Content",
@@ -215,7 +215,7 @@
         },
         {
           "kind": "Variable",
-          "canonicalReference": "@wtjs/react!MitoContext:var",
+          "canonicalReference": "@js-wtao/react!MitoContext:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -236,7 +236,7 @@
         },
         {
           "kind": "Variable",
-          "canonicalReference": "@wtjs/react!MitoProvider:var",
+          "canonicalReference": "@js-wtao/react!MitoProvider:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -255,7 +255,7 @@
             {
               "kind": "Reference",
               "text": "MitoContextValueType",
-              "canonicalReference": "@wtjs/react!MitoContextValueType:interface"
+              "canonicalReference": "@js-wtao/react!MitoContextValueType:interface"
             },
             {
               "kind": "Content",
@@ -271,7 +271,7 @@
         },
         {
           "kind": "Variable",
-          "canonicalReference": "@wtjs/react!WithErrorBoundary:var",
+          "canonicalReference": "@js-wtao/react!WithErrorBoundary:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -285,7 +285,7 @@
             {
               "kind": "Reference",
               "text": "ErrorBoundaryProps",
-              "canonicalReference": "@wtjs/react!~ErrorBoundaryProps:interface"
+              "canonicalReference": "@js-wtao/react!~ErrorBoundaryProps:interface"
             },
             {
               "kind": "Content",

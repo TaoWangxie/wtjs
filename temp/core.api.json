@@ -160,18 +160,18 @@
     }
   },
   "kind": "Package",
-  "canonicalReference": "@wtjs/core!",
+  "canonicalReference": "@js-wtao/core!",
   "docComment": "",
-  "name": "@wtjs/core",
+  "name": "@js-wtao/core",
   "members": [
     {
       "kind": "EntryPoint",
-      "canonicalReference": "@wtjs/core!",
+      "canonicalReference": "@js-wtao/core!",
       "name": "",
       "members": [
         {
           "kind": "Class",
-          "canonicalReference": "@wtjs/core!BaseClient:class",
+          "canonicalReference": "@js-wtao/core!BaseClient:class",
           "docComment": "",
           "excerptTokens": [
             {
@@ -181,7 +181,7 @@
             {
               "kind": "Reference",
               "text": "BaseOptionsFieldsIntegrationType",
-              "canonicalReference": "@wtjs/core!BaseOptionsFieldsIntegrationType:type"
+              "canonicalReference": "@js-wtao/core!BaseOptionsFieldsIntegrationType:type"
             },
             {
               "kind": "Content",
@@ -194,7 +194,7 @@
             {
               "kind": "Reference",
               "text": "BaseOptionsFieldsIntegrationType",
-              "canonicalReference": "@wtjs/core!BaseOptionsFieldsIntegrationType:type"
+              "canonicalReference": "@js-wtao/core!BaseOptionsFieldsIntegrationType:type"
             },
             {
               "kind": "Content",
@@ -203,7 +203,7 @@
             {
               "kind": "Reference",
               "text": "EventTypes",
-              "canonicalReference": "@wtjs/core!EventTypes:type"
+              "canonicalReference": "@js-wtao/core!EventTypes:type"
             },
             {
               "kind": "Content",
@@ -216,7 +216,7 @@
             {
               "kind": "Reference",
               "text": "EventTypes",
-              "canonicalReference": "@wtjs/core!EventTypes:type"
+              "canonicalReference": "@js-wtao/core!EventTypes:type"
             },
             {
               "kind": "Content",
@@ -225,7 +225,7 @@
             {
               "kind": "Reference",
               "text": "BaseClientType",
-              "canonicalReference": "@wtjs/core!BaseClientType:interface"
+              "canonicalReference": "@js-wtao/core!BaseClientType:interface"
             },
             {
               "kind": "Content",
@@ -261,7 +261,7 @@
           "members": [
             {
               "kind": "Constructor",
-              "canonicalReference": "@wtjs/core!BaseClient:constructor(1)",
+              "canonicalReference": "@js-wtao/core!BaseClient:constructor(1)",
               "docComment": "/**\n * Constructs a new instance of the `BaseClient` class\n */\n",
               "excerptTokens": [
                 {
@@ -291,7 +291,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@wtjs/core!BaseClient#breadcrumb:member",
+              "canonicalReference": "@js-wtao/core!BaseClient#breadcrumb:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -301,7 +301,7 @@
                 {
                   "kind": "Reference",
                   "text": "Breadcrumb",
-                  "canonicalReference": "@wtjs/core!Breadcrumb:class"
+                  "canonicalReference": "@js-wtao/core!Breadcrumb:class"
                 },
                 {
                   "kind": "Content",
@@ -319,7 +319,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/core!BaseClient#getOptions:member(1)",
+              "canonicalReference": "@js-wtao/core!BaseClient#getOptions:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -329,7 +329,7 @@
                 {
                   "kind": "Reference",
                   "text": "BaseOptionsFieldsIntegrationType",
-                  "canonicalReference": "@wtjs/core!BaseOptionsFieldsIntegrationType:type"
+                  "canonicalReference": "@js-wtao/core!BaseOptionsFieldsIntegrationType:type"
                 },
                 {
                   "kind": "Content",
@@ -349,7 +349,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/core!BaseClient#isPluginEnable:member(1)",
+              "canonicalReference": "@js-wtao/core!BaseClient#isPluginEnable:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -359,7 +359,7 @@
                 {
                   "kind": "Reference",
                   "text": "EventTypes",
-                  "canonicalReference": "@wtjs/core!EventTypes:type"
+                  "canonicalReference": "@js-wtao/core!EventTypes:type"
                 },
                 {
                   "kind": "Content",
@@ -395,7 +395,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/core!BaseClient#log:member(1)",
+              "canonicalReference": "@js-wtao/core!BaseClient#log:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -405,7 +405,7 @@
                 {
                   "kind": "Reference",
                   "text": "LogTypes",
-                  "canonicalReference": "@wtjs/core!LogTypes:interface"
+                  "canonicalReference": "@js-wtao/core!LogTypes:interface"
                 },
                 {
                   "kind": "Content",
@@ -441,7 +441,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@wtjs/core!BaseClient#options:member",
+              "canonicalReference": "@js-wtao/core!BaseClient#options:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -451,7 +451,7 @@
                 {
                   "kind": "Reference",
                   "text": "BaseOptionsFieldsIntegrationType",
-                  "canonicalReference": "@wtjs/core!BaseOptionsFieldsIntegrationType:type"
+                  "canonicalReference": "@js-wtao/core!BaseOptionsFieldsIntegrationType:type"
                 },
                 {
                   "kind": "Content",
@@ -469,7 +469,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@wtjs/core!BaseClient#SDK_NAME:member",
+              "canonicalReference": "@js-wtao/core!BaseClient#SDK_NAME:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -496,7 +496,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@wtjs/core!BaseClient#SDK_VERSION:member",
+              "canonicalReference": "@js-wtao/core!BaseClient#SDK_VERSION:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -523,7 +523,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@wtjs/core!BaseClient#transport:member",
+              "canonicalReference": "@js-wtao/core!BaseClient#transport:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -533,7 +533,7 @@
                 {
                   "kind": "Reference",
                   "text": "BaseTransport",
-                  "canonicalReference": "@wtjs/core!BaseTransport:class"
+                  "canonicalReference": "@js-wtao/core!BaseTransport:class"
                 },
                 {
                   "kind": "Content",
@@ -551,7 +551,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/core!BaseClient#use:member(1)",
+              "canonicalReference": "@js-wtao/core!BaseClient#use:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -561,7 +561,7 @@
                 {
                   "kind": "Reference",
                   "text": "BasePluginType",
-                  "canonicalReference": "@wtjs/core!BasePluginType:interface"
+                  "canonicalReference": "@js-wtao/core!BasePluginType:interface"
                 },
                 {
                   "kind": "Content",
@@ -609,7 +609,7 @@
         },
         {
           "kind": "Class",
-          "canonicalReference": "@wtjs/core!BaseOptions:class",
+          "canonicalReference": "@js-wtao/core!BaseOptions:class",
           "docComment": "",
           "excerptTokens": [
             {
@@ -619,7 +619,7 @@
             {
               "kind": "Reference",
               "text": "BaseOptionsFieldsIntegrationType",
-              "canonicalReference": "@wtjs/core!BaseOptionsFieldsIntegrationType:type"
+              "canonicalReference": "@js-wtao/core!BaseOptionsFieldsIntegrationType:type"
             },
             {
               "kind": "Content",
@@ -632,7 +632,7 @@
             {
               "kind": "Reference",
               "text": "BaseOptionsFieldsIntegrationType",
-              "canonicalReference": "@wtjs/core!BaseOptionsFieldsIntegrationType:type"
+              "canonicalReference": "@js-wtao/core!BaseOptionsFieldsIntegrationType:type"
             },
             {
               "kind": "Content",
@@ -641,7 +641,7 @@
             {
               "kind": "Reference",
               "text": "BaseOptionsType",
-              "canonicalReference": "@wtjs/core!BaseOptionsType:interface"
+              "canonicalReference": "@js-wtao/core!BaseOptionsType:interface"
             },
             {
               "kind": "Content",
@@ -666,7 +666,7 @@
           "members": [
             {
               "kind": "Constructor",
-              "canonicalReference": "@wtjs/core!BaseOptions:constructor(1)",
+              "canonicalReference": "@js-wtao/core!BaseOptions:constructor(1)",
               "docComment": "/**\n * Constructs a new instance of the `BaseOptions` class\n */\n",
               "excerptTokens": [
                 {
@@ -680,7 +680,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@wtjs/core!BaseOptions#beforeAppAjaxSend:member",
+              "canonicalReference": "@js-wtao/core!BaseOptions#beforeAppAjaxSend:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -707,7 +707,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/core!BaseOptions#bindOptions:member(1)",
+              "canonicalReference": "@js-wtao/core!BaseOptions#bindOptions:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -752,7 +752,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@wtjs/core!BaseOptions#enableTraceId:member",
+              "canonicalReference": "@js-wtao/core!BaseOptions#enableTraceId:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -779,7 +779,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@wtjs/core!BaseOptions#filterXhrUrlRegExp:member",
+              "canonicalReference": "@js-wtao/core!BaseOptions#filterXhrUrlRegExp:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -807,7 +807,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@wtjs/core!BaseOptions#includeHttpUrlTraceIdRegExp:member",
+              "canonicalReference": "@js-wtao/core!BaseOptions#includeHttpUrlTraceIdRegExp:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -835,7 +835,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/core!BaseOptions#isFilterHttpUrl:member(1)",
+              "canonicalReference": "@js-wtao/core!BaseOptions#isFilterHttpUrl:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -880,7 +880,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/core!BaseOptions#setTraceId:member(1)",
+              "canonicalReference": "@js-wtao/core!BaseOptions#setTraceId:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -940,7 +940,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@wtjs/core!BaseOptions#throttleDelayTime:member",
+              "canonicalReference": "@js-wtao/core!BaseOptions#throttleDelayTime:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -967,7 +967,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@wtjs/core!BaseOptions#traceIdFieldName:member",
+              "canonicalReference": "@js-wtao/core!BaseOptions#traceIdFieldName:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -994,7 +994,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@wtjs/core!BaseOptions#vue:member",
+              "canonicalReference": "@js-wtao/core!BaseOptions#vue:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1004,7 +1004,7 @@
                 {
                   "kind": "Reference",
                   "text": "VueInstance",
-                  "canonicalReference": "@wtjs/core!VueInstance:interface"
+                  "canonicalReference": "@js-wtao/core!VueInstance:interface"
                 },
                 {
                   "kind": "Content",
@@ -1030,7 +1030,7 @@
         },
         {
           "kind": "Class",
-          "canonicalReference": "@wtjs/core!BaseTransport:class",
+          "canonicalReference": "@js-wtao/core!BaseTransport:class",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1040,7 +1040,7 @@
             {
               "kind": "Reference",
               "text": "BaseOptionsFieldsIntegrationType",
-              "canonicalReference": "@wtjs/core!BaseOptionsFieldsIntegrationType:type"
+              "canonicalReference": "@js-wtao/core!BaseOptionsFieldsIntegrationType:type"
             },
             {
               "kind": "Content",
@@ -1053,7 +1053,7 @@
             {
               "kind": "Reference",
               "text": "BaseOptionsFieldsIntegrationType",
-              "canonicalReference": "@wtjs/core!BaseOptionsFieldsIntegrationType:type"
+              "canonicalReference": "@js-wtao/core!BaseOptionsFieldsIntegrationType:type"
             },
             {
               "kind": "Content",
@@ -1078,7 +1078,7 @@
           "members": [
             {
               "kind": "Constructor",
-              "canonicalReference": "@wtjs/core!BaseTransport:constructor(1)",
+              "canonicalReference": "@js-wtao/core!BaseTransport:constructor(1)",
               "docComment": "/**\n * Constructs a new instance of the `BaseTransport` class\n */\n",
               "excerptTokens": [
                 {
@@ -1092,7 +1092,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@wtjs/core!BaseTransport#apikey:member",
+              "canonicalReference": "@js-wtao/core!BaseTransport#apikey:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1119,7 +1119,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@wtjs/core!BaseTransport#backTrackerId:member",
+              "canonicalReference": "@js-wtao/core!BaseTransport#backTrackerId:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1146,7 +1146,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@wtjs/core!BaseTransport#beforeDataReport:member",
+              "canonicalReference": "@js-wtao/core!BaseTransport#beforeDataReport:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1165,7 +1165,7 @@
                 {
                   "kind": "Reference",
                   "text": "TransportDataType",
-                  "canonicalReference": "@wtjs/core!TransportDataType:interface"
+                  "canonicalReference": "@js-wtao/core!TransportDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -1174,7 +1174,7 @@
                 {
                   "kind": "Reference",
                   "text": "TransportDataType",
-                  "canonicalReference": "@wtjs/core!TransportDataType:interface"
+                  "canonicalReference": "@js-wtao/core!TransportDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -1196,7 +1196,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/core!BaseTransport#bindOptions:member(1)",
+              "canonicalReference": "@js-wtao/core!BaseTransport#bindOptions:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1246,7 +1246,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@wtjs/core!BaseTransport#configReportUrl:member",
+              "canonicalReference": "@js-wtao/core!BaseTransport#configReportUrl:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1273,7 +1273,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@wtjs/core!BaseTransport#dsn:member",
+              "canonicalReference": "@js-wtao/core!BaseTransport#dsn:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1300,7 +1300,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/core!BaseTransport#getAuthInfo:member(1)",
+              "canonicalReference": "@js-wtao/core!BaseTransport#getAuthInfo:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1310,7 +1310,7 @@
                 {
                   "kind": "Reference",
                   "text": "AuthInfo",
-                  "canonicalReference": "@wtjs/core!AuthInfo:interface"
+                  "canonicalReference": "@js-wtao/core!AuthInfo:interface"
                 },
                 {
                   "kind": "Content",
@@ -1330,7 +1330,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/core!BaseTransport#getTrackerId:member(1)",
+              "canonicalReference": "@js-wtao/core!BaseTransport#getTrackerId:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1359,7 +1359,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/core!BaseTransport#getTransportData:member(1)",
+              "canonicalReference": "@js-wtao/core!BaseTransport#getTransportData:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1369,7 +1369,7 @@
                 {
                   "kind": "Reference",
                   "text": "ReportDataType",
-                  "canonicalReference": "@wtjs/core!ReportDataType:interface"
+                  "canonicalReference": "@js-wtao/core!ReportDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -1378,7 +1378,7 @@
                 {
                   "kind": "Reference",
                   "text": "TransportDataType",
-                  "canonicalReference": "@wtjs/core!TransportDataType:interface"
+                  "canonicalReference": "@js-wtao/core!TransportDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -1406,7 +1406,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/core!BaseTransport#isSelfDsn:member(1)",
+              "canonicalReference": "@js-wtao/core!BaseTransport#isSelfDsn:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1451,7 +1451,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@wtjs/core!BaseTransport#maxDuplicateCount:member",
+              "canonicalReference": "@js-wtao/core!BaseTransport#maxDuplicateCount:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1478,7 +1478,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/core!BaseTransport#post:member(1)",
+              "canonicalReference": "@js-wtao/core!BaseTransport#post:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1488,7 +1488,7 @@
                 {
                   "kind": "Reference",
                   "text": "TransportDataType",
-                  "canonicalReference": "@wtjs/core!TransportDataType:interface"
+                  "canonicalReference": "@js-wtao/core!TransportDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -1543,7 +1543,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@wtjs/core!BaseTransport#queue:member",
+              "canonicalReference": "@js-wtao/core!BaseTransport#queue:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1553,7 +1553,7 @@
                 {
                   "kind": "Reference",
                   "text": "Queue",
-                  "canonicalReference": "@wtjs/core!Queue:class"
+                  "canonicalReference": "@js-wtao/core!Queue:class"
                 },
                 {
                   "kind": "Content",
@@ -1571,7 +1571,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/core!BaseTransport#send:member(1)",
+              "canonicalReference": "@js-wtao/core!BaseTransport#send:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1589,7 +1589,7 @@
                 {
                   "kind": "Reference",
                   "text": "BreadcrumbPushData",
-                  "canonicalReference": "@wtjs/core!BreadcrumbPushData:interface"
+                  "canonicalReference": "@js-wtao/core!BreadcrumbPushData:interface"
                 },
                 {
                   "kind": "Content",
@@ -1641,7 +1641,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/core!BaseTransport#sendToServer:member(1)",
+              "canonicalReference": "@js-wtao/core!BaseTransport#sendToServer:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1651,7 +1651,7 @@
                 {
                   "kind": "Reference",
                   "text": "TransportDataType",
-                  "canonicalReference": "@wtjs/core!TransportDataType:interface"
+                  "canonicalReference": "@js-wtao/core!TransportDataType:interface"
                 },
                 {
                   "kind": "Content",
@@ -1709,7 +1709,7 @@
         },
         {
           "kind": "Class",
-          "canonicalReference": "@wtjs/core!Breadcrumb:class",
+          "canonicalReference": "@js-wtao/core!Breadcrumb:class",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1719,7 +1719,7 @@
             {
               "kind": "Reference",
               "text": "BaseOptionsFieldsIntegrationType",
-              "canonicalReference": "@wtjs/core!BaseOptionsFieldsIntegrationType:type"
+              "canonicalReference": "@js-wtao/core!BaseOptionsFieldsIntegrationType:type"
             },
             {
               "kind": "Content",
@@ -1732,7 +1732,7 @@
             {
               "kind": "Reference",
               "text": "BaseOptionsFieldsIntegrationType",
-              "canonicalReference": "@wtjs/core!BaseOptionsFieldsIntegrationType:type"
+              "canonicalReference": "@js-wtao/core!BaseOptionsFieldsIntegrationType:type"
             },
             {
               "kind": "Content",
@@ -1757,7 +1757,7 @@
           "members": [
             {
               "kind": "Constructor",
-              "canonicalReference": "@wtjs/core!Breadcrumb:constructor(1)",
+              "canonicalReference": "@js-wtao/core!Breadcrumb:constructor(1)",
               "docComment": "/**\n * Constructs a new instance of the `Breadcrumb` class\n */\n",
               "excerptTokens": [
                 {
@@ -1792,7 +1792,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/core!Breadcrumb#bindOptions:member(1)",
+              "canonicalReference": "@js-wtao/core!Breadcrumb#bindOptions:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1842,7 +1842,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/core!Breadcrumb#clear:member(1)",
+              "canonicalReference": "@js-wtao/core!Breadcrumb#clear:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1871,7 +1871,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/core!Breadcrumb#getStack:member(1)",
+              "canonicalReference": "@js-wtao/core!Breadcrumb#getStack:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1881,7 +1881,7 @@
                 {
                   "kind": "Reference",
                   "text": "BreadcrumbPushData",
-                  "canonicalReference": "@wtjs/core!BreadcrumbPushData:interface"
+                  "canonicalReference": "@js-wtao/core!BreadcrumbPushData:interface"
                 },
                 {
                   "kind": "Content",
@@ -1905,7 +1905,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/core!Breadcrumb#push:member(1)",
+              "canonicalReference": "@js-wtao/core!Breadcrumb#push:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -1915,7 +1915,7 @@
                 {
                   "kind": "Reference",
                   "text": "BreadcrumbPushData",
-                  "canonicalReference": "@wtjs/core!BreadcrumbPushData:interface"
+                  "canonicalReference": "@js-wtao/core!BreadcrumbPushData:interface"
                 },
                 {
                   "kind": "Content",
@@ -1924,7 +1924,7 @@
                 {
                   "kind": "Reference",
                   "text": "BreadcrumbPushData",
-                  "canonicalReference": "@wtjs/core!BreadcrumbPushData:interface"
+                  "canonicalReference": "@js-wtao/core!BreadcrumbPushData:interface"
                 },
                 {
                   "kind": "Content",
@@ -1959,7 +1959,7 @@
         },
         {
           "kind": "Class",
-          "canonicalReference": "@wtjs/core!Subscribe:class",
+          "canonicalReference": "@js-wtao/core!Subscribe:class",
           "docComment": "",
           "excerptTokens": [
             {
@@ -1985,7 +1985,7 @@
           "members": [
             {
               "kind": "Constructor",
-              "canonicalReference": "@wtjs/core!Subscribe:constructor(1)",
+              "canonicalReference": "@js-wtao/core!Subscribe:constructor(1)",
               "docComment": "/**\n * Constructs a new instance of the `Subscribe` class\n */\n",
               "excerptTokens": [
                 {
@@ -1999,7 +1999,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@wtjs/core!Subscribe#dep:member",
+              "canonicalReference": "@js-wtao/core!Subscribe#dep:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2018,7 +2018,7 @@
                 {
                   "kind": "Reference",
                   "text": "MonitorCallback",
-                  "canonicalReference": "@wtjs/core!~MonitorCallback:type"
+                  "canonicalReference": "@js-wtao/core!~MonitorCallback:type"
                 },
                 {
                   "kind": "Content",
@@ -2040,7 +2040,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/core!Subscribe#notify:member(1)",
+              "canonicalReference": "@js-wtao/core!Subscribe#notify:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -2121,7 +2121,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/core!Subscribe#watch:member(1)",
+              "canonicalReference": "@js-wtao/core!Subscribe#watch:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {

@@ -160,18 +160,18 @@
     }
   },
   "kind": "Package",
-  "canonicalReference": "@wtjs/browser!",
+  "canonicalReference": "@js-wtao/browser!",
   "docComment": "",
-  "name": "@wtjs/browser",
+  "name": "@js-wtao/browser",
   "members": [
     {
       "kind": "EntryPoint",
-      "canonicalReference": "@wtjs/browser!",
+      "canonicalReference": "@js-wtao/browser!",
       "name": "",
       "members": [
         {
           "kind": "Class",
-          "canonicalReference": "@wtjs/browser!BrowserClient:class",
+          "canonicalReference": "@js-wtao/browser!BrowserClient:class",
           "docComment": "",
           "excerptTokens": [
             {
@@ -181,7 +181,7 @@
             {
               "kind": "Reference",
               "text": "BaseClient",
-              "canonicalReference": "@wtjs/browser!BaseClient:class"
+              "canonicalReference": "@js-wtao/browser!BaseClient:class"
             },
             {
               "kind": "Content",
@@ -190,7 +190,7 @@
             {
               "kind": "Reference",
               "text": "BrowserOptionsFieldsTypes",
-              "canonicalReference": "@wtjs/browser!BrowserOptionsFieldsTypes:interface"
+              "canonicalReference": "@js-wtao/browser!BrowserOptionsFieldsTypes:interface"
             },
             {
               "kind": "Content",
@@ -199,7 +199,7 @@
             {
               "kind": "Reference",
               "text": "EventTypes",
-              "canonicalReference": "@wtjs/browser!EventTypes:type"
+              "canonicalReference": "@js-wtao/browser!EventTypes:type"
             },
             {
               "kind": "Content",
@@ -211,7 +211,7 @@
           "members": [
             {
               "kind": "Constructor",
-              "canonicalReference": "@wtjs/browser!BrowserClient:constructor(1)",
+              "canonicalReference": "@js-wtao/browser!BrowserClient:constructor(1)",
               "docComment": "/**\n * Constructs a new instance of the `BrowserClient` class\n */\n",
               "excerptTokens": [
                 {
@@ -221,7 +221,7 @@
                 {
                   "kind": "Reference",
                   "text": "BrowserOptionsFieldsTypes",
-                  "canonicalReference": "@wtjs/browser!BrowserOptionsFieldsTypes:interface"
+                  "canonicalReference": "@js-wtao/browser!BrowserOptionsFieldsTypes:interface"
                 },
                 {
                   "kind": "Content",
@@ -242,7 +242,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@wtjs/browser!BrowserClient#breadcrumb:member",
+              "canonicalReference": "@js-wtao/browser!BrowserClient#breadcrumb:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -252,7 +252,7 @@
                 {
                   "kind": "Reference",
                   "text": "Breadcrumb",
-                  "canonicalReference": "@wtjs/browser!Breadcrumb:class"
+                  "canonicalReference": "@js-wtao/browser!Breadcrumb:class"
                 },
                 {
                   "kind": "Content",
@@ -261,7 +261,7 @@
                 {
                   "kind": "Reference",
                   "text": "BrowserOptionsFieldsTypes",
-                  "canonicalReference": "@wtjs/browser!BrowserOptionsFieldsTypes:interface"
+                  "canonicalReference": "@js-wtao/browser!BrowserOptionsFieldsTypes:interface"
                 },
                 {
                   "kind": "Content",
@@ -283,7 +283,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/browser!BrowserClient#isPluginEnable:member(1)",
+              "canonicalReference": "@js-wtao/browser!BrowserClient#isPluginEnable:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -293,7 +293,7 @@
                 {
                   "kind": "Reference",
                   "text": "BrowserEventTypes",
-                  "canonicalReference": "@wtjs/browser!BrowserEventTypes:enum"
+                  "canonicalReference": "@js-wtao/browser!BrowserEventTypes:enum"
                 },
                 {
                   "kind": "Content",
@@ -329,7 +329,7 @@
             },
             {
               "kind": "Method",
-              "canonicalReference": "@wtjs/browser!BrowserClient#log:member(1)",
+              "canonicalReference": "@js-wtao/browser!BrowserClient#log:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -339,7 +339,7 @@
                 {
                   "kind": "Reference",
                   "text": "LogTypes",
-                  "canonicalReference": "@wtjs/browser!LogTypes:interface"
+                  "canonicalReference": "@js-wtao/browser!LogTypes:interface"
                 },
                 {
                   "kind": "Content",
@@ -375,7 +375,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@wtjs/browser!BrowserClient#options:member",
+              "canonicalReference": "@js-wtao/browser!BrowserClient#options:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -385,7 +385,7 @@
                 {
                   "kind": "Reference",
                   "text": "BrowserOptions",
-                  "canonicalReference": "@wtjs/browser!BrowserOptions:class"
+                  "canonicalReference": "@js-wtao/browser!BrowserOptions:class"
                 },
                 {
                   "kind": "Content",
@@ -403,7 +403,7 @@
             },
             {
               "kind": "Property",
-              "canonicalReference": "@wtjs/browser!BrowserClient#transport:member",
+              "canonicalReference": "@js-wtao/browser!BrowserClient#transport:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -413,7 +413,7 @@
                 {
                   "kind": "Reference",
                   "text": "BrowserTransport",
-                  "canonicalReference": "@wtjs/browser!BrowserTransport:class"
+                  "canonicalReference": "@js-wtao/browser!BrowserTransport:class"
                 },
                 {
                   "kind": "Content",
@@ -438,7 +438,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/browser!BrowserOptionsFieldsTypes:interface",
+          "canonicalReference": "@js-wtao/browser!BrowserOptionsFieldsTypes:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -448,7 +448,7 @@
             {
               "kind": "Reference",
               "text": "BrowsersilentOptionsType",
-              "canonicalReference": "@wtjs/browser!BrowsersilentOptionsType:interface"
+              "canonicalReference": "@js-wtao/browser!BrowsersilentOptionsType:interface"
             },
             {
               "kind": "Content",
@@ -457,7 +457,7 @@
             {
               "kind": "Reference",
               "text": "BaseOptionsFieldsIntegrationType",
-              "canonicalReference": "@wtjs/browser!BaseOptionsFieldsIntegrationType:type"
+              "canonicalReference": "@js-wtao/browser!BaseOptionsFieldsIntegrationType:type"
             },
             {
               "kind": "Content",
@@ -466,7 +466,7 @@
             {
               "kind": "Reference",
               "text": "BrowserOptionsHooksType",
-              "canonicalReference": "@wtjs/browser!BrowserOptionsHooksType:interface"
+              "canonicalReference": "@js-wtao/browser!BrowserOptionsHooksType:interface"
             },
             {
               "kind": "Content",
@@ -478,7 +478,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/browser!BrowserOptionsFieldsTypes#useImgUpload:member",
+              "canonicalReference": "@js-wtao/browser!BrowserOptionsFieldsTypes#useImgUpload:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -520,7 +520,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/browser!BrowserOptionsHooksType:interface",
+          "canonicalReference": "@js-wtao/browser!BrowserOptionsHooksType:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -533,7 +533,7 @@
           "members": [
             {
               "kind": "MethodSignature",
-              "canonicalReference": "@wtjs/browser!BrowserOptionsHooksType#configReportXhr:member(1)",
+              "canonicalReference": "@js-wtao/browser!BrowserOptionsHooksType#configReportXhr:member(1)",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -596,7 +596,7 @@
         },
         {
           "kind": "Interface",
-          "canonicalReference": "@wtjs/browser!BrowsersilentOptionsType:interface",
+          "canonicalReference": "@js-wtao/browser!BrowsersilentOptionsType:interface",
           "docComment": "",
           "excerptTokens": [
             {
@@ -609,7 +609,7 @@
           "members": [
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/browser!BrowsersilentOptionsType#silentConsole:member",
+              "canonicalReference": "@js-wtao/browser!BrowsersilentOptionsType#silentConsole:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -635,7 +635,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/browser!BrowsersilentOptionsType#silentDom:member",
+              "canonicalReference": "@js-wtao/browser!BrowsersilentOptionsType#silentDom:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -661,7 +661,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/browser!BrowsersilentOptionsType#silentError:member",
+              "canonicalReference": "@js-wtao/browser!BrowsersilentOptionsType#silentError:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -687,7 +687,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/browser!BrowsersilentOptionsType#silentFetch:member",
+              "canonicalReference": "@js-wtao/browser!BrowsersilentOptionsType#silentFetch:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -713,7 +713,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/browser!BrowsersilentOptionsType#silentHashchange:member",
+              "canonicalReference": "@js-wtao/browser!BrowsersilentOptionsType#silentHashchange:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -739,7 +739,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/browser!BrowsersilentOptionsType#silentHistory:member",
+              "canonicalReference": "@js-wtao/browser!BrowsersilentOptionsType#silentHistory:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -765,7 +765,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/browser!BrowsersilentOptionsType#silentUnhandledrejection:member",
+              "canonicalReference": "@js-wtao/browser!BrowsersilentOptionsType#silentUnhandledrejection:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -791,7 +791,7 @@
             },
             {
               "kind": "PropertySignature",
-              "canonicalReference": "@wtjs/browser!BrowsersilentOptionsType#silentXhr:member",
+              "canonicalReference": "@js-wtao/browser!BrowsersilentOptionsType#silentXhr:member",
               "docComment": "",
               "excerptTokens": [
                 {
@@ -820,7 +820,7 @@
         },
         {
           "kind": "Function",
-          "canonicalReference": "@wtjs/browser!createBrowserInstance:function(1)",
+          "canonicalReference": "@js-wtao/browser!createBrowserInstance:function(1)",
           "docComment": "",
           "excerptTokens": [
             {
@@ -830,7 +830,7 @@
             {
               "kind": "Reference",
               "text": "BrowserOptionsFieldsTypes",
-              "canonicalReference": "@wtjs/browser!BrowserOptionsFieldsTypes:interface"
+              "canonicalReference": "@js-wtao/browser!BrowserOptionsFieldsTypes:interface"
             },
             {
               "kind": "Content",
@@ -839,7 +839,7 @@
             {
               "kind": "Reference",
               "text": "BasePluginType",
-              "canonicalReference": "@wtjs/browser!BasePluginType:interface"
+              "canonicalReference": "@js-wtao/browser!BasePluginType:interface"
             },
             {
               "kind": "Content",
@@ -884,7 +884,7 @@
         },
         {
           "kind": "Variable",
-          "canonicalReference": "@wtjs/browser!init:var",
+          "canonicalReference": "@js-wtao/browser!init:var",
           "docComment": "",
           "excerptTokens": [
             {
@@ -898,7 +898,7 @@
             {
               "kind": "Reference",
               "text": "createBrowserInstance",
-              "canonicalReference": "@wtjs/browser!~createBrowserInstance:function"
+              "canonicalReference": "@js-wtao/browser!~createBrowserInstance:function"
             }
           ],
           "releaseTag": "Public",
