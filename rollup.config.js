@@ -61,7 +61,7 @@ const formatMap = {
     ...outputcommon
   },
   umd: {
-    name: 'js-wtao',
+    name: 'WTJS',
     file: resolve(`dist/${pkg}.umd.js`),
     format: 'umd',
     ...outputcommon
@@ -69,7 +69,7 @@ const formatMap = {
 }
 const createConfig = (output) => {
     // output.name = buildOptions.name
-    output.name = 'js-wtao'
+    output.name = 'WTJS'
     return {
       input: resolve('src/index.ts'),
       output,
