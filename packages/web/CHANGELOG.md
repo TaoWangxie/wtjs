@@ -1,5 +1,12 @@
 # @js-wtao/web
 
+## 2.0.3
+
+### Patch Changes
+
+- Updated dependencies
+  - @js-wtao/browser@4.0.0
+
 ## 2.0.2
 
 ### Patch Changes
