@@ -1,5 +1,13 @@
 # @js-wtao/vue
 
+## 3.0.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @js-wtao/utils@2.1.0
+  - @js-wtao/types@2.0.1
+
 ## 3.0.0
 
 ### Major Changes

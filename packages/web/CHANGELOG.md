@@ -1,5 +1,13 @@
 # @js-wtao/web
 
+## 2.0.5
+
+### Patch Changes
+
+- @js-wtao/browser@5.0.1
+- @js-wtao/react@2.0.1
+- @js-wtao/vue@3.0.1
+
 ## 2.0.4
 
 ### Patch Changes

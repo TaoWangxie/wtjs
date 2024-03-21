@@ -1,6 +1,6 @@
 {
   "name": "@js-wtao/types",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "@js-wtao/types",
   "author": "wangt",
   "license": "MIT",
@@ -34,8 +34,8 @@
     ]
   },
   "dependencies": {
-    "@js-wtao/core": "3.0.0",
-    "@js-wtao/utils": "2.0.0",
+    "@js-wtao/core": "3.0.1",
+    "@js-wtao/utils": "2.1.0",
     "@js-wtao/shared": "2.0.0",
     "@types/wechat-miniprogram": "^3.1.0"
   }

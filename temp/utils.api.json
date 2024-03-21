@@ -331,7 +331,7 @@
             },
             {
               "kind": "Content",
-              "text": "{\n    time: number;\n    url: string;\n    name: any;\n    level: "
+              "text": "{\n    time: number;\n    url: string;\n    userAgent: string;\n    name: any;\n    level: "
             },
             {
               "kind": "Reference",
@@ -340,7 +340,7 @@
             },
             {
               "kind": "Content",
-              "text": ";\n    message: any;\n} | {\n    stack: any[];\n    time: number;\n    url: string;\n    name: any;\n    level: "
+              "text": ";\n    message: any;\n} | {\n    stack: any[];\n    time: number;\n    url: string;\n    userAgent: string;\n    name: any;\n    level: "
             },
             {
               "kind": "Reference",

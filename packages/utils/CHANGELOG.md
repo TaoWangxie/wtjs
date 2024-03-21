@@ -1,5 +1,15 @@
 # @js-wtao/utils
 
+## 2.1.0
+
+### Minor Changes
+
+- 111
+
+### Patch Changes
+
+- @js-wtao/types@2.0.1
+
 ## 2.0.0
 
 ### Major Changes

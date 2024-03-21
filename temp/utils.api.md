@@ -24,6 +24,7 @@ export const defaultFunctionName = "<anonymous>";
 export function extractErrorStack(ex: any, level: Severity): {
     time: number;
     url: string;
+    userAgent: string;
     name: any;
     level: Severity;
     message: any;
@@ -31,6 +32,7 @@ export function extractErrorStack(ex: any, level: Severity): {
     stack: any[];
     time: number;
     url: string;
+    userAgent: string;
     name: any;
     level: Severity;
     message: any;

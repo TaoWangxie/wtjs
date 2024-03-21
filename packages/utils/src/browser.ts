@@ -1,5 +1,5 @@
 import { BREADCRUMBCATEGORYS, BrowserBreadcrumbTypes, ErrorTypes } from '@js-wtao/shared'
-import { getTimestamp, getUrlWithEnv } from './helpers'
+import { getTimestamp, getUrlWithEnv, getPageUserAgent } from './helpers'
 import { Severity } from './Severity'
 
 /**
@@ -85,6 +85,7 @@ export function extractErrorStack(ex: any, level: Severity) {
   const normal = {
     time: getTimestamp(),
     url: getUrlWithEnv(),
+    userAgent: getPageUserAgent(),
     name: ex.name,
     level,
     message: ex.message
