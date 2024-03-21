@@ -9,7 +9,7 @@
     "changeset": "changeset",
     "vp": "changeset version",
     "release": "pnpm build && pnpm release:only",
-    "release:only": "changeset publish"
+    "release:only": "changeset publish --registry=https://registry.npmjs.com/ --scope=js-wtao"
   },
   "keywords": [
     "js-wtao"
