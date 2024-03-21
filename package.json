@@ -9,7 +9,7 @@
     "changeset": "changeset",
     "vp": "changeset version",
     "release": "pnpm build && pnpm release:only",
-    "release:only": "changeset publish --access public"
+    "release:only": "changeset publish"
   },
   "keywords": [
     "wtjs"
