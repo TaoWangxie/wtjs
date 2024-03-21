@@ -84,6 +84,9 @@ export function getLocationHref(): string;
 export function getObjectWithForIn<T = IAnyObject>(obj: IAnyObject): T;
 
 // @public (undocumented)
+export function getPageUserAgent(): string;
+
+// @public (undocumented)
 export function getRealPath(url: string): string;
 
 // @public (undocumented)

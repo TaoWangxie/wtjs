@@ -1,5 +1,11 @@
 # @js-wtao/browser
 
+## 5.0.0
+
+### Major Changes
+
+- 报错信息新增 useragent
+
 ## 4.0.0
 
 ### Major Changes

@@ -1,6 +1,6 @@
 {
   "name": "@js-wtao/browser",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "A SDK For Monitoring Browser Errors",
   "author": "wangt",
   "license": "MIT",
