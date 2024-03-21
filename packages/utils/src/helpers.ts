@@ -8,6 +8,10 @@ export function getLocationHref(): string {
   if (typeof document === 'undefined' || document.location == null) return ''
   return document.location.href
 }
+export function getPageUserAgent(): string {
+  if (typeof navigator === 'undefined' || navigator == null) return ''
+  return navigator.userAgent
+}
 
 export function getUrlWithEnv(): string {
   if (isWxMiniEnv) return getCurrentRoute()

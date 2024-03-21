@@ -1,5 +1,5 @@
 import { BrowserBreadcrumbTypes, BrowserEventTypes, ErrorTypes, ERROR_TYPE_RE } from '@js-wtao/shared'
-import { extractErrorStack, getLocationHref, getTimestamp, interceptStr, isError, on, Severity, _global } from '@js-wtao/utils'
+import { extractErrorStack, getLocationHref, getPageUserAgent, getTimestamp, interceptStr, isError, on, Severity, _global } from '@js-wtao/utils'
 import { BasePluginType, ReportDataType } from '@js-wtao/types'
 import { BrowserClient } from '../browserClient'
 import { addBreadcrumbInBrowser } from '../utils'
@@ -47,6 +47,7 @@ function resourceTransform(target: ResourceErrorTarget) {
   return {
     type: ErrorTypes.RESOURCE,
     url: getLocationHref(),
+    userAgent: getPageUserAgent(),
     message: '资源地址: ' + (interceptStr(target.src, 120) || interceptStr(target.href, 120)),
     level: Severity.Low,
     time: getTimestamp(),
@@ -84,6 +85,7 @@ function handleNotErrorInstance(message: string, filename: string, lineno: numbe
   return {
     url,
     name,
+    userAgent: getPageUserAgent(),
     message: msg,
     level: Severity.Normal,
     time: getTimestamp(),
