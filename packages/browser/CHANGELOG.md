@@ -1,5 +1,18 @@
 # @js-wtao/browser
 
+## 6.0.0
+
+### Major Changes
+
+- 保存信息添加 useragent
+
+### Patch Changes
+
+- Updated dependencies
+  - @js-wtao/utils@3.0.0
+  - @js-wtao/core@3.0.2
+  - @js-wtao/types@2.0.2
+
 ## 5.0.1
 
 ### Patch Changes

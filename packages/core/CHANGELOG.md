@@ -1,5 +1,13 @@
 # @js-wtao/core
 
+## 3.0.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @js-wtao/utils@3.0.0
+  - @js-wtao/types@2.0.2
+
 ## 3.0.1
 
 ### Patch Changes

@@ -1,5 +1,15 @@
 # @js-wtao/utils
 
+## 3.0.0
+
+### Major Changes
+
+- 保存信息添加 useragent
+
+### Patch Changes
+
+- @js-wtao/types@2.0.2
+
 ## 2.1.0
 
 ### Minor Changes

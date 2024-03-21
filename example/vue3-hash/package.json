@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@js-wtao/browser": "^5.0.1",
+    "@js-wtao/browser": "^6.0.0",
     "@js-wtao/vue": "^3.0.0",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
