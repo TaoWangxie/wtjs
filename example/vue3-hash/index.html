@@ -9,67 +9,9 @@
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
-    <script src="http://[::1]:4000/dist/index.umd.js"></script>
+    <!-- <script src="http://[::1]:4000/dist/index.umd.js"></script> -->
     <script>
-      // function isFunction(arg) {
-      //   if (!arg) {
-      //     return false;
-      //   }
-      //   let type = Object.prototype.toString.call(arg);
-      //   return type === '[object Function]' || type === '[object AsyncFunction]';
-      // }
-      // function addPageViewListener(callback) {
-      //   let lastUrl = location.href;
-      //   const historyPushState = window.history.pushState;
-      //   const historyReplaceState = window.history.replaceState;
-      //   if (isFunction(window.history.pushState)) {
-      //     window.history.pushState = function () {
-      //       // @ts-ignore
-      //       historyPushState.apply(window.history, arguments);
-      //       callback(lastUrl);
-      //       lastUrl = location.href;
-      //     };
-      //   }
 
-      //   if (isFunction(window.history.replaceState)) {
-      //     window.history.replaceState = function () {
-      //       // @ts-ignore
-      //       historyReplaceState.apply(window.history, arguments);
-      //       callback(lastUrl);
-      //       lastUrl = location.href;
-      //     };
-      //   }
-      //   let singlePageEvent;
-      //   // @ts-ignore
-      //   if (window.document.documentMode) {
-      //     singlePageEvent = 'hashchange';
-      //   } else {
-      //     // @ts-ignore
-      //     singlePageEvent = historyPushState ? 'popstate' : 'hashchange';
-      //   }
-
-      //   window.addEventListener(singlePageEvent, function () {
-      //     callback(lastUrl);
-      //     lastUrl = location.href;
-      //   });
-      // }
-      // addPageViewListener(function(url) {
-      //     // 哈希片段发生变化时执行的代码
-      //     console.log('Hash changed:', url);
-      //   })
-    window.WebVitals = new Vitals.WebVitals({
-      maxBehaviorRecords: 10,
-      transportUrl: 'http://localhost:4000/report',
-      pv: false
-    });
-    // console.log(Vitals)
-    //   window.Tracker = new Tracker({
-    //       reportUrl: 'http://localhost:3000/report',
-    //       debug: true,
-    //       enablePVEvent:true,
-    //   }, {
-    //       project: 'test_vue3_hash_change',
-    //   });
     </script>
   </body>
 </html>
