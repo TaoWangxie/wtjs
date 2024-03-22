@@ -1,5 +1,11 @@
 # @js-wtao/browser
 
+## 7.0.0-beta.0
+
+### Major Changes
+
+- 增加 pv 上报
+
 ## 6.0.1
 
 ### Patch Changes

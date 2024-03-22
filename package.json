@@ -6,6 +6,8 @@
   "license": "ISC",
   "scripts": {
     "build": "node script/build.js",
+    "enterpre": "changeset pre enter beta",
+    "exitpre": "changeset pre exit",
     "changeset": "changeset",
     "vp": "changeset version",
     "release": "pnpm build && pnpm release:only",

@@ -1,6 +1,6 @@
 {
   "name": "@js-wtao/web",
-  "version": "2.0.7",
+  "version": "2.0.8-beta.0",
   "description": "A SDK For Monitoring Web(React、Vue) Errors",
   "author": "wangt(https://github.com/wangt)",
   "license": "MIT",
@@ -35,7 +35,7 @@
     "monitor"
   ],
   "dependencies": {
-    "@js-wtao/browser": "6.0.1",
+    "@js-wtao/browser": "7.0.0-beta.0",
     "@js-wtao/react": "2.0.3",
     "@js-wtao/vue": "4.0.0"
   }

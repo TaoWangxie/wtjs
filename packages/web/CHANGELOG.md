@@ -1,5 +1,12 @@
 # @js-wtao/web
 
+## 2.0.8-beta.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @js-wtao/browser@7.0.0-beta.0
+
 ## 2.0.7
 
 ### Patch Changes
