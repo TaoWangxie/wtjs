@@ -1,6 +1,6 @@
 {
   "name": "@js-wtao/react",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "A SDK For Report React ErrorBoundary",
   "author": "wangt",
   "license": "MIT",
@@ -38,8 +38,8 @@
     "react": ">=16.8.0"
   },
   "dependencies": {
-    "@js-wtao/core": "3.0.2",
-    "@js-wtao/utils": "3.0.0",
+    "@js-wtao/core": "3.0.3",
+    "@js-wtao/utils": "3.0.1",
     "@js-wtao/shared": "2.0.0"
   }
 }

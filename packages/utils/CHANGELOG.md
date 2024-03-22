@@ -1,5 +1,12 @@
 # @js-wtao/utils
 
+## 3.0.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @js-wtao/types@3.0.0
+
 ## 3.0.0
 
 ### Major Changes

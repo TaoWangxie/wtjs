@@ -1,5 +1,14 @@
 # @js-wtao/web
 
+## 2.0.7
+
+### Patch Changes
+
+- Updated dependencies
+  - @js-wtao/vue@4.0.0
+  - @js-wtao/browser@6.0.1
+  - @js-wtao/react@2.0.3
+
 ## 2.0.6
 
 ### Patch Changes

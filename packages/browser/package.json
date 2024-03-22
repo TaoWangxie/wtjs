@@ -1,6 +1,6 @@
 {
   "name": "@js-wtao/browser",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "description": "A SDK For Monitoring Browser Errors",
   "author": "wangt",
   "license": "MIT",
@@ -28,10 +28,10 @@
     "monitor"
   ],
   "dependencies": {
-    "@js-wtao/utils": "3.0.0",
-    "@js-wtao/core": "3.0.2",
+    "@js-wtao/utils": "3.0.1",
+    "@js-wtao/core": "3.0.3",
     "@js-wtao/shared": "2.0.0",
-    "@js-wtao/types": "2.0.2"
+    "@js-wtao/types": "3.0.0"
   },
   "buildOptions": {
     "formats": [

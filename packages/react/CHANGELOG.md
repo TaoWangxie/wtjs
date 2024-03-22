@@ -1,5 +1,12 @@
 # @js-wtao/react
 
+## 2.0.3
+
+### Patch Changes
+
+- @js-wtao/core@3.0.3
+- @js-wtao/utils@3.0.1
+
 ## 2.0.2
 
 ### Patch Changes

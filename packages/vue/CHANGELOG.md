@@ -1,5 +1,17 @@
 # @js-wtao/vue
 
+## 4.0.0
+
+### Major Changes
+
+- 错误信息新增
+
+### Patch Changes
+
+- Updated dependencies
+  - @js-wtao/types@3.0.0
+  - @js-wtao/utils@3.0.1
+
 ## 3.0.2
 
 ### Patch Changes

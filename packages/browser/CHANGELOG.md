@@ -1,5 +1,14 @@
 # @js-wtao/browser
 
+## 6.0.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @js-wtao/types@3.0.0
+  - @js-wtao/core@3.0.3
+  - @js-wtao/utils@3.0.1
+
 ## 6.0.0
 
 ### Major Changes
