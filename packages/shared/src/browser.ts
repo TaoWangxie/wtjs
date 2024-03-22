@@ -12,6 +12,7 @@ export const enum BrowserEventTypes {
   HISTORY = 'history',
   ERROR = 'error',
   HASHCHANGE = 'hashchange',
+  PV = 'pv',
   UNHANDLEDREJECTION = 'unhandledrejection',
   CUSTOMER = 'Customer'
 }

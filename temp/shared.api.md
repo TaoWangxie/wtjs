@@ -74,6 +74,8 @@ export const enum BrowserEventTypes {
     // (undocumented)
     HISTORY = "history",
     // (undocumented)
+    PV = "pv",
+    // (undocumented)
     UNHANDLEDREJECTION = "unhandledrejection",
     // (undocumented)
     XHR = "xhr"
@@ -167,7 +169,7 @@ export const MitoLogEmptyMsg = "empty.msg";
 export const MitoLogEmptyTag = "empty.tag";
 
 // @public (undocumented)
-export const SDK_NAME = "mitojs";
+export const SDK_NAME = "js-wtao";
 
 // @public (undocumented)
 export const SDK_VERSION: string;

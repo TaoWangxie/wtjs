@@ -1,5 +1,5 @@
 import { BrowserBreadcrumbTypes, BrowserEventTypes } from '@js-wtao/shared'
-import { isExistProperty, on, parseUrlToObj, _global } from '@js-wtao/utils'
+import { isExistProperty, on, parseUrlToObj, _global, getTimestamp } from '@js-wtao/utils'
 import { BasePluginType, RouteChangeCollectType } from '@js-wtao/types'
 import { BrowserClient } from '../browserClient'
 import { addBreadcrumbInBrowser } from '../utils'
@@ -18,7 +18,6 @@ const hashRoutePlugin: BasePluginType<BrowserEventTypes, BrowserClient> = {
     return routeTransform(collectedData)
   },
   consumer(transformedData: RouteChangeCollectType) {
-    console.log('pvv')
     routeTransformedConsumer.call(this, transformedData)
   }
 }
@@ -36,6 +35,15 @@ export function routeTransform(collectedData: RouteChangeCollectType): RouteChan
 export function routeTransformedConsumer(this: BrowserClient, transformedData: RouteChangeCollectType) {
   if (transformedData.from === transformedData.to) return
   addBreadcrumbInBrowser.call(this, transformedData, BrowserBreadcrumbTypes.ROUTE)
+  let pvdata = {
+    type: BrowserEventTypes.PV,
+    isTrack: true,
+    time: getTimestamp(),
+    userinfo:{},
+    pageinfo:{},
+    ...transformedData,
+  }
+  this.transport.send(pvdata)
 }
 
 export default hashRoutePlugin

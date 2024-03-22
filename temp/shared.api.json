@@ -792,6 +792,27 @@
             },
             {
               "kind": "EnumMember",
+              "canonicalReference": "@js-wtao/shared!BrowserEventTypes.PV:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "PV = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"pv\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "PV",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
               "canonicalReference": "@js-wtao/shared!BrowserEventTypes.UNHANDLEDREJECTION:member",
               "docComment": "",
               "excerptTokens": [
@@ -1537,7 +1558,7 @@
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "SDK_NAME = \"mitojs\""
+              "text": "SDK_NAME = \"js-wtao\""
             }
           ],
           "releaseTag": "Public",
