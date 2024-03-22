@@ -14,7 +14,7 @@ window.wtjsInstance = init({
     vue: app,
     dsn: 'https://test.com/yourInterface',
     maxBreadcrumbs: 100
-},[])
+},[vuePlugin])
 
 app.use(router)
 

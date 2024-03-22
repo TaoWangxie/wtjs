@@ -256,6 +256,8 @@ export interface ReportDataType extends Partial<HttpTransformedType> {
     propsData?: any;
     // (undocumented)
     stack?: any;
+    // (undocumented)
+    userAgent?: string;
 }
 
 // @public (undocumented)
