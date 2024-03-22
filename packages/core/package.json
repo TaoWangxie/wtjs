@@ -1,6 +1,6 @@
 {
   "name": "@js-wtao/core",
-  "version": "3.0.3",
+  "version": "4.0.0",
   "description": "@js-wtao/core",
   "author": "wangt",
   "license": "MIT",
@@ -24,8 +24,8 @@
     ]
   },
   "dependencies": {
-    "@js-wtao/types": "3.0.0",
-    "@js-wtao/utils": "3.0.1",
-    "@js-wtao/shared": "2.0.0"
+    "@js-wtao/types": "4.0.0",
+    "@js-wtao/utils": "4.0.0",
+    "@js-wtao/shared": "3.0.0"
   }
 }

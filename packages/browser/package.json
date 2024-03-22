@@ -1,6 +1,6 @@
 {
   "name": "@js-wtao/browser",
-  "version": "7.0.0-beta.0",
+  "version": "7.0.0",
   "description": "A SDK For Monitoring Browser Errors",
   "author": "wangt",
   "license": "MIT",
@@ -14,10 +14,10 @@
     "js-wtao"
   ],
   "dependencies": {
-    "@js-wtao/utils": "3.0.1",
-    "@js-wtao/core": "3.0.3",
-    "@js-wtao/shared": "2.0.0",
-    "@js-wtao/types": "3.0.0"
+    "@js-wtao/utils": "4.0.0",
+    "@js-wtao/core": "4.0.0",
+    "@js-wtao/shared": "3.0.0",
+    "@js-wtao/types": "4.0.0"
   },
   "buildOptions": {
     "formats": [

@@ -1,6 +1,6 @@
 {
   "name": "@js-wtao/vue",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "A SDK for monitoring Vue errors",
   "author": "wangt",
   "license": "MIT",
@@ -24,8 +24,8 @@
     "js-wtao"
   ],
   "dependencies": {
-    "@js-wtao/utils": "3.0.1",
-    "@js-wtao/shared": "2.0.0",
-    "@js-wtao/types": "3.0.0"
+    "@js-wtao/utils": "4.0.0",
+    "@js-wtao/shared": "3.0.0",
+    "@js-wtao/types": "4.0.0"
   }
 }

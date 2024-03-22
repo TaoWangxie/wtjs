@@ -1,5 +1,18 @@
 # @js-wtao/types
 
+## 4.0.0
+
+### Major Changes
+
+- 修改信息
+
+### Patch Changes
+
+- Updated dependencies
+  - @js-wtao/shared@3.0.0
+  - @js-wtao/utils@4.0.0
+  - @js-wtao/core@4.0.0
+
 ## 3.0.0
 
 ### Major Changes

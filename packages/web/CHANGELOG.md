@@ -1,5 +1,19 @@
 # @js-wtao/web
 
+## 3.0.0
+
+### Major Changes
+
+- 修改信息
+
+### Patch Changes
+
+- Updated dependencies [3e44bbf]
+- Updated dependencies
+  - @js-wtao/browser@7.0.0
+  - @js-wtao/react@3.0.0
+  - @js-wtao/vue@5.0.0
+
 ## 2.0.8-beta.0
 
 ### Patch Changes

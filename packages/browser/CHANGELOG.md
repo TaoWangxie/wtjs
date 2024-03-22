@@ -1,5 +1,20 @@
 # @js-wtao/browser
 
+## 7.0.0
+
+### Major Changes
+
+- 3e44bbf: 增加 pv 上报
+- 修改信息
+
+### Patch Changes
+
+- Updated dependencies
+  - @js-wtao/shared@3.0.0
+  - @js-wtao/types@4.0.0
+  - @js-wtao/utils@4.0.0
+  - @js-wtao/core@4.0.0
+
 ## 7.0.0-beta.0
 
 ### Major Changes
