@@ -18,6 +18,7 @@ const hashRoutePlugin: BasePluginType<BrowserEventTypes, BrowserClient> = {
     return routeTransform(collectedData)
   },
   consumer(transformedData: RouteChangeCollectType) {
+    console.log('pvv')
     routeTransformedConsumer.call(this, transformedData)
   }
 }
