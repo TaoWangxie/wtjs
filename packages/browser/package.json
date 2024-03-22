@@ -10,22 +10,8 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "homepage": "https://github.com/mitojs/mitojs/blob/master/packages/browser/README.md",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mitojs/mitojs.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mitojs/mitojs/issues"
-  },
   "keywords": [
-    "mitojs",
-    "sdk",
-    "browser",
-    "monitor"
+    "js-wtao"
   ],
   "dependencies": {
     "@js-wtao/utils": "3.0.1",

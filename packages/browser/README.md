@@ -25,5 +25,3 @@ const MitoInstance = init({
 })
 ```
 
-more info of [@js-wtao/browser](https://mitojs.github.io/mito-doc/#/sdk/guide/browser)
-

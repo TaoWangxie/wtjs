@@ -15,8 +15,6 @@ npm i @js-wtao/vue @js-wtao/browser
 yarn add @js-wtao/vue @js-wtao/browser
 ```
 
-read the [mito-doc](https://mitojs.github.io/mito-doc/#/sdk/guide/introduction) to konw more info
-
 
 # 🥳 Usage
 

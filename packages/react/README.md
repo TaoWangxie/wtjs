@@ -13,7 +13,6 @@ npm install @js-wtao/react @js-wtao/browser
 yarn add @js-wtao/react @js-wtao/browser
 ```
 
-read the [mito-doc](https://mitojs.github.io/mito-doc/#/sdk/guide/introduction) to konw more info
 
 
 ## 🥳 Usage
@@ -66,7 +65,6 @@ const APP: React.FC = () => {
 
 **OtherComponent.tsx**
 
-`ErrorBoundary` component  will automatically send react error if you set the correct [dsn](https://github.com/mitojs/mitojs/blob/master/docs/option.md).
 
 ```tsx
 import { ErrorBoundary } from '@js-wtao/react'

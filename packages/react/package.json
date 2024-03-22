@@ -13,14 +13,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://github.com/mitojs/mitojs/blob/master/packages/react/README.md",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mitojs/mitojs.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mitojs/mitojs/issues"
-  },
   "buildOptions": {
     "formats": [
       "esm",
@@ -29,10 +21,7 @@
     ]
   },
   "keywords": [
-    "mitojs",
-    "sdk",
-    "react",
-    "monitor"
+    "js-wtao"
   ],
   "peerDependencies": {
     "react": ">=16.8.0"
