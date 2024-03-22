@@ -40,5 +40,6 @@ export interface ReportDataType extends Partial<HttpTransformedType> {
   componentName?: string
   propsData?: any
   // logError 手动报错 MITO.log
-  customTag?: string
+  customTag?: string,
+  userAgent?: string
 }

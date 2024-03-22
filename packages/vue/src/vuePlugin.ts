@@ -1,4 +1,4 @@
-import { silentConsoleScope, Severity, getTimestamp, variableTypeDetection, getBigVersion, getUrlWithEnv } from '@js-wtao/utils'
+import { silentConsoleScope, Severity, getTimestamp, variableTypeDetection, getBigVersion, getUrlWithEnv, getPageUserAgent } from '@js-wtao/utils'
 import { vue2VmHandler, vue3VmHandler } from './helper'
 import { BaseBreadcrumbTypes, BaseEventTypes, BREADCRUMBCATEGORYS, ErrorTypes } from '@js-wtao/shared'
 import { BasePluginType, ReportDataType, ViewModel } from '@js-wtao/types'
@@ -16,6 +16,7 @@ const vuePlugin: BasePluginType<BaseEventTypes, BaseClient> = {
           message: `${err.message}(${info})`,
           level: Severity.Normal,
           url: getUrlWithEnv(),
+          userAgent: getPageUserAgent(),
           name: err.name,
           stack: err.stack || [],
           time: getTimestamp()
