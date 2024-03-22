@@ -9,7 +9,7 @@ npm i @js-wtao/browser
 # using yarn
 yarn add @js-wtao/browser
 ```
-
+11
 ### usage
 
 ```typescript

@@ -1,5 +1,11 @@
 # @js-wtao/browser
 
+## 8.0.0
+
+### Major Changes
+
+- 11
+
 ## 7.0.0
 
 ### Major Changes
