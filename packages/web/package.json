@@ -24,8 +24,8 @@
     "js-wtao"
   ],
   "dependencies": {
-    "@js-wtao/browser": "8.0.0",
-    "@js-wtao/react": "3.0.0",
-    "@js-wtao/vue": "5.0.0"
+    "@js-wtao/browser": "workspace:*",
+    "@js-wtao/react": "workspace:*",
+    "@js-wtao/vue": "workspace:*"
   }
 }

@@ -24,9 +24,9 @@
     ]
   },
   "dependencies": {
-    "@js-wtao/core": "4.0.0",
-    "@js-wtao/utils": "4.0.0",
-    "@js-wtao/shared": "3.0.0",
+    "@js-wtao/core": "workspace:*",
+    "@js-wtao/shared": "workspace:*",
+    "@js-wtao/utils": "workspace:*",
     "@types/wechat-miniprogram": "^3.1.0"
   }
 }

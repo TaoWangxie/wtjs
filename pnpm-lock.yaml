@@ -90,40 +90,40 @@ importers:
   packages/browser:
     dependencies:
       '@js-wtao/core':
-        specifier: 3.0.3
+        specifier: workspace:*
         version: link:../core
       '@js-wtao/shared':
-        specifier: 2.0.0
+        specifier: workspace:*
         version: link:../shared
       '@js-wtao/types':
-        specifier: 3.0.0
+        specifier: workspace:*
         version: link:../types
       '@js-wtao/utils':
-        specifier: 3.0.1
+        specifier: workspace:*
         version: link:../utils
 
   packages/core:
     dependencies:
       '@js-wtao/shared':
-        specifier: 2.0.0
+        specifier: workspace:*
         version: link:../shared
       '@js-wtao/types':
-        specifier: 3.0.0
+        specifier: workspace:*
         version: link:../types
       '@js-wtao/utils':
-        specifier: 3.0.1
+        specifier: workspace:*
         version: link:../utils
 
   packages/react:
     dependencies:
       '@js-wtao/core':
-        specifier: 3.0.3
+        specifier: workspace:*
         version: link:../core
       '@js-wtao/shared':
-        specifier: 2.0.0
+        specifier: workspace:*
         version: link:../shared
       '@js-wtao/utils':
-        specifier: 3.0.1
+        specifier: workspace:*
         version: link:../utils
       react:
         specifier: '>=16.8.0'
@@ -134,13 +134,13 @@ importers:
   packages/types:
     dependencies:
       '@js-wtao/core':
-        specifier: 3.0.3
+        specifier: workspace:*
         version: link:../core
       '@js-wtao/shared':
-        specifier: 2.0.0
+        specifier: workspace:*
         version: link:../shared
       '@js-wtao/utils':
-        specifier: 3.0.1
+        specifier: workspace:*
         version: link:../utils
       '@types/wechat-miniprogram':
         specifier: ^3.1.0
@@ -149,34 +149,34 @@ importers:
   packages/utils:
     dependencies:
       '@js-wtao/shared':
-        specifier: 2.0.0
+        specifier: workspace:*
         version: link:../shared
       '@js-wtao/types':
-        specifier: 3.0.0
+        specifier: workspace:*
         version: link:../types
 
   packages/vue:
     dependencies:
       '@js-wtao/shared':
-        specifier: 2.0.0
+        specifier: workspace:*
         version: link:../shared
       '@js-wtao/types':
-        specifier: 3.0.0
+        specifier: workspace:*
         version: link:../types
       '@js-wtao/utils':
-        specifier: 3.0.1
+        specifier: workspace:*
         version: link:../utils
 
   packages/web:
     dependencies:
       '@js-wtao/browser':
-        specifier: 6.0.1
+        specifier: workspace:*
         version: link:../browser
       '@js-wtao/react':
-        specifier: 2.0.3
+        specifier: workspace:*
         version: link:../react
       '@js-wtao/vue':
-        specifier: 4.0.0
+        specifier: workspace:*
         version: link:../vue
 
 packages:

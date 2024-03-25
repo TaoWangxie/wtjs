@@ -24,7 +24,7 @@
     ]
   },
   "dependencies": {
-    "@js-wtao/shared": "3.0.0",
-    "@js-wtao/types": "4.0.0"
+    "@js-wtao/shared": "workspace:*",
+    "@js-wtao/types": "workspace:*"
   }
 }
