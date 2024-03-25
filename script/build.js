@@ -68,7 +68,7 @@ const build = async function (target) {
     }
 }
 
-const maxConcurrency = 6 // 并发编译个数
+const maxConcurrency = 10 // 并发编译个数
 const buildAll = async function () {
   const ret = []
   const executing = []
