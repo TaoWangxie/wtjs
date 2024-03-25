@@ -1,0 +1,17 @@
+{
+  "mode": "pre",
+  "tag": "beta",
+  "initialVersions": {
+    "@js-wtao/browser": "1.0.0",
+    "@js-wtao/core": "1.0.0",
+    "@js-wtao/react": "1.0.0",
+    "@js-wtao/shared": "1.0.0",
+    "@js-wtao/types": "1.0.0",
+    "@js-wtao/utils": "1.0.0",
+    "@js-wtao/vue": "1.0.0",
+    "@js-wtao/web": "1.0.0"
+  },
+  "changesets": [
+    "cold-guests-behave"
+  ]
+}
