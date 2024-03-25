@@ -1,6 +1,6 @@
 {
   "name": "@js-wtao/vue",
-  "version": "5.0.0",
+  "version": "0.0.0",
   "description": "A SDK for monitoring Vue errors",
   "author": "wangt",
   "license": "MIT",
