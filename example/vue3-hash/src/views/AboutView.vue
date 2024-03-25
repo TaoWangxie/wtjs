@@ -2,23 +2,20 @@
   <div class="about">
     <h1>About</h1>
     <button @click="btnclick">错误上报 （ js ）</button>
-    <br/>
+    <br />
     <button @click="btnclick2">错误上报 （ promise.reject ）</button>
-
   </div>
 </template>
 <script setup>
+const btnclick = () => {
+  console.log(window.a.b);
+};
 
-const btnclick =()=>{
-  console.log(window.a.b)
-}
-
-const btnclick2 =()=>{
-  new Promise((resolve,reject)=>{
-    reject('promise--reject')
-  })
-}
-
+const btnclick2 = () => {
+  new Promise((resolve, reject) => {
+    reject("promise--reject");
+  });
+};
 </script>
 
 <style>
