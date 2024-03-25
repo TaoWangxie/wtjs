@@ -2,7 +2,7 @@
   "name": "@js-wtao/web",
   "version": "0.0.0",
   "description": "A SDK For Monitoring Web(React、Vue) Errors",
-  "author": "wangt(https://github.com/wangt)",
+  "author": "wangt",
   "license": "MIT",
   "main": "dist/web.js",
   "module": "dist/web.esm.js",
