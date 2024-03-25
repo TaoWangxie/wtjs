@@ -6,6 +6,7 @@
   "license": "ISC",
   "scripts": {
     "build": "node script/build.js",
+    "clear": "find packages -type d -name 'node_modules' -exec rimraf -rf {} +",
     "enterpre": "changeset pre enter beta",
     "exitpre": "changeset pre exit",
     "change": "changeset",
