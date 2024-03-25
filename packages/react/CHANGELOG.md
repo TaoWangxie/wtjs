@@ -1,5 +1,18 @@
 # @js-wtao/react
 
+## 1.0.0
+
+### Major Changes
+
+- init
+
+### Patch Changes
+
+- Updated dependencies
+  - @js-wtao/shared@1.0.0
+  - @js-wtao/utils@1.0.0
+  - @js-wtao/core@1.0.0
+
 ## 3.0.0
 
 ### Major Changes

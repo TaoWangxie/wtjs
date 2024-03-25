@@ -1,5 +1,25 @@
 # @js-wtao/browser
 
+## 2.0.0-beta.0
+
+### Major Changes
+
+- ceshi
+
+## 1.0.0
+
+### Major Changes
+
+- init
+
+### Patch Changes
+
+- Updated dependencies
+  - @js-wtao/shared@1.0.0
+  - @js-wtao/types@1.0.0
+  - @js-wtao/utils@1.0.0
+  - @js-wtao/core@1.0.0
+
 ## 8.0.0
 
 ### Major Changes

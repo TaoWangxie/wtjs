@@ -1,5 +1,11 @@
 # @js-wtao/shared
 
+## 1.0.0
+
+### Major Changes
+
+- init
+
 ## 3.0.0
 
 ### Major Changes

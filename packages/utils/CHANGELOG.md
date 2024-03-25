@@ -1,5 +1,17 @@
 # @js-wtao/utils
 
+## 1.0.0
+
+### Major Changes
+
+- init
+
+### Patch Changes
+
+- Updated dependencies
+  - @js-wtao/shared@1.0.0
+  - @js-wtao/types@1.0.0
+
 ## 4.0.0
 
 ### Major Changes

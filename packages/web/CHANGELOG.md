@@ -1,5 +1,25 @@
 # @js-wtao/web
 
+## 1.0.1-beta.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @js-wtao/browser@2.0.0-beta.0
+
+## 1.0.0
+
+### Major Changes
+
+- init
+
+### Patch Changes
+
+- Updated dependencies
+  - @js-wtao/browser@1.0.0
+  - @js-wtao/react@1.0.0
+  - @js-wtao/vue@1.0.0
+
 ## 3.0.1
 
 ### Patch Changes
