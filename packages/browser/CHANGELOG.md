@@ -1,5 +1,11 @@
 # @js-wtao/browser
 
+## 2.0.0-beta.1
+
+### Patch Changes
+
+- ceshi2
+
 ## 2.0.0-beta.0
 
 ### Major Changes

@@ -12,6 +12,7 @@
     "@js-wtao/web": "1.0.0"
   },
   "changesets": [
-    "cold-guests-behave"
+    "cold-guests-behave",
+    "tiny-numbers-wink"
   ]
 }
