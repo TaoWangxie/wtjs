@@ -39,8 +39,7 @@ export function routeTransformedConsumer(this: BrowserClient, transformedData: R
     type: BrowserEventTypes.PV,
     isTrack: true,
     time: getTimestamp(),
-    userinfo:{},
-    pageinfo:{},
+    origin: window.location.origin,
     ...transformedData,
   }
   this.transport.send(pvdata)

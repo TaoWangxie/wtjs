@@ -1,11 +1,11 @@
 <script setup>
-const btnclick1 =()=>{
-  window.wtjsInstance.transport.send({
-    type:'event_click_nav',
-    fromId:'dvergfcedfv'
-  })
-
-}
+const btnclick1 = () => {
+  window.WTJS.transport.send({
+    type: "event_click_nav",
+    fromId: "dvergfcedfv",
+    isTrack: true,
+  });
+};
 </script>
 
 <template>

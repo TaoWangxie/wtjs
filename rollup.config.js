@@ -69,7 +69,7 @@ const formatMap = {
 }
 const createConfig = (output) => {
     // output.name = buildOptions.name
-    output.name = 'WTJS'
+    output.name = buildOptions.name || 'WTJS'
     return {
       input: resolve('src/index.ts'),
       output,

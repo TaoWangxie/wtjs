@@ -10,6 +10,7 @@
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
     <script src="./browser.umd.js"></script>
+    <script src="./vue.umd.js"></script>
     <script>
       const instance = WTJS.init({
         debug: true,
@@ -19,11 +20,13 @@
         maxBreadcrumbs: 10,
         dsn: 'http://localhost:2021/errors/upload',
         throttleDelayTime: 0,
-        enableTraceId: true,
+        backTrackerId(){
+          return 'userid' //用户uid
+        },
         configReportXhr(xhr, reportData) {
           xhr.setRequestHeader('mito-header', 'test123')
         }
-      })
+      },[WTJS_vue])
       window.WTJS = instance
     </script>
   </body>

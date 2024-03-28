@@ -7,10 +7,13 @@
   </div>
 </template>
 <script setup>
+import { onMounted } from "vue";
 const btnclick = () => {
   console.log(window.a.b);
 };
-
+onMounted(() => {
+  console.log(window.a.c);
+});
 const btnclick2 = () => {
   new Promise((resolve, reject) => {
     reject("promise--reject");
