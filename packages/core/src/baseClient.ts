@@ -42,7 +42,7 @@ export abstract class BaseClient<
     const subscribe = new Subscribe<E>()
     plugins.forEach((item) => {
       if (!this.isPluginEnable(item.name)) return
-      // 调用插件中的monitor并将发布函数传入
+      // 调用插件中的monitor并将发布函数传入。  这个是初始化每个插件的触发函数
       item.monitor.call(this, subscribe.notify.bind(subscribe))
       const wrapperTransform = (...args: any[]) => {
         // 先执行transform

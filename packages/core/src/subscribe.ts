@@ -11,6 +11,7 @@ type MonitorCallback = (data: any) => void
 export class Subscribe<T> {
   dep: Map<T, MonitorCallback[]> = new Map()
   constructor() {}
+  //绑定插件监听事件
   watch(eventName: T, callBack: (data: any) => any) {
     const fns = this.dep.get(eventName)
     if (fns) {
@@ -19,6 +20,7 @@ export class Subscribe<T> {
     }
     this.dep.set(eventName, [callBack])
   }
+  //执行绑定的事件 在每个插件中的monitor方法中会去触发notify
   notify<D = any>(eventName: T, data: D) {
     const fns = this.dep.get(eventName)
     if (!eventName || !fns) return

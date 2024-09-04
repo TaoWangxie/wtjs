@@ -21,7 +21,8 @@ const vuePlugin: BasePluginType<BaseEventTypes, BaseClient> = {
           stack: err.stack || [],
           time: getTimestamp()
         }
-        notify(BaseEventTypes.VUE, { data, vm })
+        //当Vue.config.errorHandler触发时就会执行notify去执行之前browserClient的use中subscribe.watch订阅器绑好的方法 也就是下面的consumer
+        notify(BaseEventTypes.VUE, { data, vm }) //这里的{ data, vm } 就是下面transform { data: collectedData, vm }
         const hasConsole = typeof console !== 'undefined'
         // vue源码会判断Vue.config.silent，为true时则不会在控制台打印，false时则会打印
         if (hasConsole && !Vue.config.silent) {
@@ -47,6 +48,7 @@ const vuePlugin: BasePluginType<BaseEventTypes, BaseClient> = {
       }
     }
   },
+  //这里的data就是transform处理后返回的参数
   consumer(data: ReportDataType) {
     const breadcrumbStack = this.breadcrumb.push({
       type: BaseBreadcrumbTypes.VUE,

@@ -22,7 +22,7 @@ function createBrowserInstance(options: BrowserOptionsFieldsTypes = {}, plugins:
     consolePlugin,
     unhandlerejectionPlugin
   ]
-  browserClient.use([...browserPlugins, ...plugins])
+  browserClient.use([...browserPlugins, ...plugins]) //调用的BaseClient的use初始化插件
   return browserClient
 }
 
