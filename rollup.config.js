@@ -11,12 +11,12 @@ import { babel } from '@rollup/plugin-babel'
 const { nodeResolve } = require('@rollup/plugin-node-resolve')
 const isDeclaration = process.env.TYPES !== 'false'
 const packagesDir = path.resolve(__dirname, 'packages')
-const packageDir = path.resolve(packagesDir, process.env.TARGET)
+const packageDir = path.resolve(packagesDir, process.env.TARGET)  //每个包的名称 browser web
 const packageDirDist = `${packageDir}/dist`
 const env = process.env.NODE_ENV;
 const pkg = process.env.TARGET
 const resolve = (p) => {
-  return path.resolve(`${__dirname}/packages/${pkg}`, p)
+  return path.resolve(`${__dirname}/packages/${pkg}`, p)  //每个包下面的 package.json
 }
 const M = '@js-wtao'
 const packageDirs = fs.readdirSync(packagesDir)
@@ -34,6 +34,7 @@ const outputcommon = {
     react: 'react',
     jsxRuntime: 'jsxRuntime',
     //公共全局方法标注。。。我也不知道为啥 反正先配上吧 不然开启babel后 构建报错！
+    // 这是外部以来模块 不会被打包到输出文件，通过将这些外部依赖模块与全局变量进行映射，在打包后的代码中，React 和 jsxRuntime 能够正确地引用到所需的全局变量，而不会出现因为模块间依赖关系而导致的运行时错误。
     '@babel/runtime/regenerator': '_regeneratorRuntime',
     '@babel/runtime/helpers/asyncToGenerator': '_asyncToGenerator',
     '@babel/runtime/helpers/toConsumableArray': '_toConsumableArray',
@@ -71,9 +72,9 @@ const createConfig = (output) => {
     // output.name = buildOptions.name
     output.name = buildOptions.name || 'WTJS'
     return {
-      input: resolve('src/index.ts'),
+      input: resolve('src/index.ts'),  // 每个包下面的src
       output,
-      external: [ 'react', 'jsxRuntime'],
+      external: [ 'react', 'jsxRuntime'], // 这俩都是react需要的
       plugins: [
         json(),
         nodeResolve(),

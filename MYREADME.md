@@ -90,7 +90,6 @@ https://mitojs.github.io/mito-doc/#/zh-CN/sdk/guide/introduction
 
 🦋 Which packages would you like to include? · @js-wtao/browser //选择发布的包
 🦋 Which packages should have a major bump? · No items were selected //直接按回车可以选择其他模式
-🦋 Which packages should have a minor bump? · No items were selected //直接按回车可以选择其他模式
 🦋 The following packages will be patch bumped: //最后选择 patch 类型
 🦋 @js-wtao/browser@2.0.0-beta.0 //开启 changeset pre enter beta 模式
 ==========================
