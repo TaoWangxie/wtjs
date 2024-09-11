@@ -17,7 +17,7 @@ export class BrowserTransport extends BaseTransport<BrowserOptionsFieldsTypes> {
       const xhr = new XMLHttpRequest()
       xhr.open(MethodTypes.Post, url)
       xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8')
-      // xhr.withCredentials = true
+      // xhr.withCredentials = true //XMLHttpRequest 对象的一个属性，用于指示请求是否应该发送跨域凭据（如 cookies、HTTP 认证信息或客户端 SSL 证书）
       if (typeof this.configReportXhr === 'function') {
         this.configReportXhr(xhr, data)
       }
