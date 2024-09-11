@@ -17,7 +17,7 @@ export class BrowserTransport extends BaseTransport<BrowserOptionsFieldsTypes> {
       const xhr = new XMLHttpRequest()
       xhr.open(MethodTypes.Post, url)
       xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8')
-      xhr.withCredentials = true
+      // xhr.withCredentials = true
       if (typeof this.configReportXhr === 'function') {
         this.configReportXhr(xhr, data)
       }

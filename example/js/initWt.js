@@ -4,7 +4,7 @@ const instance = WTJS.init({
   silentConsole: true,
   silentXhr: false,
   maxBreadcrumbs: 10,
-  dsn: 'http://localhost:2021/errors/upload',
+  dsn: 'http://82.156.198.41:11112/ceshi',
   throttleDelayTime: 0,
   enableTraceId: true,
   configReportXhr(xhr, reportData) {

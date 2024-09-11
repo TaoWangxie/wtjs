@@ -64,7 +64,8 @@ function onClickNativeErrorFetch() {
 function onClickXhrNormal() {
   console.log('12312')
   const xhr = new XMLHttpRequest()
-  xhr.open('get', '/normal')
+  xhr.open('post', 'http://82.156.198.41:11112/ceshi')
+  // xhr.withCredentials = true
   xhr.setRequestHeader('content-type', 'application/json')
   xhr.send()
   xhr.onreadystatechange = function () {
