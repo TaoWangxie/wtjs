@@ -8,26 +8,12 @@
   </head>
   <body>
     <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
     <script src="./browser.umd.js"></script>
     <script src="./vue.umd.js"></script>
+    <script type="module" src="/src/main.js"></script>
     <script>
-      const instance = WTJS.init({
-        debug: true,
-        apikey: 'sdasda',
-        silentConsole: true,
-        silentXhr: false,
-        maxBreadcrumbs: 10,
-        dsn: 'http://localhost:2021/errors/upload',
-        throttleDelayTime: 0,
-        backTrackerId(){
-          return 'userid' //用户uid
-        },
-        configReportXhr(xhr, reportData) {
-          xhr.setRequestHeader('mito-header', 'test123')
-        }
-      },[WTJS_vue])
-      window.WTJS = instance
+      window.WTJS = WTJS
+      window.WTJS_vue = WTJS_vue
     </script>
   </body>
 </html>
