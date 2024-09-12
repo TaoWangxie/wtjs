@@ -12,7 +12,7 @@ const btnclick = () => {
   console.log(window.a.b);
 };
 onMounted(() => {
-  console.log(window.a.c);
+  // console.log(window.a.c);
 });
 const btnclick2 = () => {
   new Promise((resolve, reject) => {
