@@ -18,7 +18,7 @@ const btnclick1 = () => {
     type: "event_click_nav",
     fromId: "dvergfcedfv",
     isTrack: true,
-  },proxy.appContext.config.globalProperties.$wtjs.breadcrumb.stack);
+  });
 };
 </script>
 
