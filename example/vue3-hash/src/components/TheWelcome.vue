@@ -12,9 +12,9 @@ const proxy = getCurrentInstance()
 
 
 const btnclick1 = () => {
-  console.log(proxy.appContext.config.globalProperties.$wtjs);
+  console.log(proxy.appContext.config.globalProperties.$track);
 
-  proxy.appContext.config.globalProperties.$wtjs.transport.send({
+  proxy.appContext.config.globalProperties.$track.transport.send({
     type: "event_click_nav",
     fromId: "dvergfcedfv",
     isTrack: true,

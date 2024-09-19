@@ -15,7 +15,7 @@ import './assets/main.css'
 
 const app = createApp(App)
 
-const instance = window.WTJS.init({
+const instance = window.TRACK.init({
     debug: true,
     apikey: 'sdasda',
     silentConsole: true,
@@ -29,8 +29,8 @@ const instance = window.WTJS.init({
     configReportXhr(xhr, reportData) {
         xhr.setRequestHeader('mito-header', 'test123')
     }
-},[window.WTJS_vue.vuePlugin])
-app.config.globalProperties.$wtjs = instance;
+},[window.TRACK_vue.vuePlugin])
+app.config.globalProperties.$track = instance;
 
 
 
